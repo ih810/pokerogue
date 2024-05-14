@@ -8,6 +8,7 @@ import { frConfig } from '#app/locales/fr/config.js';
 import { itConfig } from '#app/locales/it/config.js';
 import { ptBrConfig } from '#app/locales/pt_BR/config.js';
 import { zhCnConfig } from '#app/locales/zh_CN/config.js';
+import { zhTWConfig } from '#app/locales/zhTW/config.js';
 
 export interface SimpleTranslationEntries {
   [key: string]: string
@@ -86,6 +87,9 @@ export function initI18n(): void {
       },
       zh_CN: {
         ...zhCnConfig
+      },
+      zh_TW: {
+        ...zhTWConfig
       }
     },
   });
