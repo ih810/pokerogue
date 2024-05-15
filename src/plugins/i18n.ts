@@ -61,7 +61,7 @@ export function initI18n(): void {
   i18next.use(LanguageDetector).init({
     lng: lang,
     fallbackLng: 'en',
-    supportedLngs: ['en', 'es', 'fr', 'it', 'de', 'zh_CN','pt_BR'],
+    supportedLngs: ['en', 'es', 'fr', 'it', 'de', 'zh_CN', 'zh_TW','pt_BR'],
     debug: true,
     interpolation: {
       escapeValue: false,

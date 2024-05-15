@@ -1,3812 +1,3680 @@
 import { MoveTranslationEntries } from "#app/plugins/i18n";
 
 export const move: MoveTranslationEntries = {
-  "pound": {
-    name: "Pound",
-    effect: "The target is physically pounded with a long tail, a foreleg, or the like."
-  },
-  "karateChop": {
-    name: "Karate Chop",
-    effect: "The target is attacked with a sharp chop. Critical hits land more easily."
-  },
-  "doubleSlap": {
-    name: "Double Slap",
-    effect: "The target is slapped repeatedly, back and forth, two to five times in a row."
-  },
-  "cometPunch": {
-    name: "Comet Punch",
-    effect: "The target is hit with a flurry of punches that strike two to five times in a row."
-  },
-  "megaPunch": {
-    name: "Mega Punch",
-    effect: "The target is slugged by a punch thrown with muscle-packed power."
-  },
-  "payDay": {
-    name: "Pay Day",
-    effect: "Numerous coins are hurled at the target to inflict damage. Money is earned after the battle."
-  },
-  "firePunch": {
-    name: "Fire Punch",
-    effect: "The target is punched with a fiery fist. This may also leave the target with a burn."
-  },
-  "icePunch": {
-    name: "Ice Punch",
-    effect: "The target is punched with an icy fist. This may also leave the target frozen."
-  },
-  "thunderPunch": {
-    name: "Thunder Punch",
-    effect: "The target is punched with an electrified fist. This may also leave the target with paralysis."
-  },
-  "scratch": {
-    name: "Scratch",
-    effect: "Hard, pointed, sharp claws rake the target to inflict damage."
-  },
-  "viseGrip": {
-    name: "Vise Grip",
-    effect: "The target is gripped and squeezed from both sides to inflict damage."
-  },
-  "guillotine": {
-    name: "Guillotine",
-    effect: "A vicious, tearing attack with big pincers. The target faints instantly if this attack hits."
-  },
-  "razorWind": {
-    name: "Razor Wind",
-    effect: "In this two-turn attack, blades of wind hit opposing Pokémon on the second turn. Critical hits land more easily."
-  },
-  "swordsDance": {
-    name: "Swords Dance",
-    effect: "A frenetic dance to uplift the fighting spirit. This sharply raises the user's Attack stat."
-  },
-  "cut": {
-    name: "Cut",
-    effect: "The target is cut with a scythe or claw."
-  },
-  "gust": {
-    name: "Gust",
-    effect: "A gust of wind is whipped up by wings and launched at the target to inflict damage."
-  },
-  "wingAttack": {
-    name: "Wing Attack",
-    effect: "The target is struck with large, imposing wings spread wide to inflict damage."
-  },
-  "whirlwind": {
-    name: "Whirlwind",
-    effect: "The target is blown away, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon."
-  },
-  "fly": {
-    name: "Fly",
-    effect: "The user flies up into the sky and then strikes its target on the next turn."
-  },
-  "bind": {
-    name: "Bind",
-    effect: "Things such as long bodies or tentacles are used to bind and squeeze the target for four to five turns."
-  },
-  "slam": {
-    name: "Slam",
-    effect: "The target is slammed with a long tail, vines, or the like to inflict damage."
-  },
-  "vineWhip": {
-    name: "Vine Whip",
-    effect: "The target is struck with slender, whiplike vines to inflict damage."
-  },
-  "stomp": {
-    name: "Stomp",
-    effect: "The target is stomped with a big foot. This may also make the target flinch."
-  },
-  "doubleKick": {
-    name: "Double Kick",
-    effect: "The target is quickly kicked twice in succession using both feet."
-  },
-  "megaKick": {
-    name: "Mega Kick",
-    effect: "The target is attacked by a kick launched with muscle-packed power."
-  },
-  "jumpKick": {
-    name: "Jump Kick",
-    effect: "The user jumps up high, then strikes with a kick. If the kick misses, the user hurts itself."
-  },
-  "rollingKick": {
-    name: "Rolling Kick",
-    effect: "The user lashes out with a quick, spinning kick. This may also make the target flinch."
-  },
-  "sandAttack": {
-    name: "Sand Attack",
-    effect: "Sand is hurled in the target's face, reducing the target's accuracy."
-  },
-  "headbutt": {
-    name: "Headbutt",
-    effect: "The user sticks out its head and attacks by charging straight into the target. This may also make the target flinch."
-  },
-  "hornAttack": {
-    name: "Horn Attack",
-    effect: "The target is jabbed with a sharply pointed horn to inflict damage."
-  },
-  "furyAttack": {
-    name: "Fury Attack",
-    effect: "The target is jabbed repeatedly with a horn or beak two to five times in a row."
-  },
-  "hornDrill": {
-    name: "Horn Drill",
-    effect: "The user stabs the target with a horn that rotates like a drill. The target faints instantly if this attack hits."
-  },
-  "tackle": {
-    name: "Tackle",
-    effect: "A physical attack in which the user charges and slams into the target with its whole body."
-  },
-  "bodySlam": {
-    name: "Body Slam",
-    effect: "The user drops onto the target with its full body weight. This may also leave the target with paralysis."
-  },
-  "wrap": {
-    name: "Wrap",
-    effect: "A long body, vines, or the like are used to wrap and squeeze the target for four to five turns."
-  },
-  "takeDown": {
-    name: "Take Down",
-    effect: "A reckless, full-body charge attack for slamming into the target. This also damages the user a little."
-  },
-  "thrash": {
-    name: "Thrash",
-    effect: "The user rampages and attacks for two to three turns. The user then becomes confused."
-  },
-  "doubleEdge": {
-    name: "Double-Edge",
-    effect: "A reckless, life-risking tackle in which the user rushes the target. This also damages the user quite a lot."
-  },
-  "tailWhip": {
-    name: "Tail Whip",
-    effect: "The user wags its tail cutely, making opposing Pokémon less wary and lowering their Defense stats."
-  },
-  "poisonSting": {
-    name: "Poison Sting",
-    effect: "The user stabs the target with a poisonous stinger. This may also poison the target."
-  },
-  "twineedle": {
-    name: "Twineedle",
-    effect: "The user damages the target twice in succession by jabbing it with two spikes. This may also poison the target."
-  },
-  "pinMissile": {
-    name: "Pin Missile",
-    effect: "Sharp spikes are shot at the target in rapid succession. They hit two to five times in a row."
-  },
-  "leer": {
-    name: "Leer",
-    effect: "The user gives opposing Pokémon an intimidating leer that lowers the Defense stat."
-  },
-  "bite": {
-    name: "Bite",
-    effect: "The target is bitten with viciously sharp fangs. This may also make the target flinch."
-  },
-  "growl": {
-    name: "Growl",
-    effect: "The user growls in an endearing way, making opposing Pokémon less wary. This lowers their Attack stats."
-  },
-  "roar": {
-    name: "Roar",
-    effect: "The target is scared off, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon."
-  },
-  "sing": {
-    name: "Sing",
-    effect: "A soothing lullaby is sung in a calming voice that puts the target into a deep slumber."
-  },
-  "supersonic": {
-    name: "Supersonic",
-    effect: "The user generates odd sound waves from its body that confuse the target."
-  },
-  "sonicBoom": {
-    name: "Sonic Boom",
-    effect: "The target is hit with a destructive shock wave that always inflicts 20 HP damage."
-  },
-  "disable": {
-    name: "Disable",
-    effect: "For four turns, this move prevents the target from using the move it last used."
-  },
-  "acid": {
-    name: "Acid",
-    effect: "Opposing Pokémon are attacked with a spray of harsh acid. This may also lower their Sp. Def stats."
-  },
-  "ember": {
-    name: "Ember",
-    effect: "The target is attacked with small flames. This may also leave the target with a burn."
-  },
-  "flamethrower": {
-    name: "Flamethrower",
-    effect: "The target is scorched with an intense blast of fire. This may also leave the target with a burn."
-  },
-  "mist": {
-    name: "Mist",
-    effect: "The user cloaks itself and its allies in a white mist that prevents any of their stats from being lowered for five turns."
-  },
-  "waterGun": {
-    name: "Water Gun",
-    effect: "The target is blasted with a forceful shot of water."
-  },
-  "hydroPump": {
-    name: "Hydro Pump",
-    effect: "The target is blasted by a huge volume of water launched under great pressure."
-  },
-  "surf": {
-    name: "Surf",
-    effect: "The user attacks everything around it by swamping its surroundings with a giant wave."
-  },
-  "iceBeam": {
-    name: "Ice Beam",
-    effect: "The target is struck with an icy-cold beam of energy. This may also leave the target frozen."
-  },
-  "blizzard": {
-    name: "Blizzard",
-    effect: "A howling blizzard is summoned to strike opposing Pokémon. This may also leave the opposing Pokémon frozen."
-  },
-  "psybeam": {
-    name: "Psybeam",
-    effect: "The target is attacked with a peculiar ray. This may also leave the target confused."
-  },
-  "bubbleBeam": {
-    name: "Bubble Beam",
-    effect: "A spray of bubbles is forcefully ejected at the target. This may also lower the target's Speed stat."
-  },
-  "auroraBeam": {
-    name: "Aurora Beam",
-    effect: "The target is hit with a rainbow-colored beam. This may also lower the target's Attack stat."
-  },
-  "hyperBeam": {
-    name: "Hyper Beam",
-    effect: "The target is attacked with a powerful beam. The user can't move on the next turn."
-  },
-  "peck": {
-    name: "Peck",
-    effect: "The target is jabbed with a sharply pointed beak or horn."
-  },
-  "drillPeck": {
-    name: "Drill Peck",
-    effect: "A corkscrewing attack that strikes the target with a sharp beak acting as a drill."
-  },
-  "submission": {
-    name: "Submission",
-    effect: "The user grabs the target and recklessly dives for the ground. This also damages the user a little."
-  },
-  "lowKick": {
-    name: "Low Kick",
-    effect: "A powerful low kick that makes the target fall over. The heavier the target, the greater the move's power."
-  },
-  "counter": {
-    name: "Counter",
-    effect: "A retaliation move that counters any physical attack, inflicting double the damage taken."
-  },
-  "seismicToss": {
-    name: "Seismic Toss",
-    effect: "The target is thrown using the power of gravity. It inflicts damage equal to the user's level."
-  },
-  "strength": {
-    name: "Strength",
-    effect: "The target is slugged with a punch thrown at maximum power."
-  },
-  "absorb": {
-    name: "Absorb",
-    effect: "A nutrient-draining attack. The user's HP is restored by half the damage taken by the target."
-  },
-  "megaDrain": {
-    name: "Mega Drain",
-    effect: "A nutrient-draining attack. The user's HP is restored by half the damage taken by the target."
-  },
-  "leechSeed": {
-    name: "Leech Seed",
-    effect: "A seed is planted on the target. It steals some HP from the target every turn."
-  },
-  "growth": {
-    name: "Growth",
-    effect: "The user's body grows all at once, raising the Attack and Sp. Atk stats."
-  },
-  "razorLeaf": {
-    name: "Razor Leaf",
-    effect: "Sharp-edged leaves are launched to slash at opposing Pokémon. Critical hits land more easily."
-  },
-  "solarBeam": {
-    name: "Solar Beam",
-    effect: "In this two-turn attack, the user gathers light, then blasts a bundled beam on the next turn."
-  },
-  "poisonPowder": {
-    name: "Poison Powder",
-    effect: "The user scatters a cloud of poisonous dust that poisons the target."
-  },
-  "stunSpore": {
-    name: "Stun Spore",
-    effect: "The user scatters a cloud of numbing powder that paralyzes the target."
-  },
-  "sleepPowder": {
-    name: "Sleep Powder",
-    effect: "The user scatters a big cloud of sleep-inducing dust around the target."
-  },
-  "petalDance": {
-    name: "Petal Dance",
-    effect: "The user attacks the target by scattering petals for two to three turns. The user then becomes confused."
-  },
-  "stringShot": {
-    name: "String Shot",
-    effect: "Opposing Pokémon are bound with silk blown from the user's mouth that harshly lowers the Speed stat."
-  },
-  "dragonRage": {
-    name: "Dragon Rage",
-    effect: "This attack hits the target with a shock wave of pure rage. This attack always inflicts 40 HP damage."
-  },
-  "fireSpin": {
-    name: "Fire Spin",
-    effect: "The target becomes trapped within a fierce vortex of fire that rages for four to five turns."
-  },
-  "thunderShock": {
-    name: "Thunder Shock",
-    effect: "A jolt of electricity crashes down on the target to inflict damage. This may also leave the target with paralysis."
-  },
-  "thunderbolt": {
-    name: "Thunderbolt",
-    effect: "A strong electric blast crashes down on the target. This may also leave the target with paralysis."
-  },
-  "thunderWave": {
-    name: "Thunder Wave",
-    effect: "The user launches a weak jolt of electricity that paralyzes the target."
-  },
-  "thunder": {
-    name: "Thunder",
-    effect: "A wicked thunderbolt is dropped on the target to inflict damage. This may also leave the target with paralysis."
-  },
-  "rockThrow": {
-    name: "Rock Throw",
-    effect: "The user picks up and throws a small rock at the target to attack."
-  },
-  "earthquake": {
-    name: "Earthquake",
-    effect: "The user sets off an earthquake that strikes every Pokémon around it."
-  },
-  "fissure": {
-    name: "Fissure",
-    effect: "The user opens up a fissure in the ground and drops the target in. The target faints instantly if this attack hits."
-  },
-  "dig": {
-    name: "Dig",
-    effect: "The user burrows into the ground, then attacks on the next turn."
-  },
-  "toxic": {
-    name: "Toxic",
-    effect: "A move that leaves the target badly poisoned. Its poison damage worsens every turn."
-  },
-  "confusion": {
-    name: "Confusion",
-    effect: "The target is hit by a weak telekinetic force. This may also confuse the target."
-  },
-  "psychic": {
-    name: "Psychic",
-    effect: "The target is hit by a strong telekinetic force. This may also lower the target's Sp. Def stat."
-  },
-  "hypnosis": {
-    name: "Hypnosis",
-    effect: "The user employs hypnotic suggestion to make the target fall into a deep sleep."
-  },
-  "meditate": {
-    name: "Meditate",
-    effect: "The user meditates to awaken the power deep within its body and raise its Attack stat."
-  },
-  "agility": {
-    name: "Agility",
-    effect: "The user relaxes and lightens its body to move faster. This sharply raises the Speed stat."
-  },
-  "quickAttack": {
-    name: "Quick Attack",
-    effect: "The user lunges at the target at a speed that makes it almost invisible. This move always goes first."
-  },
-  "rage": {
-    name: "Rage",
-    effect: "As long as this move is in use, the power of rage raises the Attack stat each time the user is hit in battle."
-  },
-  "teleport": {
-    name: "Teleport",
-    effect: "The user switches places with a party Pokémon in waiting, if any. If a wild Pokémon uses this move, it flees."
-  },
-  "nightShade": {
-    name: "Night Shade",
-    effect: "The user makes the target see a frightening mirage. It inflicts damage equal to the user's level."
-  },
-  "mimic": {
-    name: "Mimic",
-    effect: "The user copies the target's last move. The move can be used during battle until the Pokémon is switched out."
-  },
-  "screech": {
-    name: "Screech",
-    effect: "An earsplitting screech harshly lowers the target's Defense stat."
-  },
-  "doubleTeam": {
-    name: "Double Team",
-    effect: "By moving rapidly, the user makes illusory copies of itself to raise its evasiveness."
-  },
-  "recover": {
-    name: "Recover",
-    effect: "Restoring its own cells, the user restores its own HP by half of its max HP."
-  },
-  "harden": {
-    name: "Harden",
-    effect: "The user stiffens all the muscles in its body to raise its Defense stat."
-  },
-  "minimize": {
-    name: "Minimize",
-    effect: "The user compresses its body to make itself look smaller, which sharply raises its evasiveness."
-  },
-  "smokescreen": {
-    name: "Smokescreen",
-    effect: "The user releases an obscuring cloud of smoke or ink. This lowers the target's accuracy."
-  },
-  "confuseRay": {
-    name: "Confuse Ray",
-    effect: "The target is exposed to a sinister ray that triggers confusion."
-  },
-  "withdraw": {
-    name: "Withdraw",
-    effect: "The user withdraws its body into its hard shell, raising its Defense stat."
-  },
-  "defenseCurl": {
-    name: "Defense Curl",
-    effect: "The user curls up to conceal weak spots and raise its Defense stat."
-  },
-  "barrier": {
-    name: "Barrier",
-    effect: "The user throws up a sturdy wall that sharply raises its Defense stat."
-  },
-  "lightScreen": {
-    name: "Light Screen",
-    effect: "A wondrous wall of light is put up to reduce damage from special attacks for five turns."
-  },
-  "haze": {
-    name: "Haze",
-    effect: "The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle."
-  },
-  "reflect": {
-    name: "Reflect",
-    effect: "A wondrous wall of light is put up to reduce damage from physical attacks for five turns."
-  },
-  "focusEnergy": {
-    name: "Focus Energy",
-    effect: "The user takes a deep breath and focuses so that critical hits land more easily."
-  },
-  "bide": {
-    name: "Bide",
-    effect: "The user endures attacks for two turns, then strikes back to cause double the damage taken."
-  },
-  "metronome": {
-    name: "Metronome",
-    effect: "The user waggles a finger and stimulates its brain into randomly using nearly any move."
-  },
-  "mirrorMove": {
-    name: "Mirror Move",
-    effect: "The user counters the target by mimicking the target's last move."
-  },
-  "selfDestruct": {
-    name: "Self-Destruct",
-    effect: "The user attacks everything around it by causing an explosion. The user faints upon using this move."
-  },
-  "eggBomb": {
-    name: "Egg Bomb",
-    effect: "A large egg is hurled at the target with maximum force to inflict damage."
-  },
-  "lick": {
-    name: "Lick",
-    effect: "The target is licked with a long tongue, causing damage. This may also leave the target with paralysis."
-  },
-  "smog": {
-    name: "Smog",
-    effect: "The target is attacked with a discharge of filthy gases. This may also poison the target."
-  },
-  "sludge": {
-    name: "Sludge",
-    effect: "Unsanitary sludge is hurled at the target. This may also poison the target."
-  },
-  "boneClub": {
-    name: "Bone Club",
-    effect: "The user clubs the target with a bone. This may also make the target flinch."
-  },
-  "fireBlast": {
-    name: "Fire Blast",
-    effect: "The target is attacked with an intense blast of all-consuming fire. This may also leave the target with a burn."
-  },
-  "waterfall": {
-    name: "Waterfall",
-    effect: "The user charges at the target and may make it flinch."
-  },
-  "clamp": {
-    name: "Clamp",
-    effect: "The target is clamped and squeezed by the user's very thick and sturdy shell for four to five turns."
-  },
-  "swift": {
-    name: "Swift",
-    effect: "Star-shaped rays are shot at opposing Pokémon. This attack never misses."
-  },
-  "skullBash": {
-    name: "Skull Bash",
-    effect: "The user tucks in its head to raise its Defense stat on the first turn, then rams the target on the next turn."
-  },
-  "spikeCannon": {
-    name: "Spike Cannon",
-    effect: "Sharp spikes are shot at the target in rapid succession. They hit two to five times in a row."
-  },
-  "constrict": {
-    name: "Constrict",
-    effect: "The target is attacked with long, creeping tentacles, vines, or the like. This may also lower the target's  Speed stat."
-  },
-  "amnesia": {
-    name: "Amnesia",
-    effect: "The user temporarily empties its mind to forget its concerns. This sharply raises the user's Sp. Def stat."
-  },
-  "kinesis": {
-    name: "Kinesis",
-    effect: "The user distracts the target by bending a spoon. This lowers the target's accuracy."
-  },
-  "softBoiled": {
-    name: "Soft-Boiled",
-    effect: "The user restores its own HP by up to half of its max HP."
-  },
-  "highJumpKick": {
-    name: "High Jump Kick",
-    effect: "The target is attacked with a knee kick from a jump. If it misses, the user is hurt instead."
-  },
-  "glare": {
-    name: "Glare",
-    effect: "The user intimidates the target with the pattern on its belly to cause paralysis."
-  },
-  "dreamEater": {
-    name: "Dream Eater",
-    effect: "The user eats the dreams of a sleeping target. The user's HP is restored by half the damage taken by the target."
-  },
-  "poisonGas": {
-    name: "Poison Gas",
-    effect: "A cloud of poison gas is sprayed in the face of opposing Pokémon, poisoning those it hits."
-  },
-  "barrage": {
-    name: "Barrage",
-    effect: "Round objects are hurled at the target to strike two to five times in a row."
-  },
-  "leechLife": {
-    name: "Leech Life",
-    effect: "The user drains the target's blood. The user's HP is restored by half the damage taken by the target."
-  },
-  "lovelyKiss": {
-    name: "Lovely Kiss",
-    effect: "With a scary face, the user tries to force a kiss on the target. If it succeeds, the target falls asleep."
-  },
-  "skyAttack": {
-    name: "Sky Attack",
-    effect: "A second-turn attack move where critical hits land more easily. This may also make the target flinch."
-  },
-  "transform": {
-    name: "Transform",
-    effect: "The user transforms into a copy of the target right down to having the same move set."
-  },
-  "bubble": {
-    name: "Bubble",
-    effect: "A spray of countless bubbles is jetted at the opposing Pokémon. This may also lower their Speed stat."
-  },
-  "dizzyPunch": {
-    name: "Dizzy Punch",
-    effect: "The target is hit with rhythmically launched punches. This may also leave the target confused."
-  },
-  "spore": {
-    name: "Spore",
-    effect: "The user scatters bursts of spores that induce sleep."
-  },
-  "flash": {
-    name: "Flash",
-    effect: "The user flashes a bright light that cuts the target's accuracy."
-  },
-  "psywave": {
-    name: "Psywave",
-    effect: "The target is attacked with an odd psychic wave. The attack varies in intensity."
-  },
-  "splash": {
-    name: "Splash",
-    effect: "The user just flops and splashes around to no effect at all..."
-  },
-  "acidArmor": {
-    name: "Acid Armor",
-    effect: "The user alters its cellular structure to liquefy itself, sharply raising its Defense stat."
-  },
-  "crabhammer": {
-    name: "Crabhammer",
-    effect: "The target is hammered with a large pincer. Critical hits land more easily."
-  },
-  "explosion": {
-    name: "Explosion",
-    effect: "The user attacks everything around it by causing a tremendous explosion. The user faints upon using this move."
-  },
-  "furySwipes": {
-    name: "Fury Swipes",
-    effect: "The target is raked with sharp claws or scythes quickly two to five times in a row."
-  },
-  "bonemerang": {
-    name: "Bonemerang",
-    effect: "The user throws the bone it holds. The bone loops around to hit the target twice—coming and going."
-  },
-  "rest": {
-    name: "Rest",
-    effect: "The user goes to sleep for two turns. This fully restores the user's HP and heals any status conditions."
-  },
-  "rockSlide": {
-    name: "Rock Slide",
-    effect: "Large boulders are hurled at opposing Pokémon to inflict damage. This may also make the opposing Pokémon flinch."
-  },
-  "hyperFang": {
-    name: "Hyper Fang",
-    effect: "The user bites hard on the target with its sharp front fangs. This may also make the target flinch."
-  },
-  "sharpen": {
-    name: "Sharpen",
-    effect: "The user makes its edges more jagged,  which raises its Attack stat."
-  },
-  "conversion": {
-    name: "Conversion",
-    effect: "The user changes its type to become the same type as the move at the top of the list of moves it knows."
-  },
-  "triAttack": {
-    name: "Tri Attack",
-    effect: "The user strikes with a simultaneous three-beam attack. This may also burn, freeze, or paralyze the target."
-  },
-  "superFang": {
-    name: "Super Fang",
-    effect: "The user chomps hard on the target with its sharp front fangs. This cuts the target's HP in half."
-  },
-  "slash": {
-    name: "Slash",
-    effect: "The target is attacked with a slash of claws or blades. Critical hits land more easily."
-  },
-  "substitute": {
-    name: "Substitute",
-    effect: "The user creates a substitute for itself using some of its HP. The substitute serves as the user's decoy."
-  },
-  "struggle": {
-    name: "Struggle",
-    effect: "This attack is used in desperation only if the user has no PP. It also damages the user a little."
-  },
-  "sketch": {
-    name: "Sketch",
-    effect: "It enables the user to permanently learn the move last used by the target. Once used, Sketch disappears."
-  },
-  "tripleKick": {
-    name: "Triple Kick",
-    effect: "A consecutive three-kick attack that becomes more powerful with each successful hit."
-  },
-  "thief": {
-    name: "Thief",
-    effect: "The user attacks and has a 30% chance to steal the target's held item simultaneously."
-  },
-  "spiderWeb": {
-    name: "Spider Web",
-    effect: "The user ensnares the target with thin, gooey silk so it can't flee from battle."
-  },
-  "mindReader": {
-    name: "Mind Reader",
-    effect: "The user senses the target's movements with its mind to ensure its next attack does not miss the target."
-  },
-  "nightmare": {
-    name: "Nightmare",
-    effect: "A sleeping target sees a nightmare that inflicts some damage every turn."
-  },
-  "flameWheel": {
-    name: "Flame Wheel",
-    effect: "The user cloaks itself in fire and charges at the target. This may also leave the target with a burn."
-  },
-  "snore": {
-    name: "Snore",
-    effect: "This attack can be used only if the user is asleep. The harsh noise may also make the target flinch."
-  },
-  "curse": {
-    name: "Curse",
-    effect: "A move that works differently for the Ghost type than for all other types."
-  },
-  "flail": {
-    name: "Flail",
-    effect: "The user flails about aimlessly to attack. The less HP the user has, the greater the move's power."
-  },
-  "conversion2": {
-    name: "Conversion 2",
-    effect: "The user changes its type to make itself resistant to the type of the attack the target used last."
-  },
-  "aeroblast": {
-    name: "Aeroblast",
-    effect: "A vortex of air is shot at the target to inflict damage. Critical hits land more easily."
-  },
-  "cottonSpore": {
-    name: "Cotton Spore",
-    effect: "The user releases cotton-like spores that cling to opposing Pokémon, which harshly lowers their Speed stats."
-  },
-  "reversal": {
-    name: "Reversal",
-    effect: "An all-out attack that becomes more powerful the less HP the user has."
-  },
-  "spite": {
-    name: "Spite",
-    effect: "The user unleashes its grudge on the move last used by the target by cutting 4 PP from it."
-  },
-  "powderSnow": {
-    name: "Powder Snow",
-    effect: "The user attacks with a chilling gust of powdery snow. This may also freeze opposing Pokémon."
-  },
-  "protect": {
-    name: "Protect",
-    effect: "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession."
-  },
-  "machPunch": {
-    name: "Mach Punch",
-    effect: "The user throws a punch at blinding speed. This move always goes first."
-  },
-  "scaryFace": {
-    name: "Scary Face",
-    effect: "The user frightens the target with a scary face to harshly lower its Speed stat."
-  },
-  "feintAttack": {
-    name: "Feint Attack",
-    effect: "The user approaches the target disarmingly, then throws a sucker punch. This attack never misses."
-  },
-  "sweetKiss": {
-    name: "Sweet Kiss",
-    effect: "The user kisses the target with a sweet, angelic cuteness that causes confusion."
-  },
-  "bellyDrum": {
-    name: "Belly Drum",
-    effect: "The user maximizes its Attack stat in exchange for HP equal to half its max HP."
-  },
-  "sludgeBomb": {
-    name: "Sludge Bomb",
-    effect: "Unsanitary sludge is hurled at the target. This may also poison the target."
-  },
-  "mudSlap": {
-    name: "Mud-Slap",
-    effect: "The user hurls mud in the target's face to inflict damage and lower its accuracy."
-  },
-  "octazooka": {
-    name: "Octazooka",
-    effect: "The user attacks by spraying ink in the target's face or eyes. This may also lower the target's accuracy."
-  },
-  "spikes": {
-    name: "Spikes",
-    effect: "The user lays a trap of spikes at the opposing team's feet. The trap hurts Pokémon that switch into battle."
-  },
-  "zapCannon": {
-    name: "Zap Cannon",
-    effect: "The user fires an electric blast like a cannon to inflict damage and cause paralysis."
-  },
-  "foresight": {
-    name: "Foresight",
-    effect: "Enables a Ghost-type target to be hit by Normal- and Fighting-type attacks. This also enables an evasive target to be hit."
-  },
-  "destinyBond": {
-    name: "Destiny Bond",
-    effect: "After using this move, if the user faints, the Pokémon that landed the knockout hit also faints. Its chance of failing rises if it is used in succession."
-  },
-  "perishSong": {
-    name: "Perish Song",
-    effect: "Any Pokémon that hears this song faints in three turns, unless it switches out of battle."
-  },
-  "icyWind": {
-    name: "Icy Wind",
-    effect: "The user attacks with a gust of chilled air. This also lowers opposing Pokémon's Speed stats."
-  },
-  "detect": {
-    name: "Detect",
-    effect: "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession."
-  },
-  "boneRush": {
-    name: "Bone Rush",
-    effect: "The user strikes the target with a hard bone two to five times in a row."
-  },
-  "lockOn": {
-    name: "Lock-On",
-    effect: "The user takes sure aim at the target. This ensures the next attack does not miss the target."
-  },
-  "outrage": {
-    name: "Outrage",
-    effect: "The user rampages and attacks for two to three turns. The user then becomes confused."
-  },
-  "sandstorm": {
-    name: "Sandstorm",
-    effect: "A five-turn sandstorm is summoned to hurt all combatants except Rock, Ground, and Steel types. It raises the Sp. Def stat of Rock types."
-  },
-  "gigaDrain": {
-    name: "Giga Drain",
-    effect: "A nutrient-draining attack. The user's HP is restored by half the damage taken by the target."
-  },
-  "endure": {
-    name: "Endure",
-    effect: "The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession."
-  },
-  "charm": {
-    name: "Charm",
-    effect: "The user gazes at the target rather charmingly, making it less wary. This harshly lowers the target's Attack stat."
-  },
-  "rollout": {
-    name: "Rollout",
-    effect: "The user continually rolls into the target over five turns. It becomes more powerful each time it hits."
-  },
-  "falseSwipe": {
-    name: "False Swipe",
-    effect: "A restrained attack that prevents the target from fainting. The target is left with at least 1 HP."
-  },
-  "swagger": {
-    name: "Swagger",
-    effect: "The user enrages and confuses the target. However, this also sharply raises the target's Attack stat."
-  },
-  "milkDrink": {
-    name: "Milk Drink",
-    effect: "The user restores its own HP by up to half of its max HP."
-  },
-  "spark": {
-    name: "Spark",
-    effect: "The user throws an electrically charged tackle at the target. This may also leave the target with paralysis."
-  },
-  "furyCutter": {
-    name: "Fury Cutter",
-    effect: "The target is slashed with scythes or claws. This attack becomes more powerful if it hits in succession."
-  },
-  "steelWing": {
-    name: "Steel Wing",
-    effect: "The target is hit with wings of steel. This may also raise the user's Defense stat."
-  },
-  "meanLook": {
-    name: "Mean Look",
-    effect: "The user pins the target with a dark, arresting look. The target becomes unable to flee."
-  },
-  "attract": {
-    name: "Attract",
-    effect: "If it is the opposite gender of the user, the target becomes infatuated and less likely to attack."
-  },
-  "sleepTalk": {
-    name: "Sleep Talk",
-    effect: "While it is asleep, the user randomly uses one of the moves it knows."
-  },
-  "healBell": {
-    name: "Heal Bell",
-    effect: "The user makes a soothing bell chime to heal the status conditions of all the party Pokémon."
-  },
-  "return": {
-    name: "Return",
-    effect: "This full-power attack grows more powerful the more the user likes its Trainer."
-  },
-  "present": {
-    name: "Present",
-    effect: "The user attacks by giving the target a gift with a hidden trap. It restores HP sometimes, however."
-  },
-  "frustration": {
-    name: "Frustration",
-    effect: "This full-power attack grows more powerful the less the user likes its Trainer."
-  },
-  "safeguard": {
-    name: "Safeguard",
-    effect: "The user creates a protective field that prevents status conditions for five turns."
-  },
-  "painSplit": {
-    name: "Pain Split",
-    effect: "The user adds its HP to the target's HP, then equally shares the combined HP with the target."
-  },
-  "sacredFire": {
-    name: "Sacred Fire",
-    effect: "The target is razed with a mystical fire of great intensity. This may also leave the target with a burn."
-  },
-  "magnitude": {
-    name: "Magnitude",
-    effect: "The user attacks everything around it with a ground-shaking quake. Its power varies."
-  },
-  "dynamicPunch": {
-    name: "Dynamic Punch",
-    effect: "The user punches the target with full, concentrated power. This confuses the target if it hits."
-  },
-  "megahorn": {
-    name: "Megahorn",
-    effect: "Using its tough and impressive horn, the user rams into the target with no letup."
-  },
-  "dragonBreath": {
-    name: "Dragon Breath",
-    effect: "The user exhales a mighty gust that inflicts damage. This may also leave the target with paralysis."
-  },
-  "batonPass": {
-    name: "Baton Pass",
-    effect: "The user switches places with a party Pokémon in waiting and passes along any stat changes."
-  },
-  "encore": {
-    name: "Encore",
-    effect: "The user compels the target to keep using the move it encored for three turns."
-  },
-  "pursuit": {
-    name: "Pursuit",
-    effect: "The power of this attack move is doubled if it's used on a target that's switching out of battle."
-  },
-  "rapidSpin": {
-    name: "Rapid Spin",
-    effect: "A spin attack that can also eliminate such moves as Bind, Wrap, and Leech Seed. This also raises the user's Speed stat."
-  },
-  "sweetScent": {
-    name: "Sweet Scent",
-    effect: "A sweet scent that harshly lowers opposing Pokémon's evasiveness."
-  },
-  "ironTail": {
-    name: "Iron Tail",
-    effect: "The target is slammed with a steel-hard tail. This may also lower the target's Defense stat."
-  },
-  "metalClaw": {
-    name: "Metal Claw",
-    effect: "The target is raked with steel claws. This may also raise the user's Attack stat."
-  },
-  "vitalThrow": {
-    name: "Vital Throw",
-    effect: "The user attacks last. In return, this throw move never misses."
-  },
-  "morningSun": {
-    name: "Morning Sun",
-    effect: "The user restores its own HP. The amount of HP regained varies with the weather."
-  },
-  "synthesis": {
-    name: "Synthesis",
-    effect: "The user restores its own HP. The amount of HP regained varies with the weather."
-  },
-  "moonlight": {
-    name: "Moonlight",
-    effect: "The user restores its own HP. The amount of HP regained varies with the weather."
-  },
-  "hiddenPower": {
-    name: "Hidden Power",
-    effect: "A unique attack that varies in type depending on the Pokémon using it."
-  },
-  "crossChop": {
-    name: "Cross Chop",
-    effect: "The user delivers a double chop with its forearms crossed. Critical hits land more easily."
-  },
-  "twister": {
-    name: "Twister",
-    effect: "The user whips up a vicious tornado to tear at opposing Pokémon. This may also make them flinch."
-  },
-  "rainDance": {
-    name: "Rain Dance",
-    effect: "The user summons a heavy rain that falls for five turns, powering up Water-type moves. It lowers the power of Fire-type moves."
-  },
-  "sunnyDay": {
-    name: "Sunny Day",
-    effect: "The user intensifies the sun for five turns, powering up Fire-type moves. It lowers the power of Water-type moves."
-  },
-  "crunch": {
-    name: "Crunch",
-    effect: "The user crunches up the target with sharp fangs. This may also lower the target's Defense stat."
-  },
-  "mirrorCoat": {
-    name: "Mirror Coat",
-    effect: "A retaliation move that counters any special attack, inflicting double the damage taken."
-  },
-  "psychUp": {
-    name: "Psych Up",
-    effect: "The user hypnotizes itself into copying any stat change made by the target."
-  },
-  "extremeSpeed": {
-    name: "Extreme Speed",
-    effect: "The user charges the target at blinding speed. This move always goes first."
-  },
-  "ancientPower": {
-    name: "Ancient Power",
-    effect: "The user attacks with a prehistoric power. This may also raise all the user's stats at once."
-  },
-  "shadowBall": {
-    name: "Shadow Ball",
-    effect: "The user hurls a shadowy blob at the target. This may also lower the target's Sp. Def stat."
-  },
-  "futureSight": {
-    name: "Future Sight",
-    effect: "Two turns after this move is used, a hunk of psychic energy attacks the target."
-  },
-  "rockSmash": {
-    name: "Rock Smash",
-    effect: "The user attacks with a punch. This may also lower the target's Defense stat."
-  },
-  "whirlpool": {
-    name: "Whirlpool",
-    effect: "The user traps the target in a violent swirling whirlpool for four to five turns."
-  },
-  "beatUp": {
-    name: "Beat Up",
-    effect: "The user gets all party Pokémon to attack the target. The more party Pokémon, the greater the number of attacks."
-  },
-  "fakeOut": {
-    name: "Fake Out",
-    effect: "This attack hits first and makes the target flinch. It only works the first turn each time the user enters battle."
-  },
-  "uproar": {
-    name: "Uproar",
-    effect: "The user attacks in an uproar for three turns. During that time, no Pokémon can fall asleep."
-  },
-  "stockpile": {
-    name: "Stockpile",
-    effect: "The user charges up power and raises both its Defense and Sp. Def stats. The move can be used three times."
-  },
-  "spitUp": {
-    name: "Spit Up",
-    effect: "The power stored using the move Stockpile is released at once in an attack. The more power is stored, the greater the move's power."
-  },
-  "swallow": {
-    name: "Swallow",
-    effect: "The power stored using the move Stockpile is absorbed by the user to heal its HP. Storing more power heals more HP."
-  },
-  "heatWave": {
-    name: "Heat Wave",
-    effect: "The user attacks by exhaling hot breath on opposing Pokémon. This may also leave those Pokémon with a burn."
-  },
-  "hail": {
-    name: "Hail",
-    effect: "The user summons a hailstorm lasting five turns. It damages all Pokémon except Ice types."
-  },
-  "torment": {
-    name: "Torment",
-    effect: "The user torments and enrages the target, making it incapable of using the same move twice in a row."
-  },
-  "flatter": {
-    name: "Flatter",
-    effect: "Flattery is used to confuse the target. However, this also raises the target's Sp. Atk stat."
-  },
-  "willOWisp": {
-    name: "Will-O-Wisp",
-    effect: "The user shoots a sinister flame at the target to inflict a burn."
-  },
-  "memento": {
-    name: "Memento",
-    effect: "The user faints when using this move. In return, this harshly lowers the target's Attack and Sp. Atk stats."
-  },
-  "facade": {
-    name: "Facade",
-    effect: "This attack move doubles its power if the user is poisoned, burned, or paralyzed."
-  },
-  "focusPunch": {
-    name: "Focus Punch",
-    effect: "The user focuses its mind before launching a punch. This move fails if the user is hit before it is used."
-  },
-  "smellingSalts": {
-    name: "Smelling Salts",
-    effect: "This attack's power is doubled when used on a target with paralysis. This also cures the target's paralysis, however."
-  },
-  "followMe": {
-    name: "Follow Me",
-    effect: "The user draws attention to itself, making all targets take aim only at the user."
-  },
-  "naturePower": {
-    name: "Nature Power",
-    effect: "This attack makes use of nature's power. Its effects vary depending on the user's environment."
-  },
-  "charge": {
-    name: "Charge",
-    effect: "The user boosts the power of the Electric move it uses on the next turn. This also raises the user's Sp. Def stat."
-  },
-  "taunt": {
-    name: "Taunt",
-    effect: "The target is taunted into a rage that allows it to use only attack moves for three turns."
-  },
-  "helpingHand": {
-    name: "Helping Hand",
-    effect: "The user assists an ally by boosting the power of that ally's attack."
-  },
-  "trick": {
-    name: "Trick",
-    effect: "The user catches the target off guard and swaps its held item with its own."
-  },
-  "rolePlay": {
-    name: "Role Play",
-    effect: "The user mimics the target completely, copying the target's Ability."
-  },
-  "wish": {
-    name: "Wish",
-    effect: "One turn after this move is used, the user's or its replacement's HP is restored by half the user's max HP."
-  },
-  "assist": {
-    name: "Assist",
-    effect: "The user hurriedly and randomly uses a move among those known by ally Pokémon."
-  },
-  "ingrain": {
-    name: "Ingrain",
-    effect: "The user lays roots that restore its HP on every turn. Because it's rooted, it can't switch out."
-  },
-  "superpower": {
-    name: "Superpower",
-    effect: "The user attacks the target with great power. However, this also lowers the user's Attack and Defense stats."
-  },
-  "magicCoat": {
-    name: "Magic Coat",
-    effect: "Moves like Leech Seed and moves that inflict status conditions are blocked by a barrier and reflected back to the user of those moves."
-  },
-  "recycle": {
-    name: "Recycle",
-    effect: "The user recycles a held item that has been used in battle so it can be used again."
-  },
-  "revenge": {
-    name: "Revenge",
-    effect: "This attack move's power is doubled if the user has been hurt by the opponent in the same turn."
-  },
-  "brickBreak": {
-    name: "Brick Break",
-    effect: "The user attacks with a swift chop. It can also break barriers, such as Light Screen and Reflect."
-  },
-  "yawn": {
-    name: "Yawn",
-    effect: "The user lets loose a huge yawn that lulls the target into falling asleep on the next turn."
-  },
-  "knockOff": {
-    name: "Knock Off",
-    effect: "The user slaps down the target's held item, and that item can't be used in that battle. The move does more damage if the target has a held item."
-  },
-  "endeavor": {
-    name: "Endeavor",
-    effect: "This attack move cuts down the target's HP to equal the user's HP."
-  },
-  "eruption": {
-    name: "Eruption",
-    effect: "The user attacks opposing Pokémon with explosive fury. The lower the user's HP, the lower the move's power."
-  },
-  "skillSwap": {
-    name: "Skill Swap",
-    effect: "The user employs its psychic power to exchange Abilities with the target."
-  },
-  "imprison": {
-    name: "Imprison",
-    effect: "If opposing Pokémon know any move also known by the user, they are prevented from using it."
-  },
-  "refresh": {
-    name: "Refresh",
-    effect: "The user rests to cure itself of poisoning, a burn, or paralysis."
-  },
-  "grudge": {
-    name: "Grudge",
-    effect: "If the user faints, the user's grudge fully depletes the PP of the opponent's move that knocked it out."
-  },
-  "snatch": {
-    name: "Snatch",
-    effect: "The user steals the effects of any attempts to use a healing or stat-changing move."
-  },
-  "secretPower": {
-    name: "Secret Power",
-    effect: "The additional effects of this attack depend upon where it was used."
-  },
-  "dive": {
-    name: "Dive",
-    effect: "Diving on the first turn, the user floats up and attacks on the next turn."
-  },
-  "armThrust": {
-    name: "Arm Thrust",
-    effect: "The user lets loose a flurry of open-palmed arm thrusts that hit two to five times in a row."
-  },
-  "camouflage": {
-    name: "Camouflage",
-    effect: "The user's type is changed depending on its environment, such as at water's edge, in grass, or in a cave."
-  },
-  "tailGlow": {
-    name: "Tail Glow",
-    effect: "The user stares at flashing lights to focus its mind, drastically raising its Sp. Atk stat."
-  },
-  "lusterPurge": {
-    name: "Luster Purge",
-    effect: "The user lets loose a damaging burst of light. This may also lower the target's Sp. Def stat."
-  },
-  "mistBall": {
-    name: "Mist Ball",
-    effect: "A mist-like flurry of down envelops and damages the target. This may also lower the target's Sp. Atk stat."
-  },
-  "featherDance": {
-    name: "Feather Dance",
-    effect: "The user covers the target's body with a mass of down that harshly lowers its Attack stat."
-  },
-  "teeterDance": {
-    name: "Teeter Dance",
-    effect: "The user performs a wobbly dance that confuses the Pokémon around it."
-  },
-  "blazeKick": {
-    name: "Blaze Kick",
-    effect: "The user launches a kick that lands a critical hit more easily. This may also leave the target with a burn."
-  },
-  "mudSport": {
-    name: "Mud Sport",
-    effect: "The user kicks up mud on the battlefield. This weakens Electric-type moves for five turns."
-  },
-  "iceBall": {
-    name: "Ice Ball",
-    effect: "The user attacks the target for five turns. The move's power increases each time it hits."
-  },
-  "needleArm": {
-    name: "Needle Arm",
-    effect: "The user attacks by wildly swinging its thorny arms. This may also make the target flinch."
-  },
-  "slackOff": {
-    name: "Slack Off",
-    effect: "The user slacks off, restoring its own HP by up to half of its max HP."
-  },
-  "hyperVoice": {
-    name: "Hyper Voice",
-    effect: "The user lets loose a horribly echoing shout with the power to inflict damage."
-  },
-  "poisonFang": {
-    name: "Poison Fang",
-    effect: "The user bites the target with toxic fangs. This may also leave the target badly poisoned."
-  },
-  "crushClaw": {
-    name: "Crush Claw",
-    effect: "The user slashes the target with hard and sharp claws. This may also lower the target's Defense stat."
-  },
-  "blastBurn": {
-    name: "Blast Burn",
-    effect: "The target is razed by a fiery explosion. The user can't move on the next turn."
-  },
-  "hydroCannon": {
-    name: "Hydro Cannon",
-    effect: "The target is hit with a watery blast. The user can't move on the next turn."
-  },
-  "meteorMash": {
-    name: "Meteor Mash",
-    effect: "The target is hit with a hard punch fired like a meteor. This may also raise the user's Attack stat."
-  },
-  "astonish": {
-    name: "Astonish",
-    effect: "The user attacks the target while shouting in a startling fashion. This may also make the target flinch."
-  },
-  "weatherBall": {
-    name: "Weather Ball",
-    effect: "This attack move varies in power and type depending on the weather."
-  },
-  "aromatherapy": {
-    name: "Aromatherapy",
-    effect: "The user releases a soothing scent that heals all status conditions affecting the user's party."
-  },
-  "fakeTears": {
-    name: "Fake Tears",
-    effect: "The user feigns crying to fluster the target, harshly lowering its Sp. Def stat."
-  },
-  "airCutter": {
-    name: "Air Cutter",
-    effect: "The user launches razor-like wind to slash opposing Pokémon. Critical hits land more easily."
-  },
-  "overheat": {
-    name: "Overheat",
-    effect: "The user attacks the target at full power. The attack's recoil harshly lowers the user's Sp. Atk stat."
-  },
-  "odorSleuth": {
-    name: "Odor Sleuth",
-    effect: "Enables a Ghost-type target to be hit by Normal- and Fighting-type attacks. This also enables an evasive target to be hit."
-  },
-  "rockTomb": {
-    name: "Rock Tomb",
-    effect: "Boulders are hurled at the target. This also lowers the target's Speed stat by preventing its movement."
-  },
-  "silverWind": {
-    name: "Silver Wind",
-    effect: "The target is attacked with powdery scales blown by the wind. This may also raise all the user's stats."
-  },
-  "metalSound": {
-    name: "Metal Sound",
-    effect: "A horrible sound like scraping metal harshly lowers the target's Sp. Def stat."
-  },
-  "grassWhistle": {
-    name: "Grass Whistle",
-    effect: "The user plays a pleasant melody that lulls the target into a deep sleep."
-  },
-  "tickle": {
-    name: "Tickle",
-    effect: "The user tickles the target into laughing, reducing its Attack and Defense stats."
-  },
-  "cosmicPower": {
-    name: "Cosmic Power",
-    effect: "The user absorbs a mystical power from space to raise its Defense and Sp. Def stats."
-  },
-  "waterSpout": {
-    name: "Water Spout",
-    effect: "The user spouts water to damage opposing Pokémon. The lower the user's HP, the lower the move's power."
-  },
-  "signalBeam": {
-    name: "Signal Beam",
-    effect: "The user attacks with a sinister beam of light. This may also confuse the target."
-  },
-  "shadowPunch": {
-    name: "Shadow Punch",
-    effect: "The user throws a punch from the shadows. This attack never misses."
-  },
-  "extrasensory": {
-    name: "Extrasensory",
-    effect: "The user attacks with an odd, unseeable power. This may also make the target flinch."
-  },
-  "skyUppercut": {
-    name: "Sky Uppercut",
-    effect: "The user attacks the target with an uppercut thrown skyward with force."
-  },
-  "sandTomb": {
-    name: "Sand Tomb",
-    effect: "The user traps the target inside a harshly raging sandstorm for four to five turns."
-  },
-  "sheerCold": {
-    name: "Sheer Cold",
-    effect: "The target faints instantly. It's less likely to hit the target if it's used by Pokémon other than Ice types."
-  },
-  "muddyWater": {
-    name: "Muddy Water",
-    effect: "The user attacks by shooting muddy water at opposing Pokémon. This may also lower their accuracy."
-  },
-  "bulletSeed": {
-    name: "Bullet Seed",
-    effect: "The user forcefully shoots seeds at the target two to five times in a row."
-  },
-  "aerialAce": {
-    name: "Aerial Ace",
-    effect: "The user confounds the target with speed, then slashes. This attack never misses."
-  },
-  "icicleSpear": {
-    name: "Icicle Spear",
-    effect: "The user launches sharp icicles at the target two to five times in a row."
-  },
-  "ironDefense": {
-    name: "Iron Defense",
-    effect: "The user hardens its body's surface like iron, sharply raising its Defense stat."
-  },
-  "block": {
-    name: "Block",
-    effect: "The user blocks the target's way with arms spread wide to prevent escape."
-  },
-  "howl": {
-    name: "Howl",
-    effect: "The user howls loudly to raise the spirit of itself and allies. This raises their Attack stats."
-  },
-  "dragonClaw": {
-    name: "Dragon Claw",
-    effect: "The user slashes the target with huge sharp claws."
-  },
-  "frenzyPlant": {
-    name: "Frenzy Plant",
-    effect: "The user slams the target with the roots of an enormous tree. The user can't move on the next turn."
-  },
-  "bulkUp": {
-    name: "Bulk Up",
-    effect: "The user tenses its muscles to bulk up its body, raising both its Attack and Defense stats."
-  },
-  "bounce": {
-    name: "Bounce",
-    effect: "The user bounces up high, then drops on the target on the second turn. This may also leave the target with paralysis."
-  },
-  "mudShot": {
-    name: "Mud Shot",
-    effect: "The user attacks by hurling a blob of mud at the target. This also lowers the target's Speed stat."
-  },
-  "poisonTail": {
-    name: "Poison Tail",
-    effect: "The user hits the target with its tail. This may also poison the target. Critical hits land more easily."
-  },
-  "covet": {
-    name: "Covet",
-    effect: "The user endearingly approaches the target, then has a 30% chance to steal the target's held item."
-  },
-  "voltTackle": {
-    name: "Volt Tackle",
-    effect: "The user electrifies itself and charges the target. This also damages the user quite a lot. This attack may leave the target with paralysis."
-  },
-  "magicalLeaf": {
-    name: "Magical Leaf",
-    effect: "The user scatters curious leaves that chase the target. This attack never misses."
-  },
-  "waterSport": {
-    name: "Water Sport",
-    effect: "The user soaks the battlefield with water. This weakens Fire-type moves for five turns."
-  },
-  "calmMind": {
-    name: "Calm Mind",
-    effect: "The user quietly focuses its mind and calms its spirit to raise its Sp. Atk and Sp. Def stats."
-  },
-  "leafBlade": {
-    name: "Leaf Blade",
-    effect: "The user handles a sharp leaf like a sword and attacks by cutting its target. Critical hits land more easily."
-  },
-  "dragonDance": {
-    name: "Dragon Dance",
-    effect: "The user vigorously performs a mystic, powerful dance that raises its Attack and Speed stats."
-  },
-  "rockBlast": {
-    name: "Rock Blast",
-    effect: "The user hurls hard rocks at the target. Two to five rocks are launched in a row."
-  },
-  "shockWave": {
-    name: "Shock Wave",
-    effect: "The user strikes the target with a quick jolt of electricity. This attack never misses."
-  },
-  "waterPulse": {
-    name: "Water Pulse",
-    effect: "The user attacks the target with a pulsing blast of water. This may also confuse the target."
-  },
-  "doomDesire": {
-    name: "Doom Desire",
-    effect: "Two turns after this move is used, a concentrated bundle of light blasts the target."
-  },
-  "psychoBoost": {
-    name: "Psycho Boost",
-    effect: "The user attacks the target at full power. The attack's recoil harshly lowers the user's Sp. Atk stat."
-  },
-  "roost": {
-    name: "Roost",
-    effect: "The user lands and rests its body. This move restores the user's HP by up to half of its max HP."
-  },
-  "gravity": {
-    name: "Gravity",
-    effect: "This move enables Flying-type Pokémon or Pokémon with the Levitate Ability to be hit by Ground-type moves. Moves that involve flying can't be used."
-  },
-  "miracleEye": {
-    name: "Miracle Eye",
-    effect: "Enables a Dark-type target to be hit by Psychic-type attacks. This also enables an evasive target to be hit."
-  },
-  "wakeUpSlap": {
-    name: "Wake-Up Slap",
-    effect: "This attack inflicts big damage on a sleeping target. This also wakes the target up, however."
-  },
-  "hammerArm": {
-    name: "Hammer Arm",
-    effect: "The user swings and hits with its strong, heavy fist. It lowers the user's Speed, however."
-  },
-  "gyroBall": {
-    name: "Gyro Ball",
-    effect: "The user tackles the target with a high-speed spin. The slower the user compared to the target, the greater the move's power."
-  },
-  "healingWish": {
-    name: "Healing Wish",
-    effect: "The user faints. In return, the Pokémon taking its place will have its HP restored and status conditions cured."
-  },
-  "brine": {
-    name: "Brine",
-    effect: "If the target's HP is half or less, this attack will hit with double the power."
-  },
-  "naturalGift": {
-    name: "Natural Gift",
-    effect: "The user draws power to attack by using its held Berry. The Berry determines the move's type and power."
-  },
-  "feint": {
-    name: "Feint",
-    effect: "This attack hits a target using a move such as Protect or Detect. This also lifts the effects of those moves."
-  },
-  "pluck": {
-    name: "Pluck",
-    effect: "The user pecks the target. If the target is holding a Berry, the user eats it and gains its effect."
-  },
-  "tailwind": {
-    name: "Tailwind",
-    effect: "The user whips up a turbulent whirlwind that ups the Speed stats of the user and its allies for four turns."
-  },
-  "acupressure": {
-    name: "Acupressure",
-    effect: "The user applies pressure to stress points, sharply boosting one of its or its allies' stats."
-  },
-  "metalBurst": {
-    name: "Metal Burst",
-    effect: "The user retaliates with much greater force against the opponent that last inflicted damage on it."
-  },
-  "uTurn": {
-    name: "U-turn",
-    effect: "After making its attack, the user rushes back to switch places with a party Pokémon in waiting."
-  },
-  "closeCombat": {
-    name: "Close Combat",
-    effect: "The user fights the target up close without guarding itself. This also lowers the user's Defense and Sp. Def stats."
-  },
-  "payback": {
-    name: "Payback",
-    effect: "The user stores power, then attacks. If the user moves after the target, this attack's power will be doubled."
-  },
-  "assurance": {
-    name: "Assurance",
-    effect: "If the target has already taken some damage in the same turn, this attack's power is doubled."
-  },
-  "embargo": {
-    name: "Embargo",
-    effect: "This move prevents the target from using its held item for five turns. Its Trainer is also prevented from using items on it."
-  },
-  "fling": {
-    name: "Fling",
-    effect: "The user flings its held item at the target to attack. This move's power and effects depend on the item."
-  },
-  "psychoShift": {
-    name: "Psycho Shift",
-    effect: "Using its psychic power of suggestion, the user transfers its status conditions to the target."
-  },
-  "trumpCard": {
-    name: "Trump Card",
-    effect: "The fewer PP this move has, the greater its power."
-  },
-  "healBlock": {
-    name: "Heal Block",
-    effect: "For five turns, the user prevents the opposing team from using any moves, Abilities, or held items that recover HP."
-  },
-  "wringOut": {
-    name: "Wring Out",
-    effect: "The user powerfully wrings the target. The more HP the target has, the greater the move's power."
-  },
-  "powerTrick": {
-    name: "Power Trick",
-    effect: "The user employs its psychic power to switch its Attack stat with its Defense stat."
-  },
-  "gastroAcid": {
-    name: "Gastro Acid",
-    effect: "The user hurls up its stomach acids on the target. The fluid eliminates the effect of the target's Ability."
-  },
-  "luckyChant": {
-    name: "Lucky Chant",
-    effect: "The user chants an incantation toward the sky, preventing opposing Pokémon from landing critical hits for five turns."
-  },
-  "meFirst": {
-    name: "Me First",
-    effect: "The user cuts ahead of the target to copy and use the target's intended move with greater power. This move fails if it isn't used first."
-  },
-  "copycat": {
-    name: "Copycat",
-    effect: "The user mimics the move used immediately before it. The move fails if no other move has been used yet."
-  },
-  "powerSwap": {
-    name: "Power Swap",
-    effect: "The user employs its psychic power to switch changes to its Attack and Sp. Atk stats with the target."
-  },
-  "guardSwap": {
-    name: "Guard Swap",
-    effect: "The user employs its psychic power to switch changes to its Defense and Sp. Def stats with the target."
-  },
-  "punishment": {
-    name: "Punishment",
-    effect: "The more the target has powered up with stat changes, the greater the move's power."
-  },
-  "lastResort": {
-    name: "Last Resort",
-    effect: "This move can be used only after the user has used all the other moves it knows in the battle."
-  },
-  "worrySeed": {
-    name: "Worry Seed",
-    effect: "A seed that causes worry is planted on the target. It prevents sleep by making the target's Ability Insomnia."
-  },
-  "suckerPunch": {
-    name: "Sucker Punch",
-    effect: "This move enables the user to attack first. This move fails if the target is not readying an attack."
-  },
-  "toxicSpikes": {
-    name: "Toxic Spikes",
-    effect: "The user lays a trap of poison spikes at the feet of the opposing team. The spikes will poison opposing Pokémon that switch into battle."
-  },
-  "heartSwap": {
-    name: "Heart Swap",
-    effect: "The user employs its psychic power to switch stat changes with the target."
-  },
-  "aquaRing": {
-    name: "Aqua Ring",
-    effect: "The user envelops itself in a veil made of water. It regains some HP every turn."
-  },
-  "magnetRise": {
-    name: "Magnet Rise",
-    effect: "The user levitates using electrically generated magnetism for five turns."
-  },
-  "flareBlitz": {
-    name: "Flare Blitz",
-    effect: "The user cloaks itself in fire and charges the target. This also damages the user quite a lot. This attack may leave the target with a burn."
-  },
-  "forcePalm": {
-    name: "Force Palm",
-    effect: "The target is attacked with a shock wave. This may also leave the target with paralysis."
-  },
-  "auraSphere": {
-    name: "Aura Sphere",
-    effect: "The user lets loose a blast of aura power from deep within its body at the target. This attack never misses."
-  },
-  "rockPolish": {
-    name: "Rock Polish",
-    effect: "The user polishes its body to reduce drag. This sharply raises the Speed stat."
-  },
-  "poisonJab": {
-    name: "Poison Jab",
-    effect: "The target is stabbed with a tentacle, arm, or the like steeped in poison. This may also poison the target."
-  },
-  "darkPulse": {
-    name: "Dark Pulse",
-    effect: "The user releases a horrible aura imbued with dark thoughts. This may also make the target flinch."
-  },
-  "nightSlash": {
-    name: "Night Slash",
-    effect: "The user slashes the target the instant an opportunity arises. Critical hits land more easily."
-  },
-  "aquaTail": {
-    name: "Aqua Tail",
-    effect: "The user attacks by swinging its tail as if it were a vicious wave in a raging storm."
-  },
-  "seedBomb": {
-    name: "Seed Bomb",
-    effect: "The user slams a barrage of hard-shelled seeds down on the target from above."
-  },
-  "airSlash": {
-    name: "Air Slash",
-    effect: "The user attacks with a blade of air that slices even the sky. This may also make the target flinch."
-  },
-  "xScissor": {
-    name: "X-Scissor",
-    effect: "The user slashes at the target by crossing its scythes or claws as if they were a pair of scissors."
-  },
-  "bugBuzz": {
-    name: "Bug Buzz",
-    effect: "The user generates a damaging sound wave by vibration. This may also lower the target's Sp. Def stat."
-  },
-  "dragonPulse": {
-    name: "Dragon Pulse",
-    effect: "The target is attacked with a shock wave generated by the user's gaping mouth."
-  },
-  "dragonRush": {
-    name: "Dragon Rush",
-    effect: "The user tackles the target while exhibiting overwhelming menace. This may also make the target flinch."
-  },
-  "powerGem": {
-    name: "Power Gem",
-    effect: "The user attacks with a ray of light that sparkles as if it were made of gemstones."
-  },
-  "drainPunch": {
-    name: "Drain Punch",
-    effect: "An energy-draining punch. The user's HP is restored by half the damage taken by the target."
-  },
-  "vacuumWave": {
-    name: "Vacuum Wave",
-    effect: "The user whirls its fists to send a wave of pure vacuum at the target. This move always goes first."
-  },
-  "focusBlast": {
-    name: "Focus Blast",
-    effect: "The user heightens its mental focus and unleashes its power. This may also lower the target's Sp. Def stat."
-  },
-  "energyBall": {
-    name: "Energy Ball",
-    effect: "The user draws power from nature and fires it at the target. This may also lower the target's Sp. Def stat."
-  },
-  "braveBird": {
-    name: "Brave Bird",
-    effect: "The user tucks in its wings and charges from a low altitude. This also damages the user quite a lot."
-  },
-  "earthPower": {
-    name: "Earth Power",
-    effect: "The user makes the ground under the target erupt with power. This may also lower the target's Sp. Def stat."
-  },
-  "switcheroo": {
-    name: "Switcheroo",
-    effect: "The user trades held items with the target faster than the eye can follow."
-  },
-  "gigaImpact": {
-    name: "Giga Impact",
-    effect: "The user charges at the target using every bit of its power. The user can't move on the next turn."
-  },
-  "nastyPlot": {
-    name: "Nasty Plot",
-    effect: "The user stimulates its brain by thinking bad thoughts. This sharply raises the user's Sp. Atk stat."
-  },
-  "bulletPunch": {
-    name: "Bullet Punch",
-    effect: "The user strikes the target with tough punches as fast as bullets. This move always goes first."
-  },
-  "avalanche": {
-    name: "Avalanche",
-    effect: "The power of this attack move is doubled if the user has been hurt by the target in the same turn."
-  },
-  "iceShard": {
-    name: "Ice Shard",
-    effect: "The user flash-freezes chunks of ice and hurls them at the target. This move always goes first."
-  },
-  "shadowClaw": {
-    name: "Shadow Claw",
-    effect: "The user slashes with a sharp claw made from shadows. Critical hits land more easily."
-  },
-  "thunderFang": {
-    name: "Thunder Fang",
-    effect: "The user bites with electrified fangs. This may also make the target flinch or leave it with paralysis."
-  },
-  "iceFang": {
-    name: "Ice Fang",
-    effect: "The user bites with cold-infused fangs. This may also make the target flinch or leave it frozen."
-  },
-  "fireFang": {
-    name: "Fire Fang",
-    effect: "The user bites with flame-cloaked fangs. This may also make the target flinch or leave it with a burn."
-  },
-  "shadowSneak": {
-    name: "Shadow Sneak",
-    effect: "The user extends its shadow and attacks the target from behind. This move always goes first."
-  },
-  "mudBomb": {
-    name: "Mud Bomb",
-    effect: "The user launches a hard-packed mud ball to attack. This may also lower the target's accuracy."
-  },
-  "psychoCut": {
-    name: "Psycho Cut",
-    effect: "The user tears at the target with blades formed by psychic power. Critical hits land more easily."
-  },
-  "zenHeadbutt": {
-    name: "Zen Headbutt",
-    effect: "The user focuses its willpower to its head and attacks the target. This may also make the target flinch."
-  },
-  "mirrorShot": {
-    name: "Mirror Shot",
-    effect: "The user lets loose a flash of energy at the target from its polished body. This may also lower the target's accuracy."
-  },
-  "flashCannon": {
-    name: "Flash Cannon",
-    effect: "The user gathers all its light energy and releases it all at once. This may also lower the target's Sp. Def stat."
-  },
-  "rockClimb": {
-    name: "Rock Climb",
-    effect: "The user attacks the target by smashing into it with incredible force. This may also confuse the target."
-  },
-  "defog": {
-    name: "Defog",
-    effect: "A strong wind blows away the target's barriers such as Reflect or Light Screen. This also lowers the target's evasiveness."
-  },
-  "trickRoom": {
-    name: "Trick Room",
-    effect: "The user creates a bizarre area in which slower Pokémon get to move first for five turns."
-  },
-  "dracoMeteor": {
-    name: "Draco Meteor",
-    effect: "Comets are summoned down from the sky onto the target. The attack's recoil harshly lowers the user's Sp. Atk stat."
-  },
-  "discharge": {
-    name: "Discharge",
-    effect: "The user strikes everything around it by letting loose a flare of electricity. This may also cause paralysis."
-  },
-  "lavaPlume": {
-    name: "Lava Plume",
-    effect: "The user torches everything around it in an inferno of scarlet flames. This may also leave those it hits with a burn."
-  },
-  "leafStorm": {
-    name: "Leaf Storm",
-    effect: "The user whips up a storm of leaves around the target. The attack's recoil harshly lowers the user's Sp. Atk stat."
-  },
-  "powerWhip": {
-    name: "Power Whip",
-    effect: "The user violently whirls its vines, tentacles, or the like to harshly lash the target."
-  },
-  "rockWrecker": {
-    name: "Rock Wrecker",
-    effect: "The user launches a huge boulder at the target to attack. The user can't move on the next turn."
-  },
-  "crossPoison": {
-    name: "Cross Poison",
-    effect: "A slashing attack with a poisonous blade that may also poison the target. Critical hits land more easily."
-  },
-  "gunkShot": {
-    name: "Gunk Shot",
-    effect: "The user shoots filthy garbage at the target to attack. This may also poison the target."
-  },
-  "ironHead": {
-    name: "Iron Head",
-    effect: "The user slams the target with its steel-hard head. This may also make the target flinch."
-  },
-  "magnetBomb": {
-    name: "Magnet Bomb",
-    effect: "The user launches steel bombs that stick to the target. This attack never misses."
-  },
-  "stoneEdge": {
-    name: "Stone Edge",
-    effect: "The user stabs the target from below with sharpened stones. Critical hits land more easily."
-  },
-  "captivate": {
-    name: "Captivate",
-    effect: "If any opposing Pokémon is the opposite gender of the user, it is charmed, which harshly lowers its Sp. Atk stat."
-  },
-  "stealthRock": {
-    name: "Stealth Rock",
-    effect: "The user lays a trap of levitating stones around the opposing team. The trap hurts opposing Pokémon that switch into battle."
-  },
-  "grassKnot": {
-    name: "Grass Knot",
-    effect: "The user snares the target with grass and trips it. The heavier the target, the greater the move's power."
-  },
-  "chatter": {
-    name: "Chatter",
-    effect: "The user attacks the target with sound waves of deafening chatter. This confuses the target."
-  },
-  "judgment": {
-    name: "Judgment",
-    effect: "The user releases countless shots of light at the target. This move's type varies depending on the kind of Plate the user is holding."
-  },
-  "bugBite": {
-    name: "Bug Bite",
-    effect: "The user bites the target. If the target is holding a Berry, the user eats it and gains its effect."
-  },
-  "chargeBeam": {
-    name: "Charge Beam",
-    effect: "The user attacks the target with an electric charge. The user may use any remaining electricity to raise its Sp. Atk stat."
-  },
-  "woodHammer": {
-    name: "Wood Hammer",
-    effect: "The user slams its rugged body into the target to attack. This also damages the user quite a lot."
-  },
-  "aquaJet": {
-    name: "Aqua Jet",
-    effect: "The user lunges at the target at a speed that makes it almost invisible. This move always goes first."
-  },
-  "attackOrder": {
-    name: "Attack Order",
-    effect: "The user calls out its underlings to pummel the target. Critical hits land more easily."
-  },
-  "defendOrder": {
-    name: "Defend Order",
-    effect: "The user calls out its underlings to shield its body, raising its Defense and Sp. Def stats."
-  },
-  "healOrder": {
-    name: "Heal Order",
-    effect: "The user calls out its underlings to heal it. The user regains up to half of its max HP."
-  },
-  "headSmash": {
-    name: "Head Smash",
-    effect: "The user attacks the target with a hazardous, full-power headbutt. This also damages the user terribly."
-  },
-  "doubleHit": {
-    name: "Double Hit",
-    effect: "The user slams the target with a long tail, vines, or a tentacle. The target is hit twice in a row."
-  },
-  "roarOfTime": {
-    name: "Roar of Time",
-    effect: "The user blasts the target with power that distorts even time. The user can't move on the next turn."
-  },
-  "spacialRend": {
-    name: "Spacial Rend",
-    effect: "The user tears the target along with the space around it. Critical hits land more easily."
-  },
-  "lunarDance": {
-    name: "Lunar Dance",
-    effect: "The user faints. In return, the Pokémon taking its place will have its status and HP fully restored."
-  },
-  "crushGrip": {
-    name: "Crush Grip",
-    effect: "The target is crushed with great force. The more HP the target has left, the greater this move's power."
-  },
-  "magmaStorm": {
-    name: "Magma Storm",
-    effect: "The target becomes trapped within a maelstrom of fire that rages for four to five turns."
-  },
-  "darkVoid": {
-    name: "Dark Void",
-    effect: "Opposing Pokémon are dragged into a world of total darkness that makes them sleep."
-  },
-  "seedFlare": {
-    name: "Seed Flare",
-    effect: "The user emits a shock wave from its body to attack its target. This may also harshly lower the target's Sp. Def stat."
-  },
-  "ominousWind": {
-    name: "Ominous Wind",
-    effect: "The user blasts the target with a gust of repulsive wind. This may also raise all the user's stats at once."
-  },
-  "shadowForce": {
-    name: "Shadow Force",
-    effect: "The user disappears, then strikes the target on the next turn. This move hits even if the target protects itself."
-  },
-  "honeClaws": {
-    name: "Hone Claws",
-    effect: "The user sharpens its claws to boost its Attack stat and accuracy."
-  },
-  "wideGuard": {
-    name: "Wide Guard",
-    effect: "The user and its allies are protected from wide-ranging attacks for one turn."
-  },
-  "guardSplit": {
-    name: "Guard Split",
-    effect: "The user employs its psychic power to average its Defense and Sp. Def stats with those of the target."
-  },
-  "powerSplit": {
-    name: "Power Split",
-    effect: "The user employs its psychic power to average its Attack and Sp. Atk stats with those of the target."
-  },
-  "wonderRoom": {
-    name: "Wonder Room",
-    effect: "The user creates a bizarre area in which Pokémon's Defense and Sp. Def stats are swapped for five turns."
-  },
-  "psyshock": {
-    name: "Psyshock",
-    effect: "The user materializes an odd psychic wave to attack the target. This attack does physical damage."
-  },
-  "venoshock": {
-    name: "Venoshock",
-    effect: "The user drenches the target in a special poisonous liquid. This move's power is doubled if the target is poisoned."
-  },
-  "autotomize": {
-    name: "Autotomize",
-    effect: "The user sheds part of its body to make itself lighter and sharply raise its Speed stat."
-  },
-  "ragePowder": {
-    name: "Rage Powder",
-    effect: "The user scatters a cloud of irritating powder to draw attention to itself. Opposing Pokémon aim only at the user."
-  },
-  "telekinesis": {
-    name: "Telekinesis",
-    effect: "The user makes the target float with its psychic power. The target is easier to hit for three turns."
-  },
-  "magicRoom": {
-    name: "Magic Room",
-    effect: "The user creates a bizarre area in which Pokémon's held items lose their effects for five turns."
-  },
-  "smackDown": {
-    name: "Smack Down",
-    effect: "The user throws a stone or similar projectile to attack the target. A flying Pokémon will fall to the ground when it's hit."
-  },
-  "stormThrow": {
-    name: "Storm Throw",
-    effect: "The user strikes the target with a fierce blow. This attack always results in a critical hit."
-  },
-  "flameBurst": {
-    name: "Flame Burst",
-    effect: "The user attacks the target with a bursting flame. The bursting flame damages Pokémon next to the target as well."
-  },
-  "sludgeWave": {
-    name: "Sludge Wave",
-    effect: "The user strikes everything around it by swamping the area with a giant sludge wave. This may also poison those hit."
-  },
-  "quiverDance": {
-    name: "Quiver Dance",
-    effect: "The user lightly performs a beautiful, mystic dance. This boosts the user's Sp. Atk, Sp. Def, and Speed stats."
-  },
-  "heavySlam": {
-    name: "Heavy Slam",
-    effect: "The user slams into the target with its heavy body. The more the user outweighs the target, the greater the move's power."
-  },
-  "synchronoise": {
-    name: "Synchronoise",
-    effect: "Using an odd shock wave, the user inflicts damage on any Pokémon of the same type in the area around it."
-  },
-  "electroBall": {
-    name: "Electro Ball",
-    effect: "The user hurls an electric orb at the target. The faster the user is than the target, the greater the move's power."
-  },
-  "soak": {
-    name: "Soak",
-    effect: "The user shoots a torrent of water at the target and changes the target's type to Water."
-  },
-  "flameCharge": {
-    name: "Flame Charge",
-    effect: "Cloaking itself in flame, the user attacks the target. Then, building up more power, the user raises its Speed stat."
-  },
-  "coil": {
-    name: "Coil",
-    effect: "The user coils up and concentrates. This raises its Attack and Defense stats as well as its accuracy."
-  },
-  "lowSweep": {
-    name: "Low Sweep",
-    effect: "The user makes a swift attack on the target's legs, which lowers the target's Speed stat."
-  },
-  "acidSpray": {
-    name: "Acid Spray",
-    effect: "The user spits fluid that works to melt the target. This harshly lowers the target's Sp. Def stat."
-  },
-  "foulPlay": {
-    name: "Foul Play",
-    effect: "The user turns the target's power against it. The higher the target's Attack stat, the greater the damage it deals."
-  },
-  "simpleBeam": {
-    name: "Simple Beam",
-    effect: "The user's mysterious psychic wave changes the target's Ability to Simple."
-  },
-  "entrainment": {
-    name: "Entrainment",
-    effect: "The user dances with an odd rhythm that compels the target to mimic it, making the target's Ability the same as the user's."
-  },
-  "afterYou": {
-    name: "After You",
-    effect: "The user helps the target and makes it use its move right after the user."
-  },
-  "round": {
-    name: "Round",
-    effect: "The user attacks the target with a song. Others can join in the Round to increase the power of the attack."
-  },
-  "echoedVoice": {
-    name: "Echoed Voice",
-    effect: "The user attacks the target with an echoing voice. If this move is used every turn, its power is increased."
-  },
-  "chipAway": {
-    name: "Chip Away",
-    effect: "Looking for an opening, the user strikes consistently. The target's stat changes don't affect this attack's damage."
-  },
-  "clearSmog": {
-    name: "Clear Smog",
-    effect: "The user attacks the target by throwing a clump of special mud. All stat changes are returned to normal."
-  },
-  "storedPower": {
-    name: "Stored Power",
-    effect: "The user attacks the target with stored power. The more the user's stats are raised, the greater the move's power."
-  },
-  "quickGuard": {
-    name: "Quick Guard",
-    effect: "The user protects itself and its allies from priority moves."
-  },
-  "allySwitch": {
-    name: "Ally Switch",
-    effect: "The user teleports using a strange power and switches places with one of its allies."
-  },
-  "scald": {
-    name: "Scald",
-    effect: "The user shoots boiling hot water at its target. This may also leave the target with a burn."
-  },
-  "shellSmash": {
-    name: "Shell Smash",
-    effect: "The user breaks its shell, which lowers Defense and Sp. Def stats but sharply raises its Attack, Sp. Atk, and Speed stats."
-  },
-  "healPulse": {
-    name: "Heal Pulse",
-    effect: "The user emits a healing pulse that restores the target's HP by up to half of its max HP."
-  },
-  "hex": {
-    name: "Hex",
-    effect: "This relentless attack does massive damage to a target affected by status conditions."
-  },
-  "skyDrop": {
-    name: "Sky Drop",
-    effect: "The user takes the target into the sky, then drops it during the next turn. The target cannot attack while in the sky."
-  },
-  "shiftGear": {
-    name: "Shift Gear",
-    effect: "The user rotates its gears, raising its Attack stat and sharply raising its Speed stat."
-  },
-  "circleThrow": {
-    name: "Circle Throw",
-    effect: "The target is thrown, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon."
-  },
-  "incinerate": {
-    name: "Incinerate",
-    effect: "The user attacks opposing Pokémon with fire. If a Pokémon is holding a certain item, such as a Berry, the item becomes burned up and unusable."
-  },
-  "quash": {
-    name: "Quash",
-    effect: "The user suppresses the target and makes its move go last."
-  },
-  "acrobatics": {
-    name: "Acrobatics",
-    effect: "The user nimbly strikes the target. If the user is not holding an item, this attack inflicts massive damage."
-  },
-  "reflectType": {
-    name: "Reflect Type",
-    effect: "The user reflects the target's type, making the user the same type as the target."
-  },
-  "retaliate": {
-    name: "Retaliate",
-    effect: "The user gets revenge for a fainted ally. If an ally fainted in the previous turn, this move's power is increased."
-  },
-  "finalGambit": {
-    name: "Final Gambit",
-    effect: "The user risks everything to attack its target. The user faints but does damage equal to its HP."
-  },
-  "bestow": {
-    name: "Bestow",
-    effect: "The user passes its held item to the target when the target isn't holding an item."
-  },
-  "inferno": {
-    name: "Inferno",
-    effect: "The user attacks by engulfing the target in an intense fire. This leaves the target with a burn."
-  },
-  "waterPledge": {
-    name: "Water Pledge",
-    effect: "A column of water hits the target. When used with its fire equivalent, its power increases and a rainbow appears."
-  },
-  "firePledge": {
-    name: "Fire Pledge",
-    effect: "A column of fire hits the target. When used with its grass equivalent, its power increases and a vast sea of fire appears."
-  },
-  "grassPledge": {
-    name: "Grass Pledge",
-    effect: "A column of grass hits the target. When used with its water equivalent, its power increases and a vast swamp appears."
-  },
-  "voltSwitch": {
-    name: "Volt Switch",
-    effect: "After making its attack, the user rushes back to switch places with a party Pokémon in waiting."
-  },
-  "struggleBug": {
-    name: "Struggle Bug",
-    effect: "While resisting, the user attacks opposing Pokémon. This lowers the Sp. Atk stats of those hit."
-  },
-  "bulldoze": {
-    name: "Bulldoze",
-    effect: "The user strikes everything around it by stomping down on the ground. This lowers the Speed stats of those hit."
-  },
-  "frostBreath": {
-    name: "Frost Breath",
-    effect: "The user blows its cold breath on the target. This attack always results in a critical hit."
-  },
-  "dragonTail": {
-    name: "Dragon Tail",
-    effect: "The target is knocked away, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon."
-  },
-  "workUp": {
-    name: "Work Up",
-    effect: "The user is roused, and its Attack and Sp. Atk stats increase."
-  },
-  "electroweb": {
-    name: "Electroweb",
-    effect: "The user attacks and captures opposing Pokémon using an electric net. This lowers their Speed stats."
-  },
-  "wildCharge": {
-    name: "Wild Charge",
-    effect: "The user shrouds itself in electricity and smashes into its target. This also damages the user a little."
-  },
-  "drillRun": {
-    name: "Drill Run",
-    effect: "The user crashes into its target while rotating its body like a drill. Critical hits land more easily."
-  },
-  "dualChop": {
-    name: "Dual Chop",
-    effect: "The user attacks its target by hitting it with brutal strikes. The target is hit twice in a row."
-  },
-  "heartStamp": {
-    name: "Heart Stamp",
-    effect: "The user unleashes a vicious blow after its cute act makes the target less wary. This may also make the target flinch."
-  },
-  "hornLeech": {
-    name: "Horn Leech",
-    effect: "The user drains the target's energy with its horns. The user's HP is restored by half the damage taken by the target."
-  },
-  "sacredSword": {
-    name: "Sacred Sword",
-    effect: "The user attacks by slicing with a long horn. The target's stat changes don't affect this attack's damage."
-  },
-  "razorShell": {
-    name: "Razor Shell",
-    effect: "The user cuts its target with sharp shells. This may also lower the target's Defense stat."
-  },
-  "heatCrash": {
-    name: "Heat Crash",
-    effect: "The user slams its target with its flame-covered body. The more the user outweighs the target, the greater the move's power."
-  },
-  "leafTornado": {
-    name: "Leaf Tornado",
-    effect: "The user attacks its target by encircling it in sharp leaves. This attack may also lower the target's accuracy."
-  },
-  "steamroller": {
-    name: "Steamroller",
-    effect: "The user crushes its target by rolling over the target with its rolled-up body. This may also make the target flinch."
-  },
-  "cottonGuard": {
-    name: "Cotton Guard",
-    effect: "The user protects itself by wrapping its body in soft cotton, which drastically raises the user's Defense stat."
-  },
-  "nightDaze": {
-    name: "Night Daze",
-    effect: "The user lets loose a pitch-black shock wave at its target. This may also lower the target's accuracy."
-  },
-  "psystrike": {
-    name: "Psystrike",
-    effect: "The user materializes an odd psychic wave to attack the target. This attack does physical damage."
-  },
-  "tailSlap": {
-    name: "Tail Slap",
-    effect: "The user attacks by striking the target with its hard tail. It hits the target two to five times in a row."
-  },
-  "hurricane": {
-    name: "Hurricane",
-    effect: "The user attacks by wrapping its opponent in a fierce wind that flies up into the sky. This may also confuse the target."
-  },
-  "headCharge": {
-    name: "Head Charge",
-    effect: "The user charges its head into its target, using its powerful guard hair. This also damages the user a little."
-  },
-  "gearGrind": {
-    name: "Gear Grind",
-    effect: "The user attacks by throwing steel gears at its target twice."
-  },
-  "searingShot": {
-    name: "Searing Shot",
-    effect: "The user torches everything around it in an inferno of scarlet flames. This may also leave those it hits with a burn."
-  },
-  "technoBlast": {
-    name: "Techno Blast",
-    effect: "The user fires a beam of light at its target. The move's type changes depending on the Drive the user holds."
-  },
-  "relicSong": {
-    name: "Relic Song",
-    effect: "The user sings an ancient song and attacks by appealing to the hearts of the listening opposing Pokémon. This may also induce sleep."
-  },
-  "secretSword": {
-    name: "Secret Sword",
-    effect: "The user cuts with its long horn. The odd power contained in the horn does physical damage to the target."
-  },
-  "glaciate": {
-    name: "Glaciate",
-    effect: "The user attacks by blowing freezing cold air at opposing Pokémon. This lowers their Speed stats."
-  },
-  "boltStrike": {
-    name: "Bolt Strike",
-    effect: "The user surrounds itself with a great amount of electricity and charges its target. This may also leave the target with paralysis."
-  },
-  "blueFlare": {
-    name: "Blue Flare",
-    effect: "The user attacks by engulfing the target in an intense, yet beautiful, blue flame. This may also leave the target with a burn."
-  },
-  "fieryDance": {
-    name: "Fiery Dance",
-    effect: "Cloaked in flames, the user attacks the target by dancing and flapping its wings. This may also raise the user's Sp. Atk stat."
-  },
-  "freezeShock": {
-    name: "Freeze Shock",
-    effect: "On the second turn, the user hits the target with electrically charged ice. This may also leave the target with paralysis."
-  },
-  "iceBurn": {
-    name: "Ice Burn",
-    effect: "On the second turn, an ultracold, freezing wind surrounds the target. This may leave the target with a burn."
-  },
-  "snarl": {
-    name: "Snarl",
-    effect: "The user yells as if it's ranting about something, which lowers the Sp. Atk stats of opposing Pokémon."
-  },
-  "icicleCrash": {
-    name: "Icicle Crash",
-    effect: "The user attacks by harshly dropping large icicles onto the target. This may also make the target flinch."
-  },
-  "vCreate": {
-    name: "V-create",
-    effect: "With a hot flame on its forehead, the user hurls itself at its target. This lowers the user's Defense, Sp. Def, and Speed stats."
-  },
-  "fusionFlare": {
-    name: "Fusion Flare",
-    effect: "The user brings down a giant flame. This move's power is increased when influenced by an enormous lightning bolt."
-  },
-  "fusionBolt": {
-    name: "Fusion Bolt",
-    effect: "The user throws down a giant lightning bolt. This move's power is increased when influenced by an enormous flame."
-  },
-  "flyingPress": {
-    name: "Flying Press",
-    effect: "The user dives down onto the target from the sky. This move is Fighting and Flying type simultaneously."
-  },
-  "matBlock": {
-    name: "Mat Block",
-    effect: "Using a pulled-up mat as a shield, the user protects itself and its allies from damaging moves. This does not stop status moves."
-  },
-  "belch": {
-    name: "Belch",
-    effect: "The user lets out a damaging belch at the target. The user must eat a held Berry to use this move."
-  },
-  "rototiller": {
-    name: "Rototiller",
-    effect: "Tilling the soil, the user makes it easier for plants to grow. This raises the Attack and Sp. Atk stats of Grass-type Pokémon."
-  },
-  "stickyWeb": {
-    name: "Sticky Web",
-    effect: "The user weaves a sticky net around the opposing team, which lowers their Speed stats upon switching into battle."
-  },
-  "fellStinger": {
-    name: "Fell Stinger",
-    effect: "When the user knocks out a target with this move, the user's Attack stat rises drastically."
-  },
-  "phantomForce": {
-    name: "Phantom Force",
-    effect: "The user vanishes somewhere, then strikes the target on the next turn. This move hits even if the target protects itself."
-  },
-  "trickOrTreat": {
-    name: "Trick-or-Treat",
-    effect: "The user takes the target trick-or-treating. This adds Ghost type to the target's type."
-  },
-  "nobleRoar": {
-    name: "Noble Roar",
-    effect: "Letting out a noble roar, the user intimidates the target and lowers its Attack and Sp. Atk stats."
-  },
-  "ionDeluge": {
-    name: "Ion Deluge",
-    effect: "The user disperses electrically charged particles, which changes Normal-type moves to Electric-type moves."
-  },
-  "parabolicCharge": {
-    name: "Parabolic Charge",
-    effect: "The user attacks everything around it. The user's HP is restored by half the damage taken by those hit."
-  },
-  "forestsCurse": {
-    name: "Forest's Curse",
-    effect: "The user puts a forest curse on the target. The target is now Grass type as well."
-  },
-  "petalBlizzard": {
-    name: "Petal Blizzard",
-    effect: "The user stirs up a violent petal blizzard and attacks everything around it."
-  },
-  "freezeDry": {
-    name: "Freeze-Dry",
-    effect: "The user rapidly cools the target. This may also leave the target frozen. This move is super effective on Water types."
-  },
-  "disarmingVoice": {
-    name: "Disarming Voice",
-    effect: "Letting out a charming cry, the user does emotional damage to opposing Pokémon. This attack never misses."
-  },
-  "partingShot": {
-    name: "Parting Shot",
-    effect: "With a parting threat, the user lowers the target's Attack and Sp. Atk stats. Then it switches with a party Pokémon."
-  },
-  "topsyTurvy": {
-    name: "Topsy-Turvy",
-    effect: "All stat changes affecting the target turn topsy-turvy and become the opposite of what they were."
-  },
-  "drainingKiss": {
-    name: "Draining Kiss",
-    effect: "The user steals the target's HP with a kiss. The user's HP is restored by over half of the damage taken by the target."
-  },
-  "craftyShield": {
-    name: "Crafty Shield",
-    effect: "The user protects itself and its allies from status moves with a mysterious power. This does not stop moves that do damage."
-  },
-  "flowerShield": {
-    name: "Flower Shield",
-    effect: "The user raises the Defense stats of all Grass-type Pokémon in battle with a mysterious power."
-  },
-  "grassyTerrain": {
-    name: "Grassy Terrain",
-    effect: "The user turns the ground to grass for five turns. This restores the HP of Pokémon on the ground a little every turn and powers up Grass-type moves."
-  },
-  "mistyTerrain": {
-    name: "Misty Terrain",
-    effect: "This protects Pokémon on the ground from status conditions and halves damage from Dragon-type moves for five turns."
-  },
-  "electrify": {
-    name: "Electrify",
-    effect: "If the target is electrified before it uses a move during that turn, the target's move becomes Electric type."
-  },
-  "playRough": {
-    name: "Play Rough",
-    effect: "The user plays rough with the target and attacks it. This may also lower the target's Attack stat."
-  },
-  "fairyWind": {
-    name: "Fairy Wind",
-    effect: "The user stirs up a fairy wind and strikes the target with it."
-  },
-  "moonblast": {
-    name: "Moonblast",
-    effect: "Borrowing the power of the moon, the user attacks the target. This may also lower the target's Sp. Atk stat."
-  },
-  "boomburst": {
-    name: "Boomburst",
-    effect: "The user attacks everything around it with the destructive power of a terrible, explosive sound."
-  },
-  "fairyLock": {
-    name: "Fairy Lock",
-    effect: "By locking down the battlefield, the user keeps all Pokémon from fleeing during the next turn."
-  },
-  "kingsShield": {
-    name: "King's Shield",
-    effect: "The user takes a defensive stance while it protects itself from damage. It also lowers the Attack stat of any attacker that makes direct contact."
-  },
-  "playNice": {
-    name: "Play Nice",
-    effect: "The user and the target become friends, and the target loses its will to fight. This lowers the target's Attack stat."
-  },
-  "confide": {
-    name: "Confide",
-    effect: "The user tells the target a secret, and the target loses its ability to concentrate. This lowers the target's Sp. Atk stat."
-  },
-  "diamondStorm": {
-    name: "Diamond Storm",
-    effect: "The user whips up a storm of diamonds to damage opposing Pokémon. This may also sharply raise the user's Defense stat."
-  },
-  "steamEruption": {
-    name: "Steam Eruption",
-    effect: "The user immerses the target in superheated steam. This may also leave the target with a burn."
-  },
-  "hyperspaceHole": {
-    name: "Hyperspace Hole",
-    effect: "Using a hyperspace hole, the user appears right next to the target and strikes. This also hits a target using a move such as Protect or Detect."
-  },
-  "waterShuriken": {
-    name: "Water Shuriken",
-    effect: "The user hits the target with throwing stars two to five times in a row. This move always goes first."
-  },
-  "mysticalFire": {
-    name: "Mystical Fire",
-    effect: "The user attacks by breathing a special, hot fire. This also lowers the target's Sp. Atk stat."
-  },
-  "spikyShield": {
-    name: "Spiky Shield",
-    effect: "In addition to protecting the user from attacks, this move also damages any attacker that makes direct contact."
-  },
-  "aromaticMist": {
-    name: "Aromatic Mist",
-    effect: "The user raises the Sp. Def stat of an ally Pokémon by using a mysterious aroma."
-  },
-  "eerieImpulse": {
-    name: "Eerie Impulse",
-    effect: "The user's body generates an eerie impulse. Exposing the target to it harshly lowers the target's Sp. Atk stat."
-  },
-  "venomDrench": {
-    name: "Venom Drench",
-    effect: "Opposing Pokémon are drenched in an odd poisonous liquid. This lowers the Attack, Sp. Atk, and Speed stats of a poisoned target."
-  },
-  "powder": {
-    name: "Powder",
-    effect: "The user covers the target in a combustible powder. If the target uses a Fire-type move, the powder explodes and damages the target."
-  },
-  "geomancy": {
-    name: "Geomancy",
-    effect: "The user absorbs energy and sharply raises its Sp. Atk, Sp. Def, and Speed stats on the next turn."
-  },
-  "magneticFlux": {
-    name: "Magnetic Flux",
-    effect: "The user manipulates magnetic fields, which raises the Defense and Sp. Def stats of ally Pokémon with the Plus or Minus Ability."
-  },
-  "happyHour": {
-    name: "Happy Hour",
-    effect: "Using Happy Hour doubles the amount of prize money received after battle."
-  },
-  "electricTerrain": {
-    name: "Electric Terrain",
-    effect: "The user electrifies the ground for five turns, powering up Electric-type moves. Pokémon on the ground no longer fall asleep."
-  },
-  "dazzlingGleam": {
-    name: "Dazzling Gleam",
-    effect: "The user damages opposing Pokémon by emitting a powerful flash."
-  },
-  "celebrate": {
-    name: "Celebrate",
-    effect: "The Pokémon congratulates you on your special day!"
-  },
-  "holdHands": {
-    name: "Hold Hands",
-    effect: "The user and an ally hold hands. This makes them very happy."
-  },
-  "babyDollEyes": {
-    name: "Baby-Doll Eyes",
-    effect: "The user stares at the target with its baby-doll eyes, which lowers the target's Attack stat. This move always goes first."
-  },
-  "nuzzle": {
-    name: "Nuzzle",
-    effect: "The user attacks by nuzzling its electrified cheeks against the target. This also leaves the target with paralysis."
-  },
-  "holdBack": {
-    name: "Hold Back",
-    effect: "The user holds back when it attacks, and the target is left with at least 1 HP."
-  },
-  "infestation": {
-    name: "Infestation",
-    effect: "The target is infested and attacked for four to five turns. The target can't flee during this time."
-  },
-  "powerUpPunch": {
-    name: "Power-Up Punch",
-    effect: "Striking opponents over and over makes the user's fists harder. Hitting a target raises the Attack stat."
-  },
-  "oblivionWing": {
-    name: "Oblivion Wing",
-    effect: "The user absorbs its target's HP. The user's HP is restored by over half of the damage taken by the target."
-  },
-  "thousandArrows": {
-    name: "Thousand Arrows",
-    effect: "This move also hits opposing Pokémon that are in the air. Those Pokémon are knocked down to the ground."
-  },
-  "thousandWaves": {
-    name: "Thousand Waves",
-    effect: "The user attacks with a wave that crawls along the ground. Those it hits can't flee from battle."
-  },
-  "landsWrath": {
-    name: "Land's Wrath",
-    effect: "The user gathers the energy of the land and focuses that power on opposing Pokémon to damage them."
-  },
-  "lightOfRuin": {
-    name: "Light of Ruin",
-    effect: "Drawing power from the Eternal Flower, the user fires a powerful beam of light. This also damages the user quite a lot."
-  },
-  "originPulse": {
-    name: "Origin Pulse",
-    effect: "The user attacks opposing Pokémon with countless beams of light that glow a deep and brilliant blue."
-  },
-  "precipiceBlades": {
-    name: "Precipice Blades",
-    effect: "The user attacks opposing Pokémon by manifesting the power of the land in fearsome blades of stone."
-  },
-  "dragonAscent": {
-    name: "Dragon Ascent",
-    effect: "After soaring upward, the user attacks its target by dropping out of the sky at high speeds. But it lowers its own Defense and Sp. Def stats in the process."
-  },
-  "hyperspaceFury": {
-    name: "Hyperspace Fury",
-    effect: "Using its many arms, the user unleashes a barrage of attacks that ignore the effects of moves like Protect and Detect. But the user's Defense stat falls."
-  },
-  "breakneckBlitzPhysical": {
-    name: "Breakneck Blitz",
-    effect: "The user builds up its momentum using its Z-Power and crashes into the target at full speed. The power varies, depending on the original move."
-  },
-  "breakneckBlitzSpecial": {
-    name: "Breakneck Blitz",
-    effect: "Dummy Data"
-  },
-  "allOutPummelingPhysical": {
-    name: "All-Out Pummeling",
-    effect: "The user rams an energy orb created by its Z-Power into the target with full force. The power varies, depending on the original move."
-  },
-  "allOutPummelingSpecial": {
-    name: "All-Out Pummeling",
-    effect: "Dummy Data"
-  },
-  "supersonicSkystrikePhysical": {
-    name: "Supersonic Skystrike",
-    effect: "The user soars up with its Z-Power and plummets toward the target at full speed. The power varies, depending on the original move."
-  },
-  "supersonicSkystrikeSpecial": {
-    name: "Supersonic Skystrike",
-    effect: "Dummy Data"
-  },
-  "acidDownpourPhysical": {
-    name: "Acid Downpour",
-    effect: "The user creates a poisonous swamp using its Z-Power and sinks the target into it at full force. The power varies, depending on the original move."
-  },
-  "acidDownpourSpecial": {
-    name: "Acid Downpour",
-    effect: "Dummy Data"
-  },
-  "tectonicRagePhysical": {
-    name: "Tectonic Rage",
-    effect: "The user burrows deep into the ground and slams into the target with the full force of its Z-Power. The power varies, depending on the original move."
-  },
-  "tectonicRageSpecial": {
-    name: "Tectonic Rage",
-    effect: "Dummy Data"
-  },
-  "continentalCrushPhysical": {
-    name: "Continental Crush",
-    effect: "The user summons a huge rock mountain using its Z-Power and drops it onto the target with full force. The power varies, depending on the original move."
-  },
-  "continentalCrushSpecial": {
-    name: "Continental Crush",
-    effect: "Dummy Data"
-  },
-  "savageSpinOutPhysical": {
-    name: "Savage Spin-Out",
-    effect: "The user binds the target with full force with threads of silk that the user spits using its Z-Power. The power varies, depending on the original move."
-  },
-  "savageSpinOutSpecial": {
-    name: "Savage Spin-Out",
-    effect: "Dummy Data"
-  },
-  "neverEndingNightmarePhysical": {
-    name: "Never-Ending Nightmare",
-    effect: "Deep-seated grudges summoned by the user's Z-Power trap the target. The power varies, depending on the original move."
-  },
-  "neverEndingNightmareSpecial": {
-    name: "Never-Ending Nightmare",
-    effect: "Dummy Data"
-  },
-  "corkscrewCrashPhysical": {
-    name: "Corkscrew Crash",
-    effect: "The user spins very fast and rams into the target with the full force of its Z-Power. The power varies, depending on the original move."
-  },
-  "corkscrewCrashSpecial": {
-    name: "Corkscrew Crash",
-    effect: "Dummy Data"
-  },
-  "infernoOverdrivePhysical": {
-    name: "Inferno Overdrive",
-    effect: "The user breathes a stream of intense fire toward the target with the full force of its Z-Power. The power varies depending on the original move."
-  },
-  "infernoOverdriveSpecial": {
-    name: "Inferno Overdrive",
-    effect: "Dummy Data"
-  },
-  "hydroVortexPhysical": {
-    name: "Hydro Vortex",
-    effect: "The user creates a huge whirling current using its Z-Power to swallow the target with full force. The power varies, depending on the original move."
-  },
-  "hydroVortexSpecial": {
-    name: "Hydro Vortex",
-    effect: "Dummy Data"
-  },
-  "bloomDoomPhysical": {
-    name: "Bloom Doom",
-    effect: "The user collects energy from plants using its Z-Power and attacks the target with full force. The power varies, depending on the original move."
-  },
-  "bloomDoomSpecial": {
-    name: "Bloom Doom",
-    effect: "Dummy Data"
-  },
-  "gigavoltHavocPhysical": {
-    name: "Gigavolt Havoc",
-    effect: "The user hits the target with a powerful electric current collected by its Z-Power. The power varies, depending on the original move."
-  },
-  "gigavoltHavocSpecial": {
-    name: "Gigavolt Havoc",
-    effect: "Dummy Data"
-  },
-  "shatteredPsychePhysical": {
-    name: "Shattered Psyche",
-    effect: "The user controls the target with its Z-Power and hurts the target with full force. The power varies, depending on the original move."
-  },
-  "shatteredPsycheSpecial": {
-    name: "Shattered Psyche",
-    effect: "Dummy Data"
-  },
-  "subzeroSlammerPhysical": {
-    name: "Subzero Slammer",
-    effect: "The user dramatically drops the temperature using its Z-Power and freezes the target with full force. The power varies, depending on the original move."
-  },
-  "subzeroSlammerSpecial": {
-    name: "Subzero Slammer",
-    effect: "Dummy Data"
-  },
-  "devastatingDrakePhysical": {
-    name: "Devastating Drake",
-    effect: "The user materializes its aura using its Z-Power and attacks the target with full force. The power varies, depending on the original move."
-  },
-  "devastatingDrakeSpecial": {
-    name: "Devastating Drake",
-    effect: "Dummy Data"
-  },
-  "blackHoleEclipsePhysical": {
-    name: "Black Hole Eclipse",
-    effect: "The user gathers dark energy using its Z-Power and sucks the target into it. The power varies, depending on the original move."
-  },
-  "blackHoleEclipseSpecial": {
-    name: "Black Hole Eclipse",
-    effect: "Dummy Data"
-  },
-  "twinkleTacklePhysical": {
-    name: "Twinkle Tackle",
-    effect: "The user creates a very charming space using its Z-Power and totally toys with the target. The power varies, depending on the original move."
-  },
-  "twinkleTackleSpecial": {
-    name: "Twinkle Tackle",
-    effect: "Dummy Data"
-  },
-  "catastropika": {
-    name: "Catastropika",
-    effect: "The user, Pikachu, surrounds itself with the maximum amount of electricity using its Z-Power and pounces on its target with full force."
-  },
-  "shoreUp": {
-    name: "Shore Up",
-    effect: "The user regains up to half of its max HP. It restores more HP in a sandstorm."
-  },
-  "firstImpression": {
-    name: "First Impression",
-    effect: "Although this move has great power, it only works the first turn each time the user enters battle."
-  },
-  "banefulBunker": {
-    name: "Baneful Bunker",
-    effect: "In addition to protecting the user from attacks, this move also poisons any attacker that makes direct contact."
-  },
-  "spiritShackle": {
-    name: "Spirit Shackle",
-    effect: "The user attacks while simultaneously stitching the target's shadow to the ground to prevent the target from escaping."
-  },
-  "darkestLariat": {
-    name: "Darkest Lariat",
-    effect: "The user swings both arms and hits the target. The target's stat changes don't affect this attack's damage."
-  },
-  "sparklingAria": {
-    name: "Sparkling Aria",
-    effect: "The user bursts into song, emitting many bubbles. Any Pokémon suffering from a burn will be healed by the touch of these bubbles."
-  },
-  "iceHammer": {
-    name: "Ice Hammer",
-    effect: "The user swings and hits with its strong, heavy fist. It lowers the user's Speed, however."
-  },
-  "floralHealing": {
-    name: "Floral Healing",
-    effect: "The user restores the target's HP by up to half of its max HP. It restores more HP when the terrain is grass."
-  },
-  "highHorsepower": {
-    name: "High Horsepower",
-    effect: "The user fiercely attacks the target using its entire body."
-  },
-  "strengthSap": {
-    name: "Strength Sap",
-    effect: "The user restores its HP by the same amount as the target's Attack stat. It also lowers the target's Attack stat."
-  },
-  "solarBlade": {
-    name: "Solar Blade",
-    effect: "In this two-turn attack, the user gathers light and fills a blade with the light's energy, attacking the target on the next turn."
-  },
-  "leafage": {
-    name: "Leafage",
-    effect: "The user attacks by pelting the target with leaves."
-  },
-  "spotlight": {
-    name: "Spotlight",
-    effect: "The user shines a spotlight on the target so that only the target will be attacked during the turn."
-  },
-  "toxicThread": {
-    name: "Toxic Thread",
-    effect: "The user shoots poisonous threads to poison the target and lower the target's Speed stat."
-  },
-  "laserFocus": {
-    name: "Laser Focus",
-    effect: "The user concentrates intensely. The attack on the next turn always results in a critical hit."
-  },
-  "gearUp": {
-    name: "Gear Up",
-    effect: "The user engages its gears to raise the Attack and Sp. Atk stats of ally Pokémon with the Plus or Minus Ability."
-  },
-  "throatChop": {
-    name: "Throat Chop",
-    effect: "The user attacks the target's throat, and the resultant suffering prevents the target from using moves that emit sound for two turns."
-  },
-  "pollenPuff": {
-    name: "Pollen Puff",
-    effect: "The user attacks the enemy with a pollen puff that explodes. If the target is an ally, it gives the ally a pollen puff that restores its HP instead."
-  },
-  "anchorShot": {
-    name: "Anchor Shot",
-    effect: "The user entangles the target with its anchor chain while attacking. The target becomes unable to flee."
-  },
-  "psychicTerrain": {
-    name: "Psychic Terrain",
-    effect: "This protects Pokémon on the ground from priority moves and powers up Psychic-type moves for five turns."
-  },
-  "lunge": {
-    name: "Lunge",
-    effect: "The user makes a lunge at the target, attacking with full force. This also lowers the target's Attack stat."
-  },
-  "fireLash": {
-    name: "Fire Lash",
-    effect: "The user strikes the target with a burning lash. This also lowers the target's Defense stat."
-  },
-  "powerTrip": {
-    name: "Power Trip",
-    effect: "The user boasts its strength and attacks the target. The more the user's stats are raised, the greater the move's power."
-  },
-  "burnUp": {
-    name: "Burn Up",
-    effect: "To inflict massive damage, the user burns itself out. After using this move, the user will no longer be Fire type."
-  },
-  "speedSwap": {
-    name: "Speed Swap",
-    effect: "The user exchanges Speed stats with the target."
-  },
-  "smartStrike": {
-    name: "Smart Strike",
-    effect: "The user stabs the target with a sharp horn. This attack never misses."
-  },
-  "purify": {
-    name: "Purify",
-    effect: "The user heals the target's status condition. If the move succeeds, it also restores the user's own HP."
-  },
-  "revelationDance": {
-    name: "Revelation Dance",
-    effect: "The user attacks the target by dancing very hard. The user's type determines the type of this move."
-  },
-  "coreEnforcer": {
-    name: "Core Enforcer",
-    effect: "If the Pokémon the user has inflicted damage on have already used their moves, this move eliminates the effect of the target's Ability."
-  },
-  "tropKick": {
-    name: "Trop Kick",
-    effect: "The user lands an intense kick of tropical origins on the target. This also lowers the target's Attack stat."
-  },
-  "instruct": {
-    name: "Instruct",
-    effect: "The user instructs the target to use the target's last move again."
-  },
-  "beakBlast": {
-    name: "Beak Blast",
-    effect: "The user first heats up its beak, and then it attacks the target. Making direct contact with the Pokémon while it's heating up its beak results in a burn."
-  },
-  "clangingScales": {
-    name: "Clanging Scales",
-    effect: "The user rubs the scales on its entire body and makes a huge noise to attack opposing Pokémon. The user's Defense stat goes down after the attack."
-  },
-  "dragonHammer": {
-    name: "Dragon Hammer",
-    effect: "The user uses its body like a hammer to attack the target and inflict damage."
-  },
-  "brutalSwing": {
-    name: "Brutal Swing",
-    effect: "The user swings its body around violently to inflict damage on everything in its vicinity."
-  },
-  "auroraVeil": {
-    name: "Aurora Veil",
-    effect: "This move reduces damage from physical and special moves for five turns. This can be used only when it is snowing."
-  },
-  "sinisterArrowRaid": {
-    name: "Sinister Arrow Raid",
-    effect: "The user, Decidueye, creates countless arrows using its Z-Power and shoots the target with full force."
-  },
-  "maliciousMoonsault": {
-    name: "Malicious Moonsault",
-    effect: "The user, Incineroar, strengthens its body using its Z-Power and crashes into the target with full force."
-  },
-  "oceanicOperetta": {
-    name: "Oceanic Operetta",
-    effect: "The user, Primarina, summons a massive amount of  water using its Z-Power and attacks the target with  full force."
-  },
-  "guardianOfAlola": {
-    name: "Guardian of Alola",
-    effect: "The user, the Land Spirit Pokémon, obtains Alola's energy using its Z-Power and attacks the target with full force. This reduces the target's HP greatly."
-  },
-  "soulStealing7StarStrike": {
-    name: "Soul-Stealing 7-Star Strike",
-    effect: "After obtaining Z-Power, the user, Marshadow, punches and kicks the target consecutively with full force."
-  },
-  "stokedSparksurfer": {
-    name: "Stoked Sparksurfer",
-    effect: "After obtaining Z-Power, the user, Alolan Raichu, attacks the target with full force. This move leaves the target with paralysis."
-  },
-  "pulverizingPancake": {
-    name: "Pulverizing Pancake",
-    effect: "Z-Power brings out the true capabilities of the user, Snorlax. The Pokémon moves its enormous body energetically and attacks the target with full force."
-  },
-  "extremeEvoboost": {
-    name: "Extreme Evoboost",
-    effect: "After obtaining Z-Power, the user, Eevee, gets energy from its evolved friends and boosts its stats sharply."
-  },
-  "genesisSupernova": {
-    name: "Genesis Supernova",
-    effect: "After obtaining Z-Power, the user, Mew, attacks the target with full force. The terrain will be charged with psychic energy."
-  },
-  "shellTrap": {
-    name: "Shell Trap",
-    effect: "The user sets a shell trap. If the user is hit by a physical move, the trap will explode and inflict damage on opposing Pokémon."
-  },
-  "fleurCannon": {
-    name: "Fleur Cannon",
-    effect: "The user unleashes a strong beam. The attack's recoil harshly lowers the user's Sp. Atk stat."
-  },
-  "psychicFangs": {
-    name: "Psychic Fangs",
-    effect: "The user bites the target with its psychic capabilities. This can also destroy Light Screen and Reflect."
-  },
-  "stompingTantrum": {
-    name: "Stomping Tantrum",
-    effect: "Driven by frustration, the user attacks the target. If the user's previous move has failed, the power of this move doubles."
-  },
-  "shadowBone": {
-    name: "Shadow Bone",
-    effect: "The user attacks by beating the target with a bone that contains a spirit. This may also lower the target's Defense stat."
-  },
-  "accelerock": {
-    name: "Accelerock",
-    effect: "The user smashes into the target at high speed. This move always goes first."
-  },
-  "liquidation": {
-    name: "Liquidation",
-    effect: "The user slams into the target using a full-force blast of water. This may also lower the target's Defense stat."
-  },
-  "prismaticLaser": {
-    name: "Prismatic Laser",
-    effect: "The user shoots powerful lasers using the power of a prism. The user can't move on the next turn."
-  },
-  "spectralThief": {
-    name: "Spectral Thief",
-    effect: "The user hides in the target's shadow, steals the target's stat boosts, and then attacks."
-  },
-  "sunsteelStrike": {
-    name: "Sunsteel Strike",
-    effect: "The user slams into the target with the force of a meteor. This move can be used on the target regardless of its Abilities."
-  },
-  "moongeistBeam": {
-    name: "Moongeist Beam",
-    effect: "The user emits a sinister ray to attack the target. This move can be used on the target regardless of its Abilities."
-  },
-  "tearfulLook": {
-    name: "Tearful Look",
-    effect: "The user gets teary eyed to make the target lose its combative spirit. This lowers the target's Attack and Sp. Atk stats."
-  },
-  "zingZap": {
-    name: "Zing Zap",
-    effect: "A strong electric blast crashes down on the target, giving it an electric shock. This may also make the target flinch."
-  },
-  "naturesMadness": {
-    name: "Nature's Madness",
-    effect: "The user hits the target with the force of nature. It halves the target's HP."
-  },
-  "multiAttack": {
-    name: "Multi-Attack",
-    effect: "Cloaking itself in high energy, the user slams into the target. The memory held determines the move's type."
-  },
-  "tenMillionVoltThunderbolt": {
-    name: "10,000,000 Volt Thunderbolt",
-    effect: "The user, Pikachu wearing a cap, powers up a jolt of electricity using its Z-Power and unleashes it. Critical hits land more easily."
-  },
-  "mindBlown": {
-    name: "Mind Blown",
-    effect: "The user attacks everything around it by causing its own head to explode. This also damages the user."
-  },
-  "plasmaFists": {
-    name: "Plasma Fists",
-    effect: "The user attacks with electrically charged fists. This move changes Normal-type moves to Electric-type moves."
-  },
-  "photonGeyser": {
-    name: "Photon Geyser",
-    effect: "The user attacks a target with a pillar of light. This move inflicts Attack or Sp. Atk damage—whichever stat is higher for the user."
-  },
-  "lightThatBurnsTheSky": {
-    name: "Light That Burns the Sky",
-    effect: "This attack inflicts Attack or Sp. Atk damage—whichever stat is higher for the user, Necrozma. This move ignores the target's Ability."
-  },
-  "searingSunrazeSmash": {
-    name: "Searing Sunraze Smash",
-    effect: "After obtaining Z-Power, the user, Solgaleo, attacks the target with full force. This move can ignore the effect of the target's Ability."
-  },
-  "menacingMoonrazeMaelstrom": {
-    name: "Menacing Moonraze Maelstrom",
-    effect: "After obtaining Z-Power, the user, Lunala, attacks the target with full force. This move can ignore the effect of the target's Ability."
-  },
-  "letsSnuggleForever": {
-    name: "Let's Snuggle Forever",
-    effect: "After obtaining Z-Power, the user, Mimikyu, punches the target with full force."
-  },
-  "splinteredStormshards": {
-    name: "Splintered Stormshards",
-    effect: "After obtaining Z-Power, the user, Lycanroc, attacks the target with full force. This move negates the effect on the battlefield."
-  },
-  "clangorousSoulblaze": {
-    name: "Clangorous Soulblaze",
-    effect: "After obtaining Z-Power, the user, Kommo-o, attacks the opposing Pokémon with full force. This move boosts the user's stats."
-  },
-  "zippyZap": {
-    name: "Zippy Zap",
-    effect: "The user attacks the target with bursts of electricity at high speed. This move always goes first and results in a critical hit."
-  },
-  "splishySplash": {
-    name: "Splishy Splash",
-    effect: "The user charges a huge wave with electricity and hits the opposing Pokémon with the wave. This may also leave the opposing Pokémon with paralysis."
-  },
-  "floatyFall": {
-    name: "Floaty Fall",
-    effect: "The user floats in the air, and then dives at a steep angle to attack the target. This may also make the target flinch."
-  },
-  "pikaPapow": {
-    name: "Pika Papow",
-    effect: "The more Pikachu loves its Trainer, the greater the move's power. It never misses."
-  },
-  "bouncyBubble": {
-    name: "Bouncy Bubble",
-    effect: "The user attacks by shooting water bubbles at the target. It then absorbs water and restores its HP by half the damage taken by the target."
-  },
-  "buzzyBuzz": {
-    name: "Buzzy Buzz",
-    effect: "The user shoots a jolt of electricity to attack the target. This also leaves the target with paralysis."
-  },
-  "sizzlySlide": {
-    name: "Sizzly Slide",
-    effect: "The user cloaks itself in fire and charges at the target. This also leaves the target with a burn."
-  },
-  "glitzyGlow": {
-    name: "Glitzy Glow",
-    effect: "The user bombards the target with telekinetic force. A wondrous wall of light is put up to weaken the power of the opposing Pokémon's special moves."
-  },
-  "baddyBad": {
-    name: "Baddy Bad",
-    effect: "The user acts bad and attacks the target. A wondrous wall of light is put up to weaken the power of the opposing Pokémon's physical moves."
-  },
-  "sappySeed": {
-    name: "Sappy Seed",
-    effect: "The user grows a gigantic stalk that scatters seeds to attack the target. The seeds drain the target's HP every turn."
-  },
-  "freezyFrost": {
-    name: "Freezy Frost",
-    effect: "The user attacks with a crystal made of cold frozen haze. It eliminates every stat change among all the Pokémon engaged in battle."
-  },
-  "sparklySwirl": {
-    name: "Sparkly Swirl",
-    effect: "The user attacks the target by wrapping it with a whirlwind of an overpowering scent. This also heals all status conditions of the user's party."
-  },
-  "veeveeVolley": {
-    name: "Veevee Volley",
-    effect: "The more Eevee loves its Trainer, the greater the move's power. It never misses."
-  },
-  "doubleIronBash": {
-    name: "Double Iron Bash",
-    effect: "The user rotates, centering the hex nut in its chest, and then strikes with its arms twice in a row. This may also make the target flinch."
-  },
-  "maxGuard": {
-    name: "Max Guard",
-    effect: "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession."
-  },
-  "dynamaxCannon": {
-    name: "Dynamax Cannon",
-    effect: "The user unleashes a strong beam from its core. This move deals twice the damage if the target is over level 200."
-  },
-  "snipeShot": {
-    name: "Snipe Shot",
-    effect: "The user ignores the effects of opposing Pokémon's moves and Abilities that draw in moves, allowing this move to hit the chosen target."
-  },
-  "jawLock": {
-    name: "Jaw Lock",
-    effect: "This move prevents the user and the target from switching out until either of them faints. The effect goes away if either of the Pokémon leaves the field."
-  },
-  "stuffCheeks": {
-    name: "Stuff Cheeks",
-    effect: "The user eats its held Berry, then sharply raises its Defense stat."
-  },
-  "noRetreat": {
-    name: "No Retreat",
-    effect: "This move raises all the user's stats but prevents the user from switching out or fleeing."
-  },
-  "tarShot": {
-    name: "Tar Shot",
-    effect: "The user pours sticky tar over the target, lowering the target's Speed stat. The target becomes weaker to Fire-type moves."
-  },
-  "magicPowder": {
-    name: "Magic Powder",
-    effect: "The user scatters a cloud of magic powder that changes the target to Psychic type."
-  },
-  "dragonDarts": {
-    name: "Dragon Darts",
-    effect: "The user attacks twice using Dreepy. If there are two targets, this move hits each target once."
-  },
-  "teatime": {
-    name: "Teatime",
-    effect: "The user has teatime with all the Pokémon in the battle. Each Pokémon eats its held Berry."
-  },
-  "octolock": {
-    name: "Octolock",
-    effect: "The user locks the target in and prevents it from fleeing. This move also lowers the target's Defense and Sp. Def every turn."
-  },
-  "boltBeak": {
-    name: "Bolt Beak",
-    effect: "The user stabs the target with its electrified beak. If the user attacks before the target, the power of this move is doubled."
-  },
-  "fishiousRend": {
-    name: "Fishious Rend",
-    effect: "The user rends the target with its hard gills. If the user attacks before the target, the power of this move is doubled."
-  },
-  "courtChange": {
-    name: "Court Change",
-    effect: "With its mysterious power, the user swaps the effects on either side of the field."
-  },
-  "maxFlare": {
-    name: "Max Flare",
-    effect: "This is a Fire-type attack Dynamax Pokémon use. The user intensifies the sun for five turns."
-  },
-  "maxFlutterby": {
-    name: "Max Flutterby",
-    effect: "This is a Bug-type attack Dynamax Pokémon use. This lowers the target's Sp. Atk stat."
-  },
-  "maxLightning": {
-    name: "Max Lightning",
-    effect: "This is an Electric-type attack Dynamax Pokémon use. The user turns the ground into Electric Terrain for five turns."
-  },
-  "maxStrike": {
-    name: "Max Strike",
-    effect: "This is a Normal-type attack Dynamax Pokémon use. This lowers the target's Speed stat."
-  },
-  "maxKnuckle": {
-    name: "Max Knuckle",
-    effect: "This is a Fighting-type attack Dynamax Pokémon use. This raises ally Pokémon's Attack stats."
-  },
-  "maxPhantasm": {
-    name: "Max Phantasm",
-    effect: "This is a Ghost-type attack Dynamax Pokémon use. This lowers the target's Defense stat."
-  },
-  "maxHailstorm": {
-    name: "Max Hailstorm",
-    effect: "This is an Ice-type attack Dynamax Pokémon use. The user summons a hailstorm lasting five turns."
-  },
-  "maxOoze": {
-    name: "Max Ooze",
-    effect: "This is a Poison-type attack Dynamax Pokémon use. This raises ally Pokémon's Sp. Atk stats."
-  },
-  "maxGeyser": {
-    name: "Max Geyser",
-    effect: "This is a Water-type attack Dynamax Pokémon use. The user summons a heavy rain that falls for five turns."
-  },
-  "maxAirstream": {
-    name: "Max Airstream",
-    effect: "This is a Flying-type attack Dynamax Pokémon use. This raises ally Pokémon's Speed stats."
-  },
-  "maxStarfall": {
-    name: "Max Starfall",
-    effect: "This is a Fairy-type attack Dynamax Pokémon use. The user turns the ground into Misty Terrain for five turns."
-  },
-  "maxWyrmwind": {
-    name: "Max Wyrmwind",
-    effect: "This is a Dragon-type attack Dynamax Pokémon use. This lowers the target's Attack stat."
-  },
-  "maxMindstorm": {
-    name: "Max Mindstorm",
-    effect: "This is a Psychic-type attack Dynamax Pokémon use. The user turns the ground into Psychic Terrain for five turns."
-  },
-  "maxRockfall": {
-    name: "Max Rockfall",
-    effect: "This is a Rock-type attack Dynamax Pokémon use. The user summons a sandstorm lasting five turns."
-  },
-  "maxQuake": {
-    name: "Max Quake",
-    effect: "This is a Ground-type attack Dynamax Pokémon use. This raises ally Pokémon's Sp. Def stats."
-  },
-  "maxDarkness": {
-    name: "Max Darkness",
-    effect: "This is a Dark-type attack Dynamax Pokémon use. This lowers the target's Sp. Def stat."
-  },
-  "maxOvergrowth": {
-    name: "Max Overgrowth",
-    effect: "This is a Grass-type attack Dynamax Pokémon use. The user turns the ground into Grassy Terrain for five turns."
-  },
-  "maxSteelspike": {
-    name: "Max Steelspike",
-    effect: "This is a Steel-type attack Dynamax Pokémon use. This raises ally Pokémon's Defense stats."
-  },
-  "clangorousSoul": {
-    name: "Clangorous Soul",
-    effect: "The user raises all its stats by using some of its HP."
-  },
-  "bodyPress": {
-    name: "Body Press",
-    effect: "The user attacks by slamming its body into the target. The higher the user's Defense, the more damage it can inflict on the target."
-  },
-  "decorate": {
-    name: "Decorate",
-    effect: "The user sharply raises the target's Attack and Sp. Atk stats by decorating the target."
-  },
-  "drumBeating": {
-    name: "Drum Beating",
-    effect: "The user plays its drum, controlling the drum's roots to attack the target. This also lowers the target's Speed stat."
-  },
-  "snapTrap": {
-    name: "Snap Trap",
-    effect: "The user snares the target in a snap trap for four to five turns."
-  },
-  "pyroBall": {
-    name: "Pyro Ball",
-    effect: "The user attacks by igniting a small stone and launching it as a fiery ball at the target. This may also leave the target with a burn."
-  },
-  "behemothBlade": {
-    name: "Behemoth Blade",
-    effect: "The user wields a large, powerful sword using its whole body and cuts the target in a vigorous attack."
-  },
-  "behemothBash": {
-    name: "Behemoth Bash",
-    effect: "The user's body becomes a firm shield and slams into the target fiercely."
-  },
-  "auraWheel": {
-    name: "Aura Wheel",
-    effect: "Morpeko attacks and raises its Speed with the energy stored in its cheeks. This move's type changes depending on the user's form."
-  },
-  "breakingSwipe": {
-    name: "Breaking Swipe",
-    effect: "The user swings its tough tail wildly and attacks opposing Pokémon. This also lowers their Attack stats."
-  },
-  "branchPoke": {
-    name: "Branch Poke",
-    effect: "The user attacks the target by poking it with a sharply pointed branch."
-  },
-  "overdrive": {
-    name: "Overdrive",
-    effect: "The user attacks opposing Pokémon by twanging a guitar or bass guitar, causing a huge echo and strong vibration."
-  },
-  "appleAcid": {
-    name: "Apple Acid",
-    effect: "The user attacks the target with an acidic liquid created from tart apples. This also lowers the target's Sp. Def stat."
-  },
-  "gravApple": {
-    name: "Grav Apple",
-    effect: "The user inflicts damage by dropping an apple from high above. This also lowers the target's Defense stat."
-  },
-  "spiritBreak": {
-    name: "Spirit Break",
-    effect: "The user attacks the target with so much force that it could break the target's spirit. This also lowers the target's Sp. Atk stat."
-  },
-  "strangeSteam": {
-    name: "Strange Steam",
-    effect: "The user attacks the target by emitting steam. This may also confuse the target."
-  },
-  "lifeDew": {
-    name: "Life Dew",
-    effect: "The user scatters mysterious water around and restores the HP of itself and its ally Pokémon in the battle."
-  },
-  "obstruct": {
-    name: "Obstruct",
-    effect: "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession. Direct contact harshly lowers the attacker's Defense stat."
-  },
-  "falseSurrender": {
-    name: "False Surrender",
-    effect: "The user pretends to bow its head, but then it stabs the target with its disheveled hair. This attack never misses."
-  },
-  "meteorAssault": {
-    name: "Meteor Assault",
-    effect: "The user attacks wildly with its thick leek. The user can't move on the next turn, because the force of this move makes it stagger."
-  },
-  "eternabeam": {
-    name: "Eternabeam",
-    effect: "This is Eternatus's most powerful attack in its original form. The user can't move on the next turn."
-  },
-  "steelBeam": {
-    name: "Steel Beam",
-    effect: "The user fires a beam of steel that it collected from its entire body. This also damages the user."
-  },
-  "expandingForce": {
-    name: "Expanding Force",
-    effect: "The user attacks the target with its psychic power. This move's power goes up and damages all opposing Pokémon on Psychic Terrain."
-  },
-  "steelRoller": {
-    name: "Steel Roller",
-    effect: "The user attacks while destroying the terrain. This move fails when the ground hasn't turned into a terrain."
-  },
-  "scaleShot": {
-    name: "Scale Shot",
-    effect: "The user attacks by shooting scales two to five times in a row. This move boosts the user's Speed stat but lowers its Defense stat."
-  },
-  "meteorBeam": {
-    name: "Meteor Beam",
-    effect: "In this two-turn attack, the user gathers space power and boosts its Sp. Atk stat, then attacks the target on the next turn."
-  },
-  "shellSideArm": {
-    name: "Shell Side Arm",
-    effect: "This move inflicts physical or special damage, whichever will be more effective. This may also poison the target."
-  },
-  "mistyExplosion": {
-    name: "Misty Explosion",
-    effect: "The user attacks everything around it and faints upon using this move. This move's power is increased on Misty Terrain."
-  },
-  "grassyGlide": {
-    name: "Grassy Glide",
-    effect: "Gliding on the ground, the user attacks the target. This move always goes first on Grassy Terrain."
-  },
-  "risingVoltage": {
-    name: "Rising Voltage",
-    effect: "The user attacks with electric voltage rising from the ground. This move's power doubles when the target is on Electric Terrain."
-  },
-  "terrainPulse": {
-    name: "Terrain Pulse",
-    effect: "The user utilizes the power of the terrain to attack. This move's type and power changes depending on the terrain when it's used."
-  },
-  "skitterSmack": {
-    name: "Skitter Smack",
-    effect: "The user skitters behind the target to attack. This also lowers the target's Sp. Atk stat."
-  },
-  "burningJealousy": {
-    name: "Burning Jealousy",
-    effect: "The user attacks with energy from jealousy. This leaves all opposing Pokémon that have had their stats boosted during the turn with a burn."
-  },
-  "lashOut": {
-    name: "Lash Out",
-    effect: "The user lashes out to vent its frustration toward the target. If the user's stats were lowered during this turn, the power of this move is doubled."
-  },
-  "poltergeist": {
-    name: "Poltergeist",
-    effect: "The user attacks the target by controlling the target's item. The move fails if the target doesn't have an item."
-  },
-  "corrosiveGas": {
-    name: "Corrosive Gas",
-    effect: "The user surrounds everything around it with highly acidic gas and melts away items they hold."
-  },
-  "coaching": {
-    name: "Coaching",
-    effect: "The user properly coaches its ally Pokémon, boosting their Attack and Defense stats."
-  },
-  "flipTurn": {
-    name: "Flip Turn",
-    effect: "After making its attack, the user rushes back to switch places with a party Pokémon in waiting."
-  },
-  "tripleAxel": {
-    name: "Triple Axel",
-    effect: "A consecutive three-kick attack that becomes more powerful with each successful hit."
-  },
-  "dualWingbeat": {
-    name: "Dual Wingbeat",
-    effect: "The user slams the target with its wings. The target is hit twice in a row."
-  },
-  "scorchingSands": {
-    name: "Scorching Sands",
-    effect: "The user throws scorching sand at the target to attack. This may also leave the target with a burn."
-  },
-  "jungleHealing": {
-    name: "Jungle Healing",
-    effect: "The user becomes one with the jungle, restoring HP and healing any status conditions of itself and its ally Pokémon in battle."
-  },
-  "wickedBlow": {
-    name: "Wicked Blow",
-    effect: "The user, having mastered the Dark style, strikes the target with a fierce blow. This attack always results in a critical hit."
-  },
-  "surgingStrikes": {
-    name: "Surging Strikes",
-    effect: "The user, having mastered the Water style, strikes the target with a flowing motion three times in a row. This attack always results in a critical hit."
-  },
-  "thunderCage": {
-    name: "Thunder Cage",
-    effect: "The user traps the target in a cage of sparking electricity for four to five turns."
-  },
-  "dragonEnergy": {
-    name: "Dragon Energy",
-    effect: "Converting its life-force into power, the user attacks opposing Pokémon. The lower the user's HP, the lower the move's power."
-  },
-  "freezingGlare": {
-    name: "Freezing Glare",
-    effect: "The user shoots its psychic power from its eyes to attack. This may also leave the target frozen."
-  },
-  "fieryWrath": {
-    name: "Fiery Wrath",
-    effect: "The user transforms its wrath into a fire-like aura to attack. This may also make opposing Pokémon flinch."
-  },
-  "thunderousKick": {
-    name: "Thunderous Kick",
-    effect: "The user overwhelms the target with lightning-like movement before delivering a kick. This also lowers the target's Defense stat."
-  },
-  "glacialLance": {
-    name: "Glacial Lance",
-    effect: "The user attacks by hurling a blizzard-cloaked icicle lance at opposing Pokémon."
-  },
-  "astralBarrage": {
-    name: "Astral Barrage",
-    effect: "The user attacks by sending a frightful amount of small ghosts at opposing Pokémon."
-  },
-  "eerieSpell": {
-    name: "Eerie Spell",
-    effect: "The user attacks with its tremendous psychic power. This also removes 3 PP from the target's last move."
-  },
-  "direClaw": {
-    name: "Dire Claw",
-    effect: "The user lashes out at the target with ruinous claws. This may also leave the target poisoned, paralyzed, or asleep."
-  },
-  "psyshieldBash": {
-    name: "Psyshield Bash",
-    effect: "Cloaking itself in psychic energy, the user slams into the target. This also boosts the user's Defense stat."
-  },
-  "powerShift": {
-    name: "Power Shift",
-    effect: "The user swaps its Attack and Defense stats."
-  },
-  "stoneAxe": {
-    name: "Stone Axe",
-    effect: "The user swings its stone axes at the target. Stone splinters left behind by this attack float around the target."
-  },
-  "springtideStorm": {
-    name: "Springtide Storm",
-    effect: "The user attacks by wrapping opposing Pokémon in fierce winds brimming with love and hate. This may also lower their Attack stats."
-  },
-  "mysticalPower": {
-    name: "Mystical Power",
-    effect: "The user attacks by emitting a mysterious power. This also boosts the user's Sp. Atk stat."
-  },
-  "ragingFury": {
-    name: "Raging Fury",
-    effect: "The user rampages around spewing flames for two to three turns. The user then becomes confused."
-  },
-  "waveCrash": {
-    name: "Wave Crash",
-    effect: "The user shrouds itself in water and slams into the target with its whole body to inflict damage. This also damages the user quite a lot."
-  },
-  "chloroblast": {
-    name: "Chloroblast",
-    effect: "The user launches its amassed chlorophyll to inflict damage on the target. This also damages the user."
-  },
-  "mountainGale": {
-    name: "Mountain Gale",
-    effect: "The user hurls giant chunks of ice at the target to inflict damage. This may also make the target flinch."
-  },
-  "victoryDance": {
-    name: "Victory Dance",
-    effect: "The user performs an intense dance to usher in victory, boosting its Attack, Defense, and Speed stats."
-  },
-  "headlongRush": {
-    name: "Headlong Rush",
-    effect: "The user smashes into the target in a full-body tackle. This also lowers the user's Defense and Sp. Def stats."
-  },
-  "barbBarrage": {
-    name: "Barb Barrage",
-    effect: "The user launches countless toxic barbs to inflict damage. This may also poison the target. This move's power is doubled if the target is already poisoned."
-  },
-  "esperWing": {
-    name: "Esper Wing",
-    effect: "The user slashes the target with aura-enriched wings. This also boosts the user's Speed stat. This move has a heightened chance of landing a critical hit."
-  },
-  "bitterMalice": {
-    name: "Bitter Malice",
-    effect: "The user attacks the target with spine-chilling resentment. This also lowers the target's Attack stat."
-  },
-  "shelter": {
-    name: "Shelter",
-    effect: "The user makes its skin as hard as an iron shield, sharply boosting its Defense stat."
-  },
-  "tripleArrows": {
-    name: "Triple Arrows",
-    effect: "The user kicks, then fires three arrows. This move has a heightened chance of landing a critical hit and may also lower the target's Defense stat or make it flinch."
-  },
-  "infernalParade": {
-    name: "Infernal Parade",
-    effect: "The user attacks with myriad fireballs. This may also leave the target with a burn. This move's power is doubled if the target has a status condition."
-  },
-  "ceaselessEdge": {
-    name: "Ceaseless Edge",
-    effect: "The user slashes its shell blade at the target. Shell splinters left behind by this attack remain scattered under the target as spikes."
-  },
-  "bleakwindStorm": {
-    name: "Bleakwind Storm",
-    effect: "The user attacks with savagely cold winds that cause both body and spirit to tremble. This may also lower the Speed stats of opposing Pokémon."
-  },
-  "wildboltStorm": {
-    name: "Wildbolt Storm",
-    effect: "The user summons a thunderous tempest and savagely attacks with lightning and wind. This may also leave opposing Pokémon with paralysis."
-  },
-  "sandsearStorm": {
-    name: "Sandsear Storm",
-    effect: "The user attacks by wrapping opposing Pokémon in fierce winds and searingly hot sand. This may also leave them with a burn."
-  },
-  "lunarBlessing": {
-    name: "Lunar Blessing",
-    effect: "The user receives a blessing from the crescent moon, restoring HP and curing status conditions for itself and its ally Pokémon currently in the battle."
-  },
-  "takeHeart": {
-    name: "Take Heart",
-    effect: "The user lifts its spirits, curing its own status conditions and boosting its Sp. Atk and Sp. Def stats."
-  },
-  "gMaxWildfire": {
-    name: "G-Max Wildfire",
-    effect: "A Fire-type attack that Gigantamax Charizard use. This move continues to deal damage to opponents for four turns."
-  },
-  "gMaxBefuddle": {
-    name: "G-Max Befuddle",
-    effect: "A Bug-type attack that Gigantamax Butterfree use. This move inflicts the poisoned, paralyzed, or asleep status condition on opponents."
-  },
-  "gMaxVoltCrash": {
-    name: "G-Max Volt Crash",
-    effect: "An Electric-type attack that Gigantamax Pikachu use. This move paralyzes opponents."
-  },
-  "gMaxGoldRush": {
-    name: "G-Max Gold Rush",
-    effect: "A Normal-type attack that Gigantamax Meowth use. This move confuses opponents and also earns extra money."
-  },
-  "gMaxChiStrike": {
-    name: "G-Max Chi Strike",
-    effect: "A Fighting-type attack that Gigantamax Machamp use. This move raises the chance of critical hits."
-  },
-  "gMaxTerror": {
-    name: "G-Max Terror",
-    effect: "A Ghost-type attack that Gigantamax Gengar use. This Pokémon steps on the opposing Pokémon's shadow to prevent them from escaping."
-  },
-  "gMaxResonance": {
-    name: "G-Max Resonance",
-    effect: "An Ice-type attack that Gigantamax Lapras use. This move reduces the damage received for five turns."
-  },
-  "gMaxCuddle": {
-    name: "G-Max Cuddle",
-    effect: "A Normal-type attack that Gigantamax Eevee use. This move infatuates opponents."
-  },
-  "gMaxReplenish": {
-    name: "G-Max Replenish",
-    effect: "A Normal-type attack that Gigantamax Snorlax use. This move restores Berries that have been eaten."
-  },
-  "gMaxMalodor": {
-    name: "G-Max Malodor",
-    effect: "A Poison-type attack that Gigantamax Garbodor use. This move poisons opponents."
-  },
-  "gMaxStonesurge": {
-    name: "G-Max Stonesurge",
-    effect: "A Water-type attack that Gigantamax Drednaw use. This move scatters sharp rocks around the field."
-  },
-  "gMaxWindRage": {
-    name: "G-Max Wind Rage",
-    effect: "A Flying-type attack that Gigantamax Corviknight use. This move removes the effects of moves like Reflect and Light Screen."
-  },
-  "gMaxStunShock": {
-    name: "G-Max Stun Shock",
-    effect: "An Electric-type attack that Gigantamax Toxtricity use. This move poisons or paralyzes opponents."
-  },
-  "gMaxFinale": {
-    name: "G-Max Finale",
-    effect: "A Fairy-type attack that Gigantamax Alcremie use. This move heals the HP of allies."
-  },
-  "gMaxDepletion": {
-    name: "G-Max Depletion",
-    effect: "A Dragon-type attack that Gigantamax Duraludon use. Reduces the PP of the last move used."
-  },
-  "gMaxGravitas": {
-    name: "G-Max Gravitas",
-    effect: "A Psychic-type attack that Gigantamax Orbeetle use. This move changes gravity for five turns."
-  },
-  "gMaxVolcalith": {
-    name: "G-Max Volcalith",
-    effect: "A Rock-type attack that Gigantamax Coalossal use. This move continues to deal damage to opponents for four turns."
-  },
-  "gMaxSandblast": {
-    name: "G-Max Sandblast",
-    effect: "A Ground-type attack that Gigantamax Sandaconda use. Opponents are trapped in a raging sandstorm for four to five turns."
-  },
-  "gMaxSnooze": {
-    name: "G-Max Snooze",
-    effect: "A Dark-type attack that Gigantamax Grimmsnarl use. The user lets loose a huge yawn that lulls the targets into falling asleep on the next turn."
-  },
-  "gMaxTartness": {
-    name: "G-Max Tartness",
-    effect: "A Grass-type attack that Gigantamax Flapple use. This move reduces the opponents' evasiveness."
-  },
-  "gMaxSweetness": {
-    name: "G-Max Sweetness",
-    effect: "A Grass-type attack that Gigantamax Appletun use. This move heals the status conditions of allies."
-  },
-  "gMaxSmite": {
-    name: "G-Max Smite",
-    effect: "A Fairy-type attack that Gigantamax Hatterene use. This move confuses opponents."
-  },
-  "gMaxSteelsurge": {
-    name: "G-Max Steelsurge",
-    effect: "A Steel-type attack that Gigantamax Copperajah use. This move scatters sharp spikes around the field."
-  },
-  "gMaxMeltdown": {
-    name: "G-Max Meltdown",
-    effect: "A Steel-type attack that Gigantamax Melmetal use. This move makes opponents incapable of using the same move twice in a row."
-  },
-  "gMaxFoamBurst": {
-    name: "G-Max Foam Burst",
-    effect: "A Water-type attack that Gigantamax Kingler use. This move harshly lowers the Speed of opponents."
-  },
-  "gMaxCentiferno": {
-    name: "G-Max Centiferno",
-    effect: "A Fire-type attack that Gigantamax Centiskorch use. This move traps opponents in flames for four to five turns."
-  },
-  "gMaxVineLash": {
-    name: "G-Max Vine Lash",
-    effect: "A Grass-type attack that Gigantamax Venusaur use. This move continues to deal damage to opponents for four turns."
-  },
-  "gMaxCannonade": {
-    name: "G-Max Cannonade",
-    effect: "A Water-type attack that Gigantamax Blastoise use. This move continues to deal damage to opponents for four turns."
-  },
-  "gMaxDrumSolo": {
-    name: "G-Max Drum Solo",
-    effect: "A Grass-type attack that Gigantamax Rillaboom use. This move can be used on the target regardless of its Abilities."
-  },
-  "gMaxFireball": {
-    name: "G-Max Fireball",
-    effect: "A Fire-type attack that Gigantamax Cinderace use. This move can be used on the target regardless of its Abilities."
-  },
-  "gMaxHydrosnipe": {
-    name: "G-Max Hydrosnipe",
-    effect: "A Water-type attack that Gigantamax Inteleon use. This move can be used on the target regardless of its Abilities."
-  },
-  "gMaxOneBlow": {
-    name: "G-Max One Blow",
-    effect: "A Dark-type attack that Gigantamax Urshifu use. This single-strike move can ignore Max Guard."
-  },
-  "gMaxRapidFlow": {
-    name: "G-Max Rapid Flow",
-    effect: "A Water-type attack that Gigantamax Urshifu use. This rapid-strike move can ignore Max Guard."
-  },
-  "teraBlast": {
-    name: "Tera Blast",
-    effect: "If the user has Terastallized, it unleashes energy of its Tera Type. This move inflicts damage using the Attack or Sp. Atk stat-whichever is higher for the user."
-  },
-  "silkTrap": {
-    name: "Silk Trap",
-    effect: "The user spins a silken trap, protecting itself from damage while lowering the Speed stat of any attacker that makes direct contact."
-  },
-  "axeKick": {
-    name: "Axe Kick",
-    effect: "The user attacks by kicking up into the air and slamming its heel down upon the target. This may also confuse the target. If it misses, the user takes damage instead."
-  },
-  "lastRespects": {
-    name: "Last Respects",
-    effect: "The user attacks to avenge its allies. The more defeated allies there are in the user's party, the greater the move's power."
-  },
-  "luminaCrash": {
-    name: "Lumina Crash",
-    effect: "The user attacks by unleashing a peculiar light that even affects the mind. This also harshly lowers the target's Sp. Def stat."
-  },
-  "orderUp": {
-    name: "Order Up",
-    effect: "The user attacks with elegant poise. If the user has a Tatsugiri in its mouth, this move boosts one of the user's stats based on the Tatsugiri's form."
-  },
-  "jetPunch": {
-    name: "Jet Punch",
-    effect: "The user summons a torrent around its fist and punches at blinding speed. This move always goes first."
-  },
-  "spicyExtract": {
-    name: "Spicy Extract",
-    effect: "The user emits an incredibly spicy extract, sharply boosting the target's Attack stat and harshly lowering the target's Defense stat."
-  },
-  "spinOut": {
-    name: "Spin Out",
-    effect: "The user spins furiously by straining its legs, inflicting damage on the target. This also harshly lowers the user's Speed stat."
-  },
-  "populationBomb": {
-    name: "Population Bomb",
-    effect: "The user's fellows gather in droves to perform a combo attack that hits the target one to ten times in a row."
-  },
-  "iceSpinner": {
-    name: "Ice Spinner",
-    effect: "The user covers its feet in thin ice and twirls around, slamming into the target. This move's spinning motion also destroys the terrain."
-  },
-  "glaiveRush": {
-    name: "Glaive Rush",
-    effect: "The user throws its entire body into a reckless charge. After this move is used, attacks on the user cannot miss and will inflict double damage until the user's next turn."
-  },
-  "revivalBlessing": {
-    name: "Revival Blessing",
-    effect: "The user bestows a loving blessing, reviving a party Pokémon that has fainted and restoring half that Pokémon's max HP."
-  },
-  "saltCure": {
-    name: "Salt Cure",
-    effect: "The user salt cures the target, inflicting damage every turn. Steel and Water types are more strongly affected by this move."
-  },
-  "tripleDive": {
-    name: "Triple Dive",
-    effect: "The user performs a perfectly timed triple dive, hitting the target with splashes of water three times in a row."
-  },
-  "mortalSpin": {
-    name: "Mortal Spin",
-    effect: "The user performs a spin attack that can also eliminate the effects of such moves as Bind, Wrap, and Leech Seed. This also poisons opposing Pokémon."
-  },
-  "doodle": {
-    name: "Doodle",
-    effect: "The user captures the very essence of the target in a sketch. This changes the Abilities of the user and its ally Pokémon to that of the target."
-  },
-  "filletAway": {
-    name: "Fillet Away",
-    effect: "The user sharply boosts its Attack, Sp. Atk, and Speed stats by using its own HP."
-  },
-  "kowtowCleave": {
-    name: "Kowtow Cleave",
-    effect: "The user slashes at the target after kowtowing to make the target let down its guard. This attack never misses."
-  },
-  "flowerTrick": {
-    name: "Flower Trick",
-    effect: "The user throws a rigged bouquet of flowers at the target. This attack never misses and always lands a critical hit."
-  },
-  "torchSong": {
-    name: "Torch Song",
-    effect: "The user blows out raging flames as if singing a song, scorching the target. This also boosts the user's Sp. Atk stat."
-  },
-  "aquaStep": {
-    name: "Aqua Step",
-    effect: "The user toys with the target and attacks it using light and fluid dance steps. This also boosts the user's Speed stat."
-  },
-  "ragingBull": {
-    name: "Raging Bull",
-    effect: "The user performs a tackle like a raging bull. This move's type depends on the user's form. It can also break barriers, such as Light Screen and Reflect."
-  },
-  "makeItRain": {
-    name: "Make It Rain",
-    effect: "The user attacks by throwing out a mass of coins. This also lowers the user's Sp. Atk stat. Money is earned after the battle."
-  },
-  "psyblade": {
-    name: "Psyblade",
-    effect: "The user rends the target with an ethereal blade. This move's power is boosted by 50 percent if the user is on Electric Terrain."
-  },
-  "hydroSteam": {
-    name: "Hydro Steam",
-    effect: "The user blasts the target with boiling-hot water. This move's power is not lowered in harsh sunlight but rather boosted by 50 percent."
-  },
-  "ruination": {
-    name: "Ruination",
-    effect: "The user summons a ruinous disaster. This cuts the target's HP in half."
-  },
-  "collisionCourse": {
-    name: "Collision Course",
-    effect: "The user transforms and crashes to the ground, causing a massive prehistoric explosion. This move's power is boosted more than usual if it's a supereffective hit."
-  },
-  "electroDrift": {
-    name: "Electro Drift",
-    effect: "The user races forward at ultrafast speeds, piercing its target with futuristic electricity. This move's power is boosted more than usual if it's a supereffective hit."
-  },
-  "shedTail": {
-    name: "Shed Tail",
-    effect: "The user creates a substitute for itself using its own HP before switching places with a party Pokémon in waiting."
-  },
-  "chillyReception": {
-    name: "Chilly Reception",
-    effect: "The user tells a chillingly bad joke before switching places with a party Pokémon in waiting. This summons a snowstorm lasting five turns."
-  },
-  "tidyUp": {
-    name: "Tidy Up",
-    effect: "The user tidies up and removes the effects of Spikes, Stealth Rock, Sticky Web, Toxic Spikes, and Substitute. This also boosts the user's Attack and Speed stats."
-  },
-  "snowscape": {
-    name: "Snowscape",
-    effect: "The user summons a snowstorm lasting five turns. This boosts the Defense stats of Ice types."
-  },
-  "pounce": {
-    name: "Pounce",
-    effect: "The user attacks by pouncing on the target. This also lowers the target's Speed stat."
-  },
-  "trailblaze": {
-    name: "Trailblaze",
-    effect: "The user attacks suddenly as if leaping out from tall grass. The user's nimble footwork boosts its Speed stat."
-  },
-  "chillingWater": {
-    name: "Chilling Water",
-    effect: "The user attacks the target by showering it with water that's so cold it saps the target's power. This also lowers the target's Attack stat."
-  },
-  "hyperDrill": {
-    name: "Hyper Drill",
-    effect: "The user spins the pointed part of its body at high speed to pierce the target. This attack can hit a target using a move such as Protect or Detect."
-  },
-  "twinBeam": {
-    name: "Twin Beam",
-    effect: "The user shoots mystical beams from its eyes to inflict damage. The target is hit twice in a row."
-  },
-  "rageFist": {
-    name: "Rage Fist",
-    effect: "The user converts its rage into energy to attack. The more times the user has been hit by attacks, the greater the move's power."
-  },
-  "armorCannon": {
-    name: "Armor Cannon",
-    effect: "The user shoots its own armor out as blazing projectiles. This also lowers the user's Defense and Sp. Def stats."
-  },
-  "bitterBlade": {
-    name: "Bitter Blade",
-    effect: "The user focuses its bitter feelings toward the world of the living into a slashing attack. The user's HP is restored by up to half the damage taken by the target."
-  },
-  "doubleShock": {
-    name: "Double Shock",
-    effect: "The user discharges all the electricity from its body to perform a high-damage attack. After using this move, the user will no longer be Electric type."
-  },
-  "gigatonHammer": {
-    name: "Gigaton Hammer",
-    effect: "The user swings its whole body around to attack with its huge hammer. This move can't be used twice in a row."
-  },
-  "comeuppance": {
-    name: "Comeuppance",
-    effect: "The user retaliates with much greater force against the opponent that last inflicted damage on it."
-  },
-  "aquaCutter": {
-    name: "Aqua Cutter",
-    effect: "The user expels pressurized water to cut at the target like a blade. This move has a heightened chance of landing a critical hit."
-  },
-  "blazingTorque": {
-    name: "Blazing Torque",
-    effect: "The user revs their blazing engine into the target. This may also leave the target with a burn."
-  },
-  "wickedTorque": {
-    name: "Wicked Torque",
-    effect: "The user revs their engine into the target with malicious intent. This may put the target to sleep."
-  },
-  "noxiousTorque": {
-    name: "Noxious Torque",
-    effect: "The user revs their poisonous engine into the target. This may also poison the target."
-  },
-  "combatTorque": {
-    name: "Combat Torque",
-    effect: "The user revs their engine forcefully into the target. This may also leave the target with paralysis."
-  },
-  "magicalTorque": {
-    name: "Magical Torque",
-    effect: "The user revs their fae-like engine into the target. This may also confuse the target."
-  },
-  "bloodMoon": {
-    name: "Blood Moon",
-    effect: "The user unleashes the full brunt of its spirit from a full moon that shines as red as blood. This move can't be used twice in a row."
-  },
-  "matchaGotcha": {
-    name: "Matcha Gotcha",
-    effect: "The user fires a blast of tea that it mixed. The user's HP is restored by up to half the damage taken by the target. This may also leave the target with a burn."
-  },
-  "syrupBomb": {
-    name: "Syrup Bomb",
-    effect: "The user sets off an explosion of sticky candy syrup, which coats the target and causes the target's Speed stat to drop each turn for three turns."
-  },
-  "ivyCudgel": {
-    name: "Ivy Cudgel",
-    effect: "The user strikes with an ivy-wrapped cudgel. This move's type changes depending on the mask worn by the user, and it has a heightened chance of landing a critical hit."
-  },
-  "electroShot": {
-    name: "Electro Shot",
-    effect: "The user gathers electricity on the first turn, boosting its Sp. Atk stat, then fires a high-voltage shot on the next turn. The shot will be fired immediately in rain."
-  },
-  "teraStarstorm": {
-    name: "Tera Starstorm",
-    effect: "With the power of its crystals, the user bombards and eliminates the target. When used by Terapagos in its Stellar Form, this move damages all opposing Pokémon."
-  },
-  "fickleBeam": {
-    name: "Fickle Beam",
-    effect: "The user shoots a beam of light to inflict damage. Sometimes all the user's heads shoot beams in unison, doubling the move's power."
-  },
-  "burningBulwark": {
-    name: "Burning Bulwark",
-    effect: "The user's intensely hot fur protects it from attacks and also burns any attacker that makes direct contact with it."
-  },
-  "thunderclap": {
-    name: "Thunderclap",
-    effect: "This move enables the user to attack first with a jolt of electricity. This move fails if the target is not readying an attack."
-  },
-  "mightyCleave": {
-    name: "Mighty Cleave",
-    effect: "The user wields the light that has accumulated atop its head to cleave the target. This move hits even if the target protects itself."
-  },
-  "tachyonCutter": {
-    name: "Tachyon Cutter",
-    effect: "The user attacks by launching particle blades at the target twice in a row. This attack never misses."
-  },
-  "hardPress": {
-    name: "Hard Press",
-    effect: "The target is crushed with an arm, a claw, or the like to inflict damage. The more HP the target has left, the greater the move's power."
-  },
-  "dragonCheer": {
-    name: "Dragon Cheer",
-    effect: "The user raises its allies' morale with a draconic cry so that their future attacks have a heightened chance of landing critical hits. This rouses Dragon types more."
-  },
-  "alluringVoice": {
-    name: "Alluring Voice",
-    effect: "The user attacks the target using its angelic voice. This also confuses the target if its stats have been boosted during the turn."
-  },
-  "temperFlare": {
-    name: "Temper Flare",
-    effect: "Spurred by desperation, the user attacks the target. This move's power is doubled if the user's previous move failed."
-  },
-  "supercellSlam": {
-    name: "Supercell Slam",
-    effect: "The user electrifies its body and drops onto the target to inflict damage. If this move misses, the user takes damage instead."
-  },
-  "psychicNoise": {
-    name: "Psychic Noise",
-    effect: "The user attacks the target with unpleasant sound waves. For two turns, the target is prevented from recovering HP through moves, Abilities, or held items."
-  },
-  "upperHand": {
-    name: "Upper Hand",
-    effect: "The user reacts to the target's movement and strikes with the heel of its palm, making the target flinch. This move fails if the target is not readying a priority move."
-  },
-  "malignantChain": {
-    name: "Malignant Chain",
-    effect: "The user pours toxins into the target by wrapping them in a toxic, corrosive chain. This may also leave the target badly poisoned."
-  }
+    pound: { name: "拍擊", effect: "使用長長的尾巴或手等拍打\n對手進行攻擊" },
+    karateChop: {
+        name: "空手劈",
+        effect: "用鋒利的手刀劈向對手進行\n攻擊。容易擊中要害",
+    },
+    doubleSlap: {
+        name: "連環巴掌",
+        effect: "用連環巴掌拍打對手進行攻\n擊。連續攻擊２～５次",
+    },
+    cometPunch: {
+        name: "連續拳",
+        effect: "用拳頭怒濤般的毆打對手進\n行攻擊。連續攻擊２～５次",
+    },
+    megaPunch: { name: "百萬噸重拳", effect: "用充滿力量的拳頭攻擊對手" },
+    payDay: {
+        name: "聚寶功",
+        effect: "向對手的身體投擲小金幣進\n行攻擊。戰鬥後可以拿到錢",
+    },
+    firePunch: {
+        name: "火焰拳",
+        effect: "用充滿火焰的拳頭攻擊對手。\n有時會讓對手陷入灼傷狀\n態",
+    },
+    icePunch: {
+        name: "冰凍拳",
+        effect: "用充滿寒氣的拳頭攻擊對手。\n有時會讓對手陷入冰凍狀\n態",
+    },
+    thunderPunch: {
+        name: "雷電拳",
+        effect: "用充滿電流的拳頭攻擊對手。\n有時會讓對手陷入麻痹狀\n態",
+    },
+    scratch: { name: "抓", effect: "用堅硬且無比鋒利的爪子抓\n對手進行攻擊" },
+    viseGrip: { name: "夾住", effect: "將對手從兩側夾住，給予傷\n害" },
+    guillotine: {
+        name: "極落鉗",
+        effect: "用大鉗子或剪刀等夾斷對手\n進行攻擊。只要命中就會一\n擊昏厥",
+    },
+    razorWind: {
+        name: "旋風刀",
+        effect: "製造風之刃，於第２回合攻\n擊對手。容易擊中要害",
+    },
+    swordsDance: {
+        name: "劍舞",
+        effect: "激烈地跳起戰舞提高氣勢。\n大幅提高自己的攻擊",
+    },
+    cut: { name: "居合劈", effect: "用鐮刀或爪子等切斬對手進\n行攻擊" },
+    gust: { name: "起風", effect: "用翅膀將颳起的狂風襲向對\n手進行攻擊" },
+    wingAttack: {
+        name: "翅膀攻擊",
+        effect: "大大地展開美麗的翅膀，將\n其撞向對手進行攻擊",
+    },
+    whirlwind: {
+        name: "吹飛",
+        effect: "吹飛對手，強制拉後備寶可\n夢上場。如果對手爲野生寶\n可夢，戰鬥將直接結束",
+    },
+    fly: { name: "飛翔", effect: "第１回合飛上天空，第２回\n合攻擊對手" },
+    bind: {
+        name: "綁緊",
+        effect: "使用長長的身體或藤蔓等，\n在４～５回合內綁緊對手進\n行攻擊",
+    },
+    slam: { name: "摔打", effect: "使用長長的尾巴或藤蔓等摔\n打對手進行攻擊" },
+    vineWhip: {
+        name: "藤鞭",
+        effect: "用如同鞭子般彎曲而細長的\n藤蔓摔打對手進行攻擊",
+    },
+    stomp: {
+        name: "踩踏",
+        effect: "用大腳踩踏對手進行攻擊。\n有時會使對手畏縮",
+    },
+    doubleKick: {
+        name: "二連踢",
+        effect: "用２只腳踢飛對手進行攻擊。\n連續２次給予傷害",
+    },
+    megaKick: {
+        name: "百萬噸重踢",
+        effect: "使出力大無窮的重踢踢飛對\n手進行攻擊",
+    },
+    jumpKick: {
+        name: "飛踢",
+        effect: "使出高高的騰空踢攻擊對手。\n如果踢偏則自己會受到傷\n害",
+    },
+    rollingKick: {
+        name: "迴旋踢",
+        effect: "一邊使身體快速旋轉，一邊\n踢飛對手進行攻擊。有時會\n使對手畏縮",
+    },
+    sandAttack: { name: "潑沙", effect: "向對手臉上潑沙子，從而降\n低命中率" },
+    headbutt: {
+        name: "頭錘",
+        effect: "將頭伸出，筆直地撲向對手\n進行攻擊。有時會使對手畏\n縮",
+    },
+    hornAttack: { name: "角撞", effect: "用尖銳的角攻擊對手" },
+    furyAttack: {
+        name: "亂擊",
+        effect: "用角或喙刺向對手進行攻擊。\n連續攻擊２～５次",
+    },
+    hornDrill: {
+        name: "角鑽",
+        effect: "用旋轉的角刺入對手進行攻\n擊。只要命中就會一擊昏厥",
+    },
+    tackle: { name: "撞擊", effect: "用整個身體撞向對手進行攻\n擊" },
+    bodySlam: {
+        name: "泰山壓頂",
+        effect: "用整個身體壓住對手進行攻\n擊。有時會讓對手陷入麻痹\n狀態",
+    },
+    wrap: {
+        name: "緊束",
+        effect: "使用長長的身體或藤蔓等，\n在４～５回合內緊束對手進\n行攻擊",
+    },
+    takeDown: {
+        name: "猛撞",
+        effect: "以驚人的氣勢撞向對手進行\n攻擊。自己也會受到少許傷\n害",
+    },
+    thrash: {
+        name: "大鬧一番",
+        effect: "在２～３回合內，亂打一氣\n地攻擊對手。大鬧一番後自\n己會陷入混亂",
+    },
+    doubleEdge: {
+        name: "捨身衝撞",
+        effect: "拼命地猛撞向對手進行攻擊。\n自己也會受到不小的傷害",
+    },
+    tailWhip: {
+        name: "搖尾巴",
+        effect: "可愛地左右搖晃尾巴，誘使\n對手疏忽大意。會降低對手\n的防禦",
+    },
+    poisonSting: {
+        name: "毒針",
+        effect: "將有毒的針刺入對手進行攻\n擊。有時會讓對手陷入中毒\n狀態",
+    },
+    twineedle: {
+        name: "雙針",
+        effect: "將２根針刺入對手，連續２\n次給予傷害。有時會讓對手\n陷入中毒狀態",
+    },
+    pinMissile: {
+        name: "飛彈針",
+        effect: "向對手發射銳針進行攻擊。\n連續攻擊２～５次",
+    },
+    leer: {
+        name: "瞪眼",
+        effect: "用犀利的眼神使其害怕，從\n而降低對手的防禦",
+    },
+    bite: {
+        name: "咬住",
+        effect: "用尖銳的牙咬住對手進行攻\n擊。有時會使對手畏縮",
+    },
+    growl: {
+        name: "叫聲",
+        effect: "讓對手聽可愛的叫聲，引開\n注意力使其疏忽，從而降低\n對手的攻擊",
+    },
+    roar: {
+        name: "吼叫",
+        effect: "放走對手，強制拉後備寶可\n夢上場。如果對手爲野生寶\n可夢，戰鬥將直接結束",
+    },
+    sing: {
+        name: "唱歌",
+        effect: "讓對手聽舒適、美妙的歌聲，\n從而陷入睡眠狀態",
+    },
+    supersonic: {
+        name: "超音波",
+        effect: "從身體發出特殊的音波，從\n而使對手混亂",
+    },
+    sonicBoom: {
+        name: "音爆",
+        effect: "將衝擊波撞向對手進行攻擊。\n必定會給予20的傷害",
+    },
+    disable: {
+        name: "定身法",
+        effect: "阻礙對手行動，之前使出的\n招式將在４回合內無法使用",
+    },
+    acid: {
+        name: "溶解液",
+        effect: "將強酸潑向對手進行攻擊。\n有時會降低對手的特防",
+    },
+    ember: {
+        name: "火花",
+        effect: "向對手發射小型火焰進行攻\n擊。有時會讓對手陷入灼傷\n狀態",
+    },
+    flamethrower: {
+        name: "噴射火焰",
+        effect: "向對手發射烈焰進行攻擊。\n有時會讓對手陷入灼傷狀態",
+    },
+    mist: {
+        name: "白霧",
+        effect: "用白霧覆蓋身體。在５回合\n內不會讓對手降低自己的能\n力",
+    },
+    waterGun: { name: "水槍", effect: "向對手猛烈地噴射水流進行\n攻擊" },
+    hydroPump: { name: "水炮", effect: "向對手猛烈地噴射大量水流\n進行攻擊" },
+    surf: { name: "衝浪", effect: "利用大浪攻擊自己周圍所有\n的寶可夢" },
+    iceBeam: {
+        name: "冰凍光束",
+        effect: "向對手發射冰凍光束進行攻\n擊。有時會讓對手陷入冰凍\n狀態",
+    },
+    blizzard: {
+        name: "暴風雪",
+        effect: "將猛烈的暴風雪刮向對手進\n行攻擊。有時會讓對手陷入\n冰凍狀態",
+    },
+    psybeam: {
+        name: "幻象光線",
+        effect: "向對手發射神奇的光線進行\n攻擊。有時會使對手混亂",
+    },
+    bubbleBeam: {
+        name: "泡沫光線",
+        effect: "向對手猛烈地噴射泡沫進行\n攻擊。有時會降低對手的速\n度",
+    },
+    auroraBeam: {
+        name: "極光束",
+        effect: "向對手發射虹色光束進行攻\n擊。有時會降低對手的攻擊",
+    },
+    hyperBeam: {
+        name: "破壞光線",
+        effect: "向對手發射強烈的光線進行\n攻擊。下一回合自己將無法\n動彈",
+    },
+    peck: { name: "啄", effect: "用尖銳的喙或角刺向對手進\n行攻擊" },
+    drillPeck: {
+        name: "啄鑽",
+        effect: "一邊旋轉，一邊將尖喙刺入\n對手進行攻擊",
+    },
+    submission: {
+        name: "深淵翻滾",
+        effect: "將對手連同自己一起摔向地\n面進行攻擊。自己也會受到\n少許傷害",
+    },
+    lowKick: {
+        name: "踢倒",
+        effect: "用力踢對手的腳，使其摔倒\n進行攻擊。對手越重，威力\n越大",
+    },
+    counter: {
+        name: "雙倍奉還",
+        effect: "從對手那裏受到物理攻擊的\n傷害將以２倍返還給同一個\n對手",
+    },
+    seismicToss: {
+        name: "地球上投",
+        effect: "利用引力將對手甩飛出去。\n給予對手和自己等級相同的\n傷害",
+    },
+    strength: { name: "怪力", effect: "使出渾身力氣毆打對手進行\n攻擊" },
+    absorb: {
+        name: "吸取",
+        effect: "吸取對手的養分進行攻擊。\n可以回覆給予對手傷害的一\n半ＨＰ",
+    },
+    megaDrain: {
+        name: "超級吸取",
+        effect: "吸取對手的養分進行攻擊。\n可以回覆給予對手傷害的一\n半ＨＰ",
+    },
+    leechSeed: {
+        name: "寄生種子",
+        effect: "植入寄生種子後，將在每回\n合一點一點吸取對手的ＨＰ，\n從而用來回復自己的ＨＰ",
+    },
+    growth: { name: "生長", effect: "讓身體一下子長大，從而提\n高攻擊和特攻" },
+    razorLeaf: {
+        name: "飛葉快刀",
+        effect: "飛出葉片，切斬對手進行攻\n擊。容易擊中要害",
+    },
+    solarBeam: {
+        name: "日光束",
+        effect: "第１回合收集滿滿的日光，\n第２回合發射光束進行攻擊",
+    },
+    poisonPowder: {
+        name: "毒粉",
+        effect: "撒出毒粉，從而讓對手陷入\n中毒狀態",
+    },
+    stunSpore: {
+        name: "麻痹粉",
+        effect: "撒出麻痹粉，從而讓對手陷\n入麻痹狀態",
+    },
+    sleepPowder: {
+        name: "催眠粉",
+        effect: "撒出催眠粉，從而讓對手陷\n入睡眠狀態",
+    },
+    petalDance: {
+        name: "花瓣舞",
+        effect: "在２～３回合內，散落花瓣\n攻擊對手。之後自己會陷入\n混亂",
+    },
+    stringShot: {
+        name: "吐絲",
+        effect: "用口中吐出的絲纏繞對手，\n從而大幅降低對手的速度",
+    },
+    dragonRage: {
+        name: "龍之怒",
+        effect: "將憤怒的衝擊波撞向對手進\n行攻擊。必定會給予40的\n傷害",
+    },
+    fireSpin: {
+        name: "火焰旋渦",
+        effect: "將對手困在激烈的火焰旋渦\n中，在４～５回合內進行攻\n擊",
+    },
+    thunderShock: {
+        name: "電擊",
+        effect: "發出電流刺激對手進行攻擊。\n有時會讓對手陷入麻痹狀\n態",
+    },
+    thunderbolt: {
+        name: "十萬伏特",
+        effect: "向對手發出強力電擊進行攻\n擊。有時會讓對手陷入麻痹\n狀態",
+    },
+    thunderWave: {
+        name: "電磁波",
+        effect: "向對手發出微弱的電擊，從\n而讓對手陷入麻痹狀態",
+    },
+    thunder: {
+        name: "打雷",
+        effect: "向對手劈下暴雷進行攻擊。\n有時會讓對手陷入麻痹狀態",
+    },
+    rockThrow: { name: "落石", effect: "拿起小岩石，投擲對手進行\n攻擊" },
+    earthquake: {
+        name: "地震",
+        effect: "利用地震的衝擊，攻擊自己\n周圍所有的寶可夢",
+    },
+    fissure: {
+        name: "地裂",
+        effect: "讓對手掉落於地裂的裂縫中\n進行攻擊。只要命中就會一\n擊昏厥",
+    },
+    dig: { name: "挖洞", effect: "第１回合鑽入地底，第２回\n合攻擊對手" },
+    toxic: {
+        name: "劇毒",
+        effect: "讓對手陷入劇毒狀態。隨着\n回合的推進，中毒傷害會增\n加",
+    },
+    confusion: {
+        name: "念力",
+        effect: "向對手發送微弱的念力進行\n攻擊。有時會使對手混亂",
+    },
+    psychic: {
+        name: "精神強念",
+        effect: "向對手發送強大的念力進行\n攻擊。有時會降低對手的特\n防",
+    },
+    hypnosis: {
+        name: "催眠術",
+        effect: "施以誘導睡意的暗示，讓對\n手陷入睡眠狀態",
+    },
+    meditate: {
+        name: "瑜伽姿勢",
+        effect: "喚醒身體深處沉睡的力量，\n從而提高自己的攻擊",
+    },
+    agility: {
+        name: "高速移動",
+        effect: "讓身體放鬆變得輕盈，以便\n高速移動。大幅提高自己的\n速度",
+    },
+    quickAttack: {
+        name: "電光一閃",
+        effect: "以迅雷不及掩耳之勢撲向對\n手。必定能夠先制攻擊",
+    },
+    rage: {
+        name: "憤怒",
+        effect: "如果在使出招式後受到攻擊\n的話，會因憤怒的力量而提\n高攻擊",
+    },
+    teleport: {
+        name: "瞬間移動",
+        effect: "當有後備寶可夢時使用，就\n可以進行替換。野生的寶可\n夢使用則會逃走",
+    },
+    nightShade: {
+        name: "黑夜魔影",
+        effect: "顯示恐怖幻影，只給予對手\n和自己等級相同的傷害",
+    },
+    mimic: {
+        name: "模仿",
+        effect: "可以將對手最後使用的招式，\n在戰鬥內變成自己的招式",
+    },
+    screech: {
+        name: "刺耳聲",
+        effect: "發出不由自主想要捂起耳朵\n的刺耳聲，從而大幅降低對\n手的防禦",
+    },
+    doubleTeam: {
+        name: "影子分身",
+        effect: "通過快速移動來製造分身，\n擾亂對手，從而提高閃避率",
+    },
+    recover: {
+        name: "自我再生",
+        effect: "讓細胞再生，從而回復自己\n最大ＨＰ的一半",
+    },
+    harden: {
+        name: "變硬",
+        effect: "全身使勁，讓身體變硬，從\n而提高自己的防禦",
+    },
+    minimize: {
+        name: "變小",
+        effect: "蜷縮身體顯得很小，從而大\n幅提高自己的閃避率",
+    },
+    smokescreen: {
+        name: "煙幕",
+        effect: "向對手噴出煙或墨汁等，從\n而降低對手的命中率",
+    },
+    confuseRay: {
+        name: "奇異之光",
+        effect: "顯示奇怪的光，擾亂對手。\n使對手混亂",
+    },
+    withdraw: {
+        name: "縮入殼中",
+        effect: "縮入殼裏保護身體，從而提\n高自己的防禦",
+    },
+    defenseCurl: {
+        name: "變圓",
+        effect: "將身體蜷曲變圓，從而提高\n自己的防禦",
+    },
+    barrier: {
+        name: "屏障",
+        effect: "製造堅固的壁障，從而大幅\n提高自己的防禦",
+    },
+    lightScreen: {
+        name: "光牆",
+        effect: "利用神奇的牆壁，在５回合\n內減弱從對手那裏受到的特\n殊攻擊的傷害",
+    },
+    haze: {
+        name: "黑霧",
+        effect: "升起黑霧，將正在場上戰鬥\n的全體寶可夢的能力變回原\n點",
+    },
+    reflect: {
+        name: "反射壁",
+        effect: "利用神奇的牆壁，在５回合\n內減弱從對手那裏受到的物\n理攻擊的傷害",
+    },
+    focusEnergy: {
+        name: "聚氣",
+        effect: "深深地吸口氣，集中精神。\n自己的攻擊會變得容易擊中\n要害",
+    },
+    bide: {
+        name: "忍耐",
+        effect: "在２回合內忍受攻擊，受到\n的傷害會２倍返還給對手",
+    },
+    metronome: {
+        name: "揮指",
+        effect: "揮動手指刺激自己的大腦，\n從許多的招式中隨機使出１\n個",
+    },
+    mirrorMove: {
+        name: "鸚鵡學舌",
+        effect: "模仿對手使用的招式，自己\n也使用相同招式",
+    },
+    selfDestruct: {
+        name: "玉石俱碎",
+        effect: "引發爆炸，攻擊自己周圍所\n有的寶可夢。使用後陷入昏\n厥",
+    },
+    eggBomb: { name: "炸蛋", effect: "向對手用力投擲大大的蛋進\n行攻擊" },
+    lick: {
+        name: "舌舔",
+        effect: "用長長的舌頭，舔遍對手進\n行攻擊。有時會讓對手陷入\n麻痹狀態",
+    },
+    smog: {
+        name: "濁霧",
+        effect: "將骯髒的濃霧吹向對手進行\n攻擊。有時會讓對手陷入中\n毒狀態",
+    },
+    sludge: {
+        name: "污泥攻擊",
+        effect: "用污泥投擲對手進行攻擊。\n有時會讓對手陷入中毒狀態",
+    },
+    boneClub: {
+        name: "骨棒",
+        effect: "用手中的骨頭毆打對手進行\n攻擊。有時會使對手畏縮",
+    },
+    fireBlast: {
+        name: "大字爆炎",
+        effect: "用大字形狀的火焰燒盡對手。\n有時會讓對手陷入灼傷狀\n態",
+    },
+    waterfall: {
+        name: "攀瀑",
+        effect: "以驚人的氣勢撲向對手。有\n時會使對手畏縮",
+    },
+    clamp: {
+        name: "貝殼夾擊",
+        effect: "用非常堅固且厚實的貝殼，\n在４～５回合內夾住對手進\n行攻擊",
+    },
+    swift: {
+        name: "高速星星",
+        effect: "發射星形的光攻擊對手。攻\n擊必定會命中",
+    },
+    skullBash: {
+        name: "火箭頭錘",
+        effect: "第１回合把頭縮進去，從而\n提高防禦。第２回合攻擊對\n手",
+    },
+    spikeCannon: {
+        name: "尖刺加農炮",
+        effect: "向對手發射銳針進行攻擊。\n連續攻擊２～５次",
+    },
+    constrict: {
+        name: "纏繞",
+        effect: "用觸手或青藤等纏繞進行攻\n擊。有時會降低對手的速度",
+    },
+    amnesia: {
+        name: "瞬間失憶",
+        effect: "將頭腦清空，瞬間忘記某事，\n從而大幅提高自己的特防",
+    },
+    kinesis: {
+        name: "折彎湯匙",
+        effect: "折彎湯匙引開注意，從而降\n低對手的命中率",
+    },
+    softBoiled: { name: "生蛋", effect: "回覆自己最大ＨＰ的一半" },
+    highJumpKick: {
+        name: "飛膝踢",
+        effect: "跳起後用膝蓋撞對手進行攻\n擊。如果撞偏則自己會受到\n傷害",
+    },
+    glare: {
+        name: "大蛇瞪眼",
+        effect: "用腹部的花紋使對手害怕，\n從而讓其陷入麻痹狀態",
+    },
+    dreamEater: {
+        name: "食夢",
+        effect: "喫掉正在睡覺的對手的夢進\n行攻擊。回覆對手所受到傷\n害的一半ＨＰ",
+    },
+    poisonGas: {
+        name: "毒瓦斯",
+        effect: "將毒瓦斯吹到對手的臉上，\n從而讓對手陷入中毒狀態",
+    },
+    barrage: {
+        name: "投球",
+        effect: "向對手投擲圓形物體進行攻\n擊。連續攻擊２～５次",
+    },
+    leechLife: {
+        name: "吸血",
+        effect: "吸取血液攻擊對手。可以回\n復給予對手傷害的一半ＨＰ",
+    },
+    lovelyKiss: {
+        name: "惡魔之吻",
+        effect: "用恐怖的臉強吻對手。讓對\n手陷入睡眠狀態",
+    },
+    skyAttack: {
+        name: "神鳥猛擊",
+        effect: "第２回合攻擊對手。偶爾使\n對手畏縮。也容易擊中要害",
+    },
+    transform: {
+        name: "變身",
+        effect: "變身成對手寶可夢的樣子，\n能夠使用和對手完全相同的\n招式",
+    },
+    bubble: {
+        name: "泡沫",
+        effect: "向對手用力吹起無數泡泡進\n行攻擊。有時會降低對手的\n速度",
+    },
+    dizzyPunch: {
+        name: "迷昏拳",
+        effect: "有節奏地出拳攻擊對手。有\n時會使對手混亂",
+    },
+    spore: {
+        name: "蘑菇孢子",
+        effect: "沙沙沙地撒滿具有催眠效果\n的孢子，從而讓對手陷入睡\n眠狀態",
+    },
+    flash: {
+        name: "閃光",
+        effect: "使出光芒，從而降低對手的\n命中率。也可在陰暗的洞窟\n裏照亮四周",
+    },
+    psywave: {
+        name: "精神波",
+        effect: "向對手發射神奇的念波進行\n攻擊。每次使用，傷害都會\n改變",
+    },
+    splash: {
+        name: "躍起",
+        effect: "也不攻擊只是一蹦一蹦地跳，\n什麼都不會發生…",
+    },
+    acidArmor: {
+        name: "溶化",
+        effect: "通過細胞的變化進行液化，\n從而大幅提高自己的防禦",
+    },
+    crabhammer: {
+        name: "蟹鉗錘",
+        effect: "用大鉗子敲打對手進行攻擊。\n容易擊中要害",
+    },
+    explosion: {
+        name: "大爆炸",
+        effect: "引發大爆炸，攻擊自己周圍\n所有的寶可夢。使用後自己\n會陷入昏厥",
+    },
+    furySwipes: {
+        name: "亂抓",
+        effect: "用爪子或鐮刀等抓對手進行\n攻擊。連續攻擊２～５次",
+    },
+    bonemerang: {
+        name: "骨頭回力鏢",
+        effect: "用手中的骨頭投擲對手，來\n回連續２次給予傷害",
+    },
+    rest: {
+        name: "睡覺",
+        effect: "連續睡上２回合。回覆自己\n的全部ＨＰ以及治癒所有異\n常狀態",
+    },
+    rockSlide: {
+        name: "巖崩",
+        effect: "將大岩石猛烈地撞向對手進\n行攻擊。有時會使對手畏縮",
+    },
+    hyperFang: {
+        name: "終結門牙",
+        effect: "用鋒利的門牙牢牢地咬住對\n手進行攻擊。有時會使對手\n畏縮",
+    },
+    sharpen: {
+        name: "棱角化",
+        effect: "增加身體的角，變得棱棱角\n角，從而提高自己的攻擊",
+    },
+    conversion: {
+        name: "紋理",
+        effect: "將自己的屬性轉換成和已學\n會的招式中第一個招式相同\n的屬性",
+    },
+    triAttack: {
+        name: "三重攻擊",
+        effect: "用３種光線進行攻擊。有時\n會讓對手陷入麻痹、灼傷或\n冰凍的狀態",
+    },
+    superFang: {
+        name: "憤怒門牙",
+        effect: "用鋒利的門牙猛烈地咬住對\n手進行攻擊。對手的ＨＰ減\n半",
+    },
+    slash: {
+        name: "劈開",
+        effect: "用爪子或鐮刀等劈開對手進\n行攻擊。容易擊中要害",
+    },
+    substitute: {
+        name: "替身",
+        effect: "削減少許自己的ＨＰ，製造\n分身。分身將成爲自己的替\n身",
+    },
+    struggle: {
+        name: "掙扎",
+        effect: "當自己的ＰＰ耗盡時，努力\n掙扎攻擊對手。自己也會受\n到少許傷害",
+    },
+    sketch: {
+        name: "寫生",
+        effect: "將對手使用的招式變成自己\n的招式。使用１次後寫生消\n失",
+    },
+    tripleKick: {
+        name: "三連踢",
+        effect: "連續３次踢對手進行攻擊。\n每踢中一次，威力就會提高",
+    },
+    thief: {
+        name: "小偷",
+        effect: "攻擊的同時盜取道具。當自\n己攜帶道具時，不會去盜取",
+    },
+    spiderWeb: {
+        name: "蛛網",
+        effect: "將黏糊糊的細絲一層一層纏\n住對手，使其不能從戰鬥中\n逃走",
+    },
+    mindReader: {
+        name: "心之眼",
+        effect: "用心感受對手的行動，下次\n攻擊必定會擊中對手",
+    },
+    nightmare: {
+        name: "惡夢",
+        effect: "讓在睡眠狀態下的對手做惡\n夢，每回合會緩緩減少HP",
+    },
+    flameWheel: {
+        name: "火焰輪",
+        effect: "讓火焰覆蓋全身，猛撞向對\n手進行攻擊。有時會讓對手\n陷入灼傷狀態",
+    },
+    snore: {
+        name: "打鼾",
+        effect: "在自己睡覺時，發出噪音進\n行攻擊。有時會使對手畏縮",
+    },
+    curse: {
+        name: "詛咒",
+        effect: "使用該招式的寶可夢，其屬\n性是幽靈屬性或其他屬性時，\n效果會不一樣",
+    },
+    flail: {
+        name: "抓狂",
+        effect: "抓狂般亂打進行攻擊。自己\n的ＨＰ越少，招式的威力越\n大",
+    },
+    conversion2: {
+        name: "紋理２",
+        effect: "爲了可以抵抗對手最後使用\n的招式，從而使自己的屬性\n發生變化",
+    },
+    aeroblast: {
+        name: "氣旋攻擊",
+        effect: "發射空氣旋渦進行攻擊。容\n易擊中要害",
+    },
+    cottonSpore: {
+        name: "棉孢子",
+        effect: "將棉花般柔軟的孢子緊貼對\n手，從而大幅降低對手的速\n度",
+    },
+    reversal: {
+        name: "絕處逢生",
+        effect: "竭盡全力進行攻擊。自己的\nＨＰ越少，招式的威力越大",
+    },
+    spite: {
+        name: "怨恨",
+        effect: "對對手最後使用的招式懷有\n怨恨，減少４ＰＰ該招式",
+    },
+    powderSnow: {
+        name: "細雪",
+        effect: "將冰冷的細雪吹向對手進行\n攻擊。有時會讓對手陷入冰\n凍狀態",
+    },
+    protect: {
+        name: "守住",
+        effect: "完全抵擋對手的攻擊。連續\n使出則容易失敗",
+    },
+    machPunch: {
+        name: "音速拳",
+        effect: "以迅雷不及掩耳之勢出拳。\n必定能夠先制攻擊",
+    },
+    scaryFace: {
+        name: "可怕面孔",
+        effect: "用恐怖的表情瞪着對手，使\n其害怕，從而大幅降低對手\n的速度",
+    },
+    feintAttack: {
+        name: "出奇一擊",
+        effect: "悄悄地靠近對手，趁其不備\n進行毆打。攻擊必定會命中",
+    },
+    sweetKiss: {
+        name: "天使之吻",
+        effect: "像天使般可愛地親吻對手，\n從而使對手混亂",
+    },
+    bellyDrum: {
+        name: "腹鼓",
+        effect: "將自己的ＨＰ減少到最大\nＨＰ的一半，從而最大限度提\n高自己的攻擊",
+    },
+    sludgeBomb: {
+        name: "污泥炸彈",
+        effect: "用污泥投擲對手進行攻擊。\n有時會讓對手陷入中毒狀態",
+    },
+    mudSlap: {
+        name: "擲泥",
+        effect: "向對手的臉等投擲泥塊進行\n攻擊。會降低對手的命中率",
+    },
+    octazooka: {
+        name: "章魚桶炮",
+        effect: "向對手的臉等噴出墨汁進行\n攻擊。有時會降低對手的命\n中率",
+    },
+    spikes: {
+        name: "撒菱",
+        effect: "在對手的腳下扔撒菱。對替\n換出場的對手的寶可夢給予\n傷害",
+    },
+    zapCannon: {
+        name: "電磁炮",
+        effect: "發射大炮一樣的電流進行攻\n擊。讓對手陷入麻痹狀態",
+    },
+    foresight: {
+        name: "識破",
+        effect: "使出後對幽靈屬性寶可夢沒\n有效果的招式以及閃避率高\n的對手，變得能夠打中",
+    },
+    destinyBond: {
+        name: "同命",
+        effect: "使出招式後，當受到對手攻\n擊陷入昏厥時，對手也會一\n同昏厥。連續使出則會失敗",
+    },
+    perishSong: {
+        name: "終焉之歌",
+        effect: "傾聽歌聲的寶可夢經過３回\n合陷入昏厥。替換後效果消\n失",
+    },
+    icyWind: {
+        name: "冰凍之風",
+        effect: "將結冰的冷氣吹向對手進行\n攻擊。會降低對手的速度",
+    },
+    detect: {
+        name: "看穿",
+        effect: "完全抵擋對手的攻擊。連續\n使出則容易失敗",
+    },
+    boneRush: {
+        name: "骨棒亂打",
+        effect: "用堅硬的骨頭毆打對手進行\n攻擊。連續攻擊２～５次",
+    },
+    lockOn: { name: "鎖定", effect: "緊緊瞄準對手，下次攻擊必\n定會打中" },
+    outrage: {
+        name: "逆鱗",
+        effect: "在２～３回合內，亂打一氣\n地進行攻擊。大鬧一番後自\n己會陷入混亂",
+    },
+    sandstorm: {
+        name: "沙暴",
+        effect: "在５回合內揚起沙暴，除巖\n石、地面和鋼屬性以外的寶\n可夢，都會受到傷害。岩石\n屬性的特防還會提高",
+    },
+    gigaDrain: {
+        name: "終極吸取",
+        effect: "吸取對手的養分進行攻擊。\n可以回覆給予對手傷害的一\n半ＨＰ",
+    },
+    endure: {
+        name: "挺住",
+        effect: "即使受到攻擊，也至少會留\n下１ＨＰ。連續使出則容易\n失敗",
+    },
+    charm: {
+        name: "撒嬌",
+        effect: "可愛地凝視，誘使對手疏忽\n大意，從而大幅降低對手的\n攻擊",
+    },
+    rollout: {
+        name: "滾動",
+        effect: "在５回合內連續滾動攻擊對\n手。招式每次擊中，威力就\n會提高",
+    },
+    falseSwipe: {
+        name: "點到爲止",
+        effect: "對手的ＨＰ至少會留下１\nＨＰ，如此般手下留情地攻擊",
+    },
+    swagger: {
+        name: "虛張聲勢",
+        effect: "激怒對手，使其混亂。因爲\n憤怒，對手的攻擊會大幅提\n高",
+    },
+    milkDrink: { name: "喝牛奶", effect: "回覆自己最大ＨＰ的一半" },
+    spark: {
+        name: "電光",
+        effect: "讓電流覆蓋全身，猛撞向對\n手進行攻擊。有時會讓對手\n陷入麻痹狀態",
+    },
+    furyCutter: {
+        name: "連斬",
+        effect: "用鐮刀或爪子等切斬對手進\n行攻擊。連續擊中，威力就\n會提高",
+    },
+    steelWing: {
+        name: "鋼翼",
+        effect: "用堅硬的翅膀敲打對手進行\n攻擊。有時會提高自己的防\n御",
+    },
+    meanLook: {
+        name: "黑色目光",
+        effect: "用好似要勾人心魂的黑色目\n光一動不動地凝視對手，使\n其不能從戰鬥中逃走",
+    },
+    attract: {
+        name: "迷人",
+        effect: "♂誘惑♀或♀誘惑♂，讓對\n手着迷。對手將很難使出招\n式",
+    },
+    sleepTalk: {
+        name: "夢話",
+        effect: "從自己已學會的招式中任意\n使出１個。只能在自己睡覺\n時使用",
+    },
+    healBell: {
+        name: "治癒鈴聲",
+        effect: "讓同伴聽舒適的鈴音，從而\n治癒我方全員的異常狀態",
+    },
+    return: {
+        name: "報恩",
+        effect: "爲了訓練家而全力攻擊對手。\n親密度越高，威力越大",
+    },
+    present: {
+        name: "禮物",
+        effect: "遞給對手設有圈套的盒子進\n行攻擊。也有可能回覆對手\nＨＰ",
+    },
+    frustration: {
+        name: "遷怒",
+        effect: "爲了發泄不滿而全力攻擊對\n手。親密度越低，威力越大",
+    },
+    safeguard: {
+        name: "神祕守護",
+        effect: "在５回合內被神奇的力量守\n護，從而不會陷入異常狀態",
+    },
+    painSplit: {
+        name: "分擔痛楚",
+        effect: "將自己的ＨＰ和對手的ＨＰ\n相加，然後自己和對手友好\n地平分",
+    },
+    sacredFire: {
+        name: "神聖之火",
+        effect: "用神祕的火焰燒盡對手進行\n攻擊。有時會讓對手陷入灼\n傷狀態",
+    },
+    magnitude: {
+        name: "震級",
+        effect: "晃動地面，攻擊自己周圍所\n有的寶可夢。招式的威力會\n有各種變化",
+    },
+    dynamicPunch: {
+        name: "爆裂拳",
+        effect: "使出渾身力氣出拳進行攻擊。\n必定會使對手混亂",
+    },
+    megahorn: {
+        name: "超級角擊",
+        effect: "用堅硬且華麗的角狠狠地刺\n入對手進行攻擊",
+    },
+    dragonBreath: {
+        name: "龍息",
+        effect: "將強烈的氣息吹向對手進行\n攻擊。有時會讓對手陷入麻\n痹狀態",
+    },
+    batonPass: {
+        name: "接棒",
+        effect: "和後備寶可夢進行替換。換\n上的寶可夢能直接繼承其能\n力的變化",
+    },
+    encore: {
+        name: "再來一次",
+        effect: "讓對手接受再來一次，連續\n３次使出最後使用的招式",
+    },
+    pursuit: {
+        name: "追打",
+        effect: "當對手替換寶可夢上場時使\n出此招式的話，能夠以２倍\n的威力進行攻擊",
+    },
+    rapidSpin: {
+        name: "高速旋轉",
+        effect: "通過旋轉來攻擊對手。可以\n擺脫綁緊、緊束、寄生種子\n等招式。還能提高自己的速\n度",
+    },
+    sweetScent: { name: "甜甜香氣", effect: "用香氣大幅降低對手的閃避\n率" },
+    ironTail: {
+        name: "鐵尾",
+        effect: "使用堅硬的尾巴摔打對手進\n行攻擊。有時會降低對手的\n防禦",
+    },
+    metalClaw: {
+        name: "金屬爪",
+        effect: "用鋼鐵之爪劈開對手進行攻\n擊。有時會提高自己的攻擊",
+    },
+    vitalThrow: {
+        name: "借力摔",
+        effect: "會在對手之後進行攻擊。但\n是自己的攻擊必定會命中",
+    },
+    morningSun: {
+        name: "晨光",
+        effect: "回覆自己的ＨＰ。根據天氣\n的不同，回覆量也會有所變\n化",
+    },
+    synthesis: {
+        name: "光合作用",
+        effect: "回覆自己的ＨＰ。根據天氣\n的不同，回覆量也會有所變\n化",
+    },
+    moonlight: {
+        name: "月光",
+        effect: "回覆自己的ＨＰ。根據天氣\n的不同，回覆量也會有所變\n化",
+    },
+    hiddenPower: {
+        name: "覺醒力量",
+        effect: "招式的屬性會隨着使用此招\n式的寶可夢而改變",
+    },
+    crossChop: {
+        name: "十字劈",
+        effect: "用兩手呈十字劈打對手進行\n攻擊。容易擊中要害",
+    },
+    twister: {
+        name: "龍捲風",
+        effect: "興起龍捲風，將對手卷入進\n行攻擊。有時會使對手畏縮",
+    },
+    rainDance: {
+        name: "求雨",
+        effect: "在５回合內一直降雨，從而\n提高水屬性的招式威力。火\n屬性的招式威力則降低",
+    },
+    sunnyDay: {
+        name: "大晴天",
+        effect: "在５回合內讓日照變得強烈，\n從而提高火屬性的招式威\n力。水屬性的招式威力則降\n低",
+    },
+    crunch: {
+        name: "咬碎",
+        effect: "用利牙咬碎對手進行攻擊。\n有時會降低對手的防禦",
+    },
+    mirrorCoat: {
+        name: "鏡面反射",
+        effect: "從對手那裏受到特殊攻擊的\n傷害將以２倍返還給同一個\n對手",
+    },
+    psychUp: {
+        name: "自我暗示",
+        effect: "向自己施以自我暗示，將能\n力變化的狀態變得和對手一\n樣",
+    },
+    extremeSpeed: {
+        name: "神速",
+        effect: "以迅雷不及掩耳之勢猛撞向\n對手進行攻擊。必定能夠先\n制攻擊",
+    },
+    ancientPower: {
+        name: "原始之力",
+        effect: "用原始之力進行攻擊。有時\n會提高自己所有的能力",
+    },
+    shadowBall: {
+        name: "暗影球",
+        effect: "投擲一團黑影進行攻擊。有\n時會降低對手的特防",
+    },
+    futureSight: {
+        name: "預知未來",
+        effect: "在使用招式２回合後，向對\n手發送一團念力進行攻擊",
+    },
+    rockSmash: {
+        name: "碎巖",
+        effect: "用拳頭進行攻擊。有時會降\n低對手的防禦",
+    },
+    whirlpool: {
+        name: "潮旋",
+        effect: "將對手困在激烈的水流旋渦\n中，在４～５回合內進行攻\n擊",
+    },
+    beatUp: {
+        name: "圍攻",
+        effect: "我方全員進行攻擊。同行的\n寶可夢越多，招式的攻擊次\n數越多",
+    },
+    fakeOut: {
+        name: "擊掌奇襲",
+        effect: "進行先制攻擊，使對手畏縮。\n要在出場後立刻使出才能\n成功",
+    },
+    uproar: {
+        name: "吵鬧",
+        effect: "在３回合內大吵大鬧攻擊對\n手。在此期間誰都不能入眠",
+    },
+    stockpile: {
+        name: "蓄力",
+        effect: "積蓄力量，提高自己的防禦\n和特防。最多積蓄３次",
+    },
+    spitUp: {
+        name: "噴出",
+        effect: "將積蓄的力量撞向對手進行\n攻擊。積蓄得越多，威力越\n大",
+    },
+    swallow: {
+        name: "吞下",
+        effect: "將積蓄的力量吞下，從而回\n復自己的ＨＰ。積蓄得越多，\n回覆越大",
+    },
+    heatWave: {
+        name: "熱風",
+        effect: "將炎熱的氣息吹向對手進行\n攻擊。有時會讓對手陷入灼\n傷狀態",
+    },
+    hail: {
+        name: "冰雹",
+        effect: "在５回合內一直降冰雹，除\n冰屬性的寶可夢以外，給予\n全體寶可夢傷害",
+    },
+    torment: {
+        name: "無理取鬧",
+        effect: "向對手無理取鬧，令其不能\n連續２次使出相同招式",
+    },
+    flatter: {
+        name: "吹捧",
+        effect: "吹捧對手，使其混亂。同時\n還會提高對手的特攻",
+    },
+    willOWisp: {
+        name: "磷火",
+        effect: "放出怪異的火焰，從而讓對\n手陷入灼傷狀態",
+    },
+    memento: {
+        name: "臨別禮物",
+        effect: "雖然會使自己陷入昏厥，但\n是能夠大幅降低對手的攻擊\n和特攻",
+    },
+    facade: {
+        name: "硬撐",
+        effect: "當自己處於中毒、麻痹、灼\n傷狀態時，向對手使出此招\n式的話，威力會變成２倍",
+    },
+    focusPunch: {
+        name: "真氣拳",
+        effect: "集中精神出拳。在招式使出\n前若受到攻擊則會失敗",
+    },
+    smellingSalts: {
+        name: "清醒",
+        effect: "對於麻痹狀態下的對手，威\n力會變成２倍。但相反對手\n的麻痹也會被治癒",
+    },
+    followMe: {
+        name: "看我嘛",
+        effect: "引起對手的注意，將對手的\n攻擊全部轉移到自己身上",
+    },
+    naturePower: {
+        name: "自然之力",
+        effect: "用自然之力進行攻擊。根據\n所使用場所的不同，使出的\n招式也會有所變化",
+    },
+    charge: {
+        name: "充電",
+        effect: "變爲充電狀態，提高下次使\n出的電屬性的招式威力。自\n己的特防也會提高",
+    },
+    taunt: {
+        name: "挑釁",
+        effect: "使對手憤怒。在３回合內讓\n對手只能使出給予傷害的招\n式",
+    },
+    helpingHand: {
+        name: "幫助",
+        effect: "幫助夥伴。被幫助的寶可夢，\n其招式威力變得比平時大",
+    },
+    trick: { name: "戲法", effect: "抓住對手的空隙，交換自己\n和對手的持有物" },
+    rolePlay: {
+        name: "扮演",
+        effect: "扮演對手，讓自己的特性變\n得和對手相同",
+    },
+    wish: {
+        name: "祈願",
+        effect: "在下一回合回覆自己或是替\n換出場的寶可夢最大ＨＰ的\n一半",
+    },
+    assist: {
+        name: "藉助",
+        effect: "向同伴緊急求助，從我方寶\n可夢已學會的招式中隨機使\n用１個",
+    },
+    ingrain: {
+        name: "紮根",
+        effect: "在大地上紮根，每回合回覆\n自己的ＨＰ。因爲紮根了，\n所以不能替換寶可夢",
+    },
+    superpower: {
+        name: "蠻力",
+        effect: "發揮驚人的力量攻擊對手。\n自己的攻擊和防禦會降低",
+    },
+    magicCoat: {
+        name: "魔法反射",
+        effect: "當對手使出會變成異常狀態\n的招式或寄生種子等時，會\n將對手的招式反射回去",
+    },
+    recycle: {
+        name: "回收利用",
+        effect: "使戰鬥中已經消耗掉的自己\n的持有物再生，並可以再次\n使用",
+    },
+    revenge: {
+        name: "報復",
+        effect: "如果受到對手的招式攻擊，\n就能給予對手２倍的傷害",
+    },
+    brickBreak: {
+        name: "劈瓦",
+        effect: "將手刀猛烈地揮下攻擊對手。\n還可以破壞光牆和反射壁\n等",
+    },
+    yawn: {
+        name: "哈欠",
+        effect: "打個大哈欠引起睡意。在下\n一回合讓對手陷入睡眠狀態",
+    },
+    knockOff: {
+        name: "拍落",
+        effect: "拍落對手的持有物，直到戰\n鬥結束都不能使用。對手攜\n帶道具時會增加傷害",
+    },
+    endeavor: {
+        name: "蠻幹",
+        effect: "給予傷害，使對手的ＨＰ變\n得和自己的ＨＰ一樣",
+    },
+    eruption: {
+        name: "噴火",
+        effect: "爆發怒火攻擊對手。自己的\nＨＰ越少，招式的威力越小",
+    },
+    skillSwap: { name: "特性互換", effect: "利用超能力互換自己和對手\n的特性" },
+    imprison: {
+        name: "封印",
+        effect: "如果對手有和自己相同的招\n式，那麼只有對手無法使用\n該招式",
+    },
+    refresh: {
+        name: "煥然一新",
+        effect: "讓身體休息，治癒自己身上\n所中的毒、麻痹、灼傷的異\n常狀態",
+    },
+    grudge: {
+        name: "怨念",
+        effect: "因對手的招式而陷入昏厥時\n給對手施加怨念，讓該招式\n的ＰＰ變成０",
+    },
+    snatch: {
+        name: "搶奪",
+        effect: "將對手打算使用的回覆招式\n或能力變化招式奪爲己用",
+    },
+    secretPower: {
+        name: "祕密之力",
+        effect: "根據使用場所不同，該招式\n的追加效果也會有所變化",
+    },
+    dive: {
+        name: "潛水",
+        effect: "第１回合潛入水中，第２回\n合浮上來進行攻擊",
+    },
+    armThrust: {
+        name: "猛推",
+        effect: "用張開着的雙手猛推對手進\n行攻擊。連續攻擊２～５次",
+    },
+    camouflage: {
+        name: "保護色",
+        effect: "根據所在場所不同，如水邊\n、草叢和洞窟等，可以改變\n自己的屬性",
+    },
+    tailGlow: {
+        name: "螢火",
+        effect: "凝視閃爍的光芒，集中自己\n的精神，從而巨幅提高特攻",
+    },
+    lusterPurge: {
+        name: "潔淨光芒",
+        effect: "釋放耀眼的光芒進行攻擊。\n有時會降低對手的特防",
+    },
+    mistBall: {
+        name: "薄霧球",
+        effect: "用圍繞着霧狀羽毛的球進行\n攻擊。有時會降低對手的特\n攻",
+    },
+    featherDance: {
+        name: "羽毛舞",
+        effect: "撒出羽毛，籠罩在對手的周\n圍。大幅降低對手的攻擊",
+    },
+    teeterDance: {
+        name: "搖晃舞",
+        effect: "搖搖晃晃地跳起舞蹈，讓自\n己周圍的寶可夢陷入混亂狀\n態",
+    },
+    blazeKick: {
+        name: "火焰踢",
+        effect: "攻擊對手後，有時會使其陷\n入灼傷狀態。也容易擊中要\n害",
+    },
+    mudSport: {
+        name: "玩泥巴",
+        effect: "一旦使用此招式，周圍就會\n弄得到處是泥。在５回合內\n減弱電屬性的招式",
+    },
+    iceBall: {
+        name: "冰球",
+        effect: "在５回合內攻擊對手。招式\n每次擊中，威力就會提高",
+    },
+    needleArm: {
+        name: "尖刺臂",
+        effect: "用帶刺的手臂猛烈地揮舞進\n行攻擊。有時會使對手畏縮",
+    },
+    slackOff: { name: "偷懶", effect: "偷懶休息。回覆自己最大\nＨＰ的一半" },
+    hyperVoice: {
+        name: "巨聲",
+        effect: "給予對手又吵又響的巨大震\n動進行攻擊",
+    },
+    poisonFang: {
+        name: "劇毒牙",
+        effect: "用有毒的牙齒咬住對手進行\n攻擊。有時會使對手中劇毒",
+    },
+    crushClaw: {
+        name: "撕裂爪",
+        effect: "用堅硬的銳爪劈開對手進行\n攻擊。有時會降低對手的防\n御",
+    },
+    blastBurn: {
+        name: "爆炸烈焰",
+        effect: "用爆炸的火焰燒盡對手進行\n攻擊。下一回合自己將無法\n動彈",
+    },
+    hydroCannon: {
+        name: "加農水炮",
+        effect: "向對手噴射水炮進行攻擊。\n下一回合自己將無法動彈",
+    },
+    meteorMash: {
+        name: "彗星拳",
+        effect: "使出彗星般的拳頭攻擊對手。\n有時會提高自己的攻擊",
+    },
+    astonish: {
+        name: "驚嚇",
+        effect: "用尖叫聲等突然驚嚇對手進\n行攻擊。有時會使對手畏縮",
+    },
+    weatherBall: {
+        name: "氣象球",
+        effect: "根據使用時的天氣，招式屬\n性和威力會改變",
+    },
+    aromatherapy: {
+        name: "芳香治療",
+        effect: "讓同伴聞沁人心脾的香氣，\n從而治癒我方全員的異常狀\n態",
+    },
+    fakeTears: {
+        name: "假哭",
+        effect: "裝哭流淚。使對手不知所措，\n從而大幅降低對手的特防",
+    },
+    airCutter: {
+        name: "空氣利刃",
+        effect: "用銳利的風切斬對手進行攻\n擊。容易擊中要害",
+    },
+    overheat: {
+        name: "過熱",
+        effect: "使出全部力量攻擊對手。使\n用之後會因爲反作用力，自\n己的特攻大幅降低",
+    },
+    odorSleuth: {
+        name: "氣味偵測",
+        effect: "使出後對幽靈屬性寶可夢沒\n有效果的招式以及閃避率高\n的對手，變得能夠打中",
+    },
+    rockTomb: {
+        name: "岩石封鎖",
+        effect: "投擲岩石進行攻擊。封住對\n手的行動，從而降低速度",
+    },
+    silverWind: {
+        name: "銀色旋風",
+        effect: "在風中摻入鱗粉攻擊對手。\n有時會提高自己的全部能力",
+    },
+    metalSound: {
+        name: "金屬音",
+        effect: "讓對手聽摩擦金屬般討厭的\n聲音。大幅降低對手的特防",
+    },
+    grassWhistle: {
+        name: "草笛",
+        effect: "讓對手聽舒適的笛聲，從而\n陷入睡眠狀態",
+    },
+    tickle: {
+        name: "撓癢",
+        effect: "給對手撓癢，使其發笑，從\n而降低對手的攻擊和防禦",
+    },
+    cosmicPower: {
+        name: "宇宙力量",
+        effect: "汲取宇宙中神祕的力量，從\n而提高自己的防禦和特防",
+    },
+    waterSpout: {
+        name: "噴水",
+        effect: "掀起潮水進行攻擊。自己的\nＨＰ越少，招式的威力越小",
+    },
+    signalBeam: {
+        name: "信號光束",
+        effect: "發射神奇的光線進行攻擊。\n有時會使對手混亂",
+    },
+    shadowPunch: { name: "暗影拳", effect: "使出混影之拳。攻擊必定會\n命中" },
+    extrasensory: {
+        name: "神通力",
+        effect: "發出看不見的神奇力量進行\n攻擊。有時會使對手畏縮",
+    },
+    skyUppercut: {
+        name: "沖天拳",
+        effect: "用衝向天空般高高的上勾拳\n頂起對手進行攻擊",
+    },
+    sandTomb: {
+        name: "流沙深淵",
+        effect: "將對手困在鋪天蓋地的沙暴\n中，在４～５回合內進行攻\n擊",
+    },
+    sheerCold: {
+        name: "絕對零度",
+        effect: "給對手一擊昏厥。如果是冰\n屬性以外的寶可夢使用，就\n會難以打中",
+    },
+    muddyWater: {
+        name: "濁流",
+        effect: "向對手噴射渾濁的水進行攻\n擊。有時會降低對手的命中\n率",
+    },
+    bulletSeed: {
+        name: "種子機關槍",
+        effect: "向對手猛烈地發射種子進行\n攻擊。連續攻擊２～５次",
+    },
+    aerialAce: {
+        name: "燕返",
+        effect: "以敏捷的動作戲弄對手後進\n行切斬。攻擊必定會命中",
+    },
+    icicleSpear: {
+        name: "冰錐",
+        effect: "向對手發射鋒利的冰柱進行\n攻擊。連續攻擊２～５次",
+    },
+    ironDefense: {
+        name: "鐵壁",
+        effect: "將皮膚變得堅硬如鐵，從而\n大幅提高自己的防禦",
+    },
+    block: {
+        name: "擋路",
+        effect: "張開雙手進行阻擋，封住對\n手的退路，使其不能逃走",
+    },
+    howl: {
+        name: "長嚎",
+        effect: "大聲吼叫提高氣勢，從而提\n高自己和同伴的攻擊",
+    },
+    dragonClaw: { name: "龍爪", effect: "用尖銳的巨爪劈開對手進行\n攻擊" },
+    frenzyPlant: {
+        name: "瘋狂植物",
+        effect: "用大樹摔打對手進行攻擊。\n下一回合自己將無法動彈",
+    },
+    bulkUp: {
+        name: "健美",
+        effect: "使出全身力氣繃緊肌肉，從\n而提高自己的攻擊和防禦",
+    },
+    bounce: {
+        name: "彈跳",
+        effect: "彈跳到高高的空中，第２回\n合攻擊對手。有時會讓對手\n陷入麻痹狀態",
+    },
+    mudShot: {
+        name: "泥巴射擊",
+        effect: "向對手投擲泥塊進行攻擊。\n同時降低對手的速度",
+    },
+    poisonTail: {
+        name: "毒尾",
+        effect: "用尾巴拍打。有時會讓對手\n陷入中毒狀態，也容易擊中\n要害",
+    },
+    covet: {
+        name: "渴望",
+        effect: "一邊可愛地撒嬌，一邊靠近\n對手進行攻擊，還能奪取對\n手攜帶的道具",
+    },
+    voltTackle: {
+        name: "伏特攻擊",
+        effect: "讓電流覆蓋全身猛撞向對手。\n自己也會受到不小的傷害。\n有時會讓對手陷入麻痹狀\n態",
+    },
+    magicalLeaf: {
+        name: "魔法葉",
+        effect: "散落可以追蹤對手的神奇葉\n片。攻擊必定會命中",
+    },
+    waterSport: {
+        name: "玩水",
+        effect: "用水溼透周圍。在５回合內\n減弱火屬性的招式",
+    },
+    calmMind: { name: "冥想", effect: "靜心凝神，從而提高自己的\n特攻和特防" },
+    leafBlade: {
+        name: "葉刃",
+        effect: "像用劍一般操縱葉片切斬對\n手進行攻擊。容易擊中要害",
+    },
+    dragonDance: {
+        name: "龍之舞",
+        effect: "激烈地跳起神祕且強有力的\n舞蹈。從而提高自己的攻擊\n和速度",
+    },
+    rockBlast: {
+        name: "岩石爆擊",
+        effect: "向對手發射堅硬的岩石進行\n攻擊。連續攻擊２～５次",
+    },
+    shockWave: {
+        name: "電擊波",
+        effect: "向對手快速發出電擊。攻擊\n必定會命中",
+    },
+    waterPulse: {
+        name: "水之波動",
+        effect: "用水的震動攻擊對手。有時\n會使對手混亂",
+    },
+    doomDesire: {
+        name: "破滅之願",
+        effect: "使用招式２回合後，會用無\n數道光束攻擊對手",
+    },
+    psychoBoost: {
+        name: "精神突進",
+        effect: "使出全部力量攻擊對手。使\n用之後會因爲反作用力，自\n己的特攻大幅降低",
+    },
+    roost: {
+        name: "羽棲",
+        effect: "降到地面，使身體休息。回\n復自己最大ＨＰ的一半",
+    },
+    gravity: {
+        name: "重力",
+        effect: "在５回合內，飄浮特性和飛\n行屬性的寶可夢會被地面屬\n性的招式擊中。飛向空中的\n招式也將無法使用",
+    },
+    miracleEye: {
+        name: "奇蹟之眼",
+        effect: "使出後對惡屬性寶可夢沒有\n效果的招式以及閃避率高的\n對手，變得能夠打中",
+    },
+    wakeUpSlap: {
+        name: "喚醒巴掌",
+        effect: "給予睡眠狀態下的對手較大\n的傷害。但相反對手會從睡\n眠中醒過來",
+    },
+    hammerArm: {
+        name: "臂錘",
+        effect: "揮舞強力而沉重的拳頭，給\n予對手傷害。自己的速度會\n降低",
+    },
+    gyroBall: {
+        name: "陀螺球",
+        effect: "讓身體高速旋轉並撞擊對手。\n速度比對手越慢，威力越\n大",
+    },
+    healingWish: {
+        name: "治癒之願",
+        effect: "雖然自己陷入昏厥，但可以\n治癒後備上場的寶可夢的異\n常狀態以及回覆ＨＰ",
+    },
+    brine: {
+        name: "鹽水",
+        effect: "當對手的ＨＰ負傷到一半左\n右時，招式威力會變成２倍",
+    },
+    naturalGift: {
+        name: "自然之恩",
+        effect: "從樹果上獲得力量進行攻擊。\n根據攜帶的樹果，招式屬\n性和威力會改變",
+    },
+    feint: {
+        name: "佯攻",
+        effect: "能夠攻擊正在使用守住或看\n穿等招式的對手。解除其守\n護效果",
+    },
+    pluck: {
+        name: "啄食",
+        effect: "用喙進行攻擊。當對手攜帶\n樹果時，可以食用並獲得其\n效果",
+    },
+    tailwind: {
+        name: "順風",
+        effect: "颳起猛烈的旋風，在４回合\n內提高我方全員的速度",
+    },
+    acupressure: {
+        name: "點穴",
+        effect: "通過點穴讓身體舒筋活絡。\n大幅提高某１項能力",
+    },
+    metalBurst: {
+        name: "金屬爆炸",
+        effect: "使出招式前，將最後受到的\n招式的傷害大力返還給對手",
+    },
+    uTurn: {
+        name: "急速折返",
+        effect: "在攻擊之後急速返回，和後\n備寶可夢進行替換",
+    },
+    closeCombat: {
+        name: "近身戰",
+        effect: "放棄守護，向對手的懷裏突\n擊。自己的防禦和特防會降\n低",
+    },
+    payback: {
+        name: "以牙還牙",
+        effect: "蓄力攻擊。如果能在對手之\n後攻擊，招式的威力會變成\n２倍",
+    },
+    assurance: {
+        name: "惡意追擊",
+        effect: "如果此回合內對手已經受到\n傷害的話，招式威力會變成\n２倍",
+    },
+    embargo: {
+        name: "查封",
+        effect: "讓對手在５回合內不能使用\n寶可夢攜帶的道具。訓練家\n也不能給那隻寶可夢使用道\n具",
+    },
+    fling: {
+        name: "投擲",
+        effect: "快速投擲攜帶的道具進行攻\n擊。根據道具不同，威力和\n效果會改變",
+    },
+    psychoShift: {
+        name: "精神轉移",
+        effect: "利用超能力施以暗示，從而\n將自己受到的異常狀態轉移\n給對手",
+    },
+    trumpCard: {
+        name: "王牌",
+        effect: "王牌招式的剩餘PP越少，\n招式的威力越大",
+    },
+    healBlock: {
+        name: "回覆封鎖",
+        effect: "在５回合內無法通過招式、\n特性或攜帶的道具來回復H\nP",
+    },
+    wringOut: {
+        name: "絞緊",
+        effect: "用力勒緊對手進行攻擊。對\n手的HP越多，威力越大",
+    },
+    powerTrick: {
+        name: "力量戲法",
+        effect: "利用超能力交換自己的攻擊\n和防禦的力量",
+    },
+    gastroAcid: {
+        name: "胃液",
+        effect: "將胃液吐向對手的身體。沾\n上的胃液會消除對手的特性\n效果",
+    },
+    luckyChant: {
+        name: "幸運咒語",
+        effect: "向天許願，從而在５回合內\n不會被對手的攻擊打中要害",
+    },
+    meFirst: {
+        name: "搶先一步",
+        effect: "提高威力，搶先使出對手想\n要使出的招式。如果不先使\n出則會失敗",
+    },
+    copycat: {
+        name: "仿效",
+        effect: "模仿對手剛纔使出的招式，\n並使出相同招式。如果對手\n還沒出招則會失敗",
+    },
+    powerSwap: {
+        name: "力量互換",
+        effect: "利用超能力互換自己和對手\n的攻擊以及特攻的能力變化",
+    },
+    guardSwap: {
+        name: "防守互換",
+        effect: "利用超能力互換自己和對手\n的防禦以及特防的能力變化",
+    },
+    punishment: {
+        name: "懲罰",
+        effect: "根據能力變化，對手提高的\n力量越大，招式的威力越大",
+    },
+    lastResort: {
+        name: "珍藏",
+        effect: "當戰鬥中已學會的招式全部\n使用過後，才能開始使出珍\n藏的招式",
+    },
+    worrySeed: {
+        name: "煩惱種子",
+        effect: "種植心神不寧的種子。使對\n手不能入眠，並將特性變成\n不眠",
+    },
+    suckerPunch: {
+        name: "突襲",
+        effect: "可以比對手先攻擊。對手使\n出的招式如果不是攻擊招式\n則會失敗",
+    },
+    toxicSpikes: {
+        name: "毒菱",
+        effect: "在對手的腳下撒毒菱。使對\n手替換出場的寶可夢中毒",
+    },
+    heartSwap: {
+        name: "心靈互換",
+        effect: "利用超能力互換自己和對手\n之間的能力變化",
+    },
+    aquaRing: {
+        name: "水流環",
+        effect: "在自己身體的周圍覆蓋用水\n製造的幕。每回合回覆ＨＰ",
+    },
+    magnetRise: {
+        name: "電磁飄浮",
+        effect: "利用電氣產生的磁力浮在空\n中。在５回合內可以飄浮",
+    },
+    flareBlitz: {
+        name: "閃焰衝鋒",
+        effect: "讓火焰覆蓋全身猛撞向對手。\n自己也會受到不小的傷害。\n有時會讓對手陷入灼傷狀\n態",
+    },
+    forcePalm: {
+        name: "發勁",
+        effect: "向對手的身體發出衝擊波進\n行攻擊。有時會讓對手陷入\n麻痹狀態",
+    },
+    auraSphere: {
+        name: "波導彈",
+        effect: "從體內產生出波導之力，然\n後向對手發出。攻擊必定會\n命中",
+    },
+    rockPolish: {
+        name: "岩石打磨",
+        effect: "打磨自己的身體，減少空氣\n阻力。可以大幅提高自己的\n速度",
+    },
+    poisonJab: {
+        name: "毒擊",
+        effect: "用帶毒的觸手或手臂刺入對\n手。有時會讓對手陷入中毒\n狀態",
+    },
+    darkPulse: {
+        name: "惡之波動",
+        effect: "從體內發出充滿惡意的恐怖\n氣場。有時會使對手畏縮",
+    },
+    nightSlash: {
+        name: "暗襲要害",
+        effect: "抓住瞬間的空隙切斬對手。\n容易擊中要害",
+    },
+    aquaTail: { 
+      name: "水流尾", effect: "如驚濤駭浪般揮動大尾巴攻\n擊對手" 
+    },
+    seedBomb: {
+        name: "種子炸彈",
+        effect: "將外殼堅硬的大種子，從上\n方砸下攻擊對手",
+    },
+    airSlash: {
+        name: "空氣之刃",
+        effect: "用連天空也能劈開的空氣之\n刃進行攻擊。有時會使對手\n畏縮",
+    },
+    xScissor: {
+        name: "十字剪",
+        effect: "將鐮刀或爪子像剪刀般地交\n叉，順勢劈開對手",
+    },
+    bugBuzz: {
+        name: "蟲鳴",
+        effect: "利用振動發出音波進行攻擊。\n有時會降低對手的特防",
+    },
+    dragonPulse: {
+        name: "龍之波動",
+        effect: "從大大的口中掀起衝擊波攻\n擊對手",
+    },
+    dragonRush: {
+        name: "龍之俯衝",
+        effect: "釋放出駭人的殺氣，一邊威\n懾一邊撞擊對手。有時會使\n對手畏縮",
+    },
+    powerGem: { 
+      name: "力量寶石", effect: "發射如寶石般閃耀的光芒攻\n擊對手" 
+    },
+    drainPunch: {
+        name: "吸取拳",
+        effect: "用拳頭吸取對手的力量。可\n以回覆給予對手傷害的一半\nＨＰ",
+    },
+    vacuumWave: {
+        name: "真空波",
+        effect: "揮動拳頭，掀起真空波。必\n定能夠先制攻擊",
+    },
+    focusBlast: {
+        name: "真氣彈",
+        effect: "提高氣勢，釋放出全部力量。\n有時會降低對手的特防",
+    },
+    energyBall: {
+        name: "能量球",
+        effect: "發射從自然收集的生命力量。\n有時會降低對手的特防",
+    },
+    braveBird: {
+        name: "勇鳥猛攻",
+        effect: "收攏翅膀，通過低空飛行突\n擊對手。自己也會受到不小\n的傷害",
+    },
+    earthPower: {
+        name: "大地之力",
+        effect: "向對手腳下釋放出大地之力。\n有時會降低對手的特防",
+    },
+    switcheroo: {
+        name: "掉包",
+        effect: "用一閃而過的速度交換自己\n和對手的持有物",
+    },
+    gigaImpact: {
+        name: "終極衝擊",
+        effect: "使出自己渾身力量突擊對手。\n下一回合自己將無法動彈",
+    },
+    nastyPlot: {
+        name: "詭計",
+        effect: "謀劃詭計，激活頭腦。大幅\n提高自己的特攻",
+    },
+    bulletPunch: {
+        name: "子彈拳",
+        effect: "向對手使出如子彈般快速而\n堅硬的拳頭。必定能夠先制\n攻擊",
+    },
+    avalanche: {
+        name: "雪崩",
+        effect: "如果受到對手的招式攻擊，\n就能給予該對手２倍威力的\n攻擊",
+    },
+    iceShard: {
+        name: "冰礫",
+        effect: "瞬間製作冰塊，快速地扔向\n對手。必定能夠先制攻擊",
+    },
+    shadowClaw: {
+        name: "暗影爪",
+        effect: "以影子做成的銳爪，劈開對\n手。容易擊中要害",
+    },
+    thunderFang: {
+        name: "雷電牙",
+        effect: "用蓄滿電流的牙齒咬住對手。\n有時會使對手畏縮或陷入\n麻痹狀態",
+    },
+    iceFang: {
+        name: "冰凍牙",
+        effect: "用藏有冷氣的牙齒咬住對手。\n有時會使對手畏縮或陷入\n冰凍狀態",
+    },
+    fireFang: {
+        name: "火焰牙",
+        effect: "用覆蓋着火焰的牙齒咬住對\n手。有時會使對手畏縮或陷\n入灼傷狀態",
+    },
+    shadowSneak: {
+        name: "影子偷襲",
+        effect: "伸長影子，從對手的背後進\n行攻擊。必定能夠先制攻擊",
+    },
+    mudBomb: {
+        name: "泥巴炸彈",
+        effect: "向對手發射堅硬的泥彈進行\n攻擊。有時會降低對手的命\n中率",
+    },
+    psychoCut: {
+        name: "精神利刃",
+        effect: "用實體化的心之利刃劈開對\n手。容易擊中要害",
+    },
+    zenHeadbutt: {
+        name: "意念頭錘",
+        effect: "將思念的力量集中在前額進\n行攻擊。有時會使對手畏縮",
+    },
+    mirrorShot: {
+        name: "鏡光射擊",
+        effect: "拋光自己的身體，向對手釋\n放出閃光之力。有時會降低\n對手的命中率",
+    },
+    flashCannon: {
+        name: "加農光炮",
+        effect: "將身體的光芒聚集在一點釋\n放出去。有時會降低對手的\n特防",
+    },
+    rockClimb: {
+        name: "攀巖",
+        effect: "發動猛撞攻擊，有時會使對\n手混亂。是寶可表的祕傳招\n式之一",
+    },
+    defog: {
+        name: "清除濃霧",
+        effect: "用強風吹開對手的反射壁或\n光牆等。也會降低對手的閃\n避率",
+    },
+    trickRoom: {
+        name: "戲法空間",
+        effect: "製造出離奇的空間。在５回\n合內速度慢的寶可夢可以先\n行動",
+    },
+    dracoMeteor: {
+        name: "流星羣",
+        effect: "從天空中向對手落下隕石。\n使用之後因爲反作用力，自\n己的特攻會大幅降低",
+    },
+    discharge: {
+        name: "放電",
+        effect: "用耀眼的電擊攻擊自己周圍\n所有的寶可夢。有時會陷入\n麻痹狀態",
+    },
+    lavaPlume: {
+        name: "噴煙",
+        effect: "用熊熊烈火攻擊自己周圍所\n有的寶可夢。有時會陷入灼\n傷狀態",
+    },
+    leafStorm: {
+        name: "飛葉風暴",
+        effect: "用尖尖的葉片向對手卷起風\n暴。使用之後因爲反作用力\n自己的特攻會大幅降低",
+    },
+    powerWhip: {
+        name: "強力鞭打",
+        effect: "激烈地揮舞青藤或觸手摔打\n對手進行攻擊",
+    },
+    rockWrecker: {
+        name: "岩石炮",
+        effect: "向對手發射巨大的岩石進行\n攻擊。下一回合自己將無法\n動彈",
+    },
+    crossPoison: {
+        name: "十字毒刃",
+        effect: "用毒刃劈開對手。有時會讓\n對手陷入中毒狀態，也容易\n擊中要害",
+    },
+    gunkShot: {
+        name: "垃圾射擊",
+        effect: "用骯髒的垃圾撞向對手進行\n攻擊。有時會讓對手陷入中\n毒狀態",
+    },
+    ironHead: {
+        name: "鐵頭",
+        effect: "用鋼鐵般堅硬的頭部進行攻\n擊。有時會使對手畏縮",
+    },
+    magnetBomb: {
+        name: "磁鐵炸彈",
+        effect: "發射吸住對手的鋼鐵炸彈。\n攻擊必定會命中",
+    },
+    stoneEdge: {
+        name: "尖石攻擊",
+        effect: "用尖尖的岩石刺入對手進行\n攻擊。容易擊中要害",
+    },
+    captivate: {
+        name: "誘惑",
+        effect: "♂誘惑♀或♀誘惑♂，從而\n大幅降低對手的特攻",
+    },
+    stealthRock: {
+        name: "隱形巖",
+        effect: "將無數岩石懸浮在對手的周\n圍，從而對替換出場的對手\n的寶可夢給予傷害",
+    },
+    grassKnot: {
+        name: "打草結",
+        effect: "用草纏住並絆倒對手。對手\n越重，威力越大",
+    },
+    chatter: {
+        name: "喋喋不休",
+        effect: "用非常煩人的，喋喋不休的\n音波攻擊對手。使對手混亂",
+    },
+    judgment: {
+        name: "制裁光礫",
+        effect: "向對手放出無數的光彈。屬\n性會根據自己攜帶的石板不\n同而改變",
+    },
+    bugBite: {
+        name: "蟲咬",
+        effect: "咬住進行攻擊。當對手攜帶\n樹果時，可以食用並獲得其\n效果",
+    },
+    chargeBeam: {
+        name: "充電光束",
+        effect: "向對手發射電擊光束。由於\n蓄滿電流，有時會提高自己\n的特攻",
+    },
+    woodHammer: {
+        name: "木槌",
+        effect: "用堅硬的軀體撞擊對手進行\n攻擊。自己也會受到不小的\n傷害",
+    },
+    aquaJet: {
+        name: "水流噴射",
+        effect: "以迅雷不及掩耳之勢撲向對\n手。必定能夠先制攻擊",
+    },
+    attackOrder: {
+        name: "攻擊指令",
+        effect: "召喚手下，讓其朝對手發起\n攻擊。容易擊中要害",
+    },
+    defendOrder: {
+        name: "防禦指令",
+        effect: "召喚手下，讓其附在自己的\n身體上。可以提高自己的防\n御和特防",
+    },
+    healOrder: {
+        name: "回覆指令",
+        effect: "召喚手下療傷。回覆自己最\n大HP的一半",
+    },
+    headSmash: {
+        name: "雙刃頭錘",
+        effect: "拼命使出渾身力氣，向對手\n進行頭錘攻擊。自己也會受\n到非常大的傷害",
+    },
+    doubleHit: {
+        name: "二連擊",
+        effect: "使用尾巴等拍打對手進行攻\n擊。連續２次給予傷害",
+    },
+    roarOfTime: {
+        name: "時光咆哮",
+        effect: "釋放出扭曲時間般的強大力\n量攻擊對手。下一回合自己\n將無法動彈",
+    },
+    spacialRend: {
+        name: "亞空裂斬",
+        effect: "將對手連同周圍的空間一起\n撕裂並給予傷害。容易擊中\n要害",
+    },
+    lunarDance: {
+        name: "新月舞",
+        effect: "雖然自己陷入昏厥，但可以\n治癒後備上場的寶可夢的全\n部狀態",
+    },
+    crushGrip: {
+        name: "捏碎",
+        effect: "用駭人的力量捏碎對手。對\n手剩餘的ＨＰ越多，威力越\n大",
+    },
+    magmaStorm: {
+        name: "熔岩風暴",
+        effect: "將對手困在熊熊燃燒的火焰\n中，在４～５回合內進行攻\n擊",
+    },
+    darkVoid: {
+        name: "暗黑洞",
+        effect: "將對手強制拖入黑暗的世界，\n從而讓對手陷入睡眠狀態",
+    },
+    seedFlare: {
+        name: "種子閃光",
+        effect: "從身體裏產生衝擊波。有時\n會大幅降低對手的特防",
+    },
+    ominousWind: {
+        name: "奇異之風",
+        effect: "突然颳起毛骨悚然的暴風攻\n擊對手。有時會提高自己的\n全部能力",
+    },
+    shadowForce: {
+        name: "暗影潛襲",
+        effect: "第１回合消失蹤影，第２回\n合攻擊對手。即使對手正受\n保護，也能擊中",
+    },
+    honeClaws: {
+        name: "磨爪",
+        effect: "將爪子磨得更加鋒利。提高\n自己的攻擊和命中率",
+    },
+    wideGuard: {
+        name: "廣域防守",
+        effect: "在１回合內防住擊打我方全\n員的攻擊",
+    },
+    guardSplit: {
+        name: "防守平分",
+        effect: "利用超能力將自己和對手的\n防禦和特防相加，再進行平\n分",
+    },
+    powerSplit: {
+        name: "力量平分",
+        effect: "利用超能力將自己和對手的\n攻擊和特攻相加，再進行平\n分",
+    },
+    wonderRoom: {
+        name: "奇妙空間",
+        effect: "製造出離奇的空間。在５回\n合內互換所有寶可夢的防禦\n和特防",
+    },
+    psyshock: {
+        name: "精神衝擊",
+        effect: "將神奇的念波實體化攻擊對\n手。給予物理傷害",
+    },
+    venoshock: {
+        name: "毒液衝擊",
+        effect: "將特殊的毒液潑向對手。對\n處於中毒狀態的對手，威力\n會變成２倍",
+    },
+    autotomize: {
+        name: "身體輕量化",
+        effect: "削掉身體上沒用的部分。大\n幅提高自己的速度，同時體\n重也會變輕",
+    },
+    ragePowder: {
+        name: "憤怒粉",
+        effect: "將令人煩躁的粉末撒在自己\n身上，用以吸引對手的注意。\n使對手的攻擊全部指向自\n己",
+    },
+    telekinesis: {
+        name: "意念移物",
+        effect: "利用超能力使對手浮起來。\n在３回合內攻擊會變得容易\n打中對手",
+    },
+    magicRoom: {
+        name: "魔法空間",
+        effect: "製造出離奇的空間。在５回\n合內所有寶可夢攜帶道具的\n效果都會消失",
+    },
+    smackDown: {
+        name: "擊落",
+        effect: "扔石頭或炮彈，攻擊飛行的\n對手。對手會被擊落，掉到\n地面",
+    },
+    stormThrow: {
+        name: "山嵐摔",
+        effect: "向對手使出強烈的一擊。攻\n擊必定會擊中要害",
+    },
+    flameBurst: {
+        name: "烈焰濺射",
+        effect: "如果擊中，爆裂的火焰會攻\n擊到對手。爆裂出的火焰還\n會飛濺到旁邊的對手",
+    },
+    sludgeWave: {
+        name: "污泥波",
+        effect: "用污泥波攻擊自己周圍所有\n的寶可夢。有時會陷入中毒\n狀態",
+    },
+    quiverDance: {
+        name: "蝶舞",
+        effect: "輕巧地跳起神祕而又美麗的\n舞蹈。提高自己的特攻、特\n防和速度",
+    },
+    heavySlam: {
+        name: "重磅衝撞",
+        effect: "用沉重的身體撞向對手進行\n攻擊。自己比對手越重，威\n力越大",
+    },
+    synchronoise: {
+        name: "同步干擾",
+        effect: "用神奇電波對周圍所有和自\n己屬性相同的寶可夢給予傷\n害",
+    },
+    electroBall: {
+        name: "電球",
+        effect: "用電氣團撞向對手。自己比\n對手速度越快，威力越大",
+    },
+    soak: { 
+      name: "浸水", effect: "將大量的水潑向對手，從而\n使其變成水屬性" 
+    },
+    flameCharge: {
+        name: "蓄能焰襲",
+        effect: "讓火焰覆蓋全身，攻擊對手。\n積蓄力量來提高自己的速\n度",
+    },
+    coil: {
+        name: "盤蜷",
+        effect: "盤蜷着集中精神。提高自己\n的攻擊、防禦和命中率",
+    },
+    lowSweep: {
+        name: "下盤踢",
+        effect: "以敏捷的動作瞄準對手的腳\n進行攻擊。會降低對手的速\n度",
+    },
+    acidSpray: {
+        name: "酸液炸彈",
+        effect: "噴出能溶化對手的液體進行\n攻擊。會大幅降低對手的特\n防",
+    },
+    foulPlay: {
+        name: "欺詐",
+        effect: "利用對手的力量進行攻擊。\n正和自己戰鬥的對手，其攻\n擊越高，傷害越大",
+    },
+    simpleBeam: {
+        name: "單純光束",
+        effect: "向對手發送謎之念波。接收\n到念波的對手，其特性會變\n爲單純",
+    },
+    entrainment: {
+        name: "找夥伴",
+        effect: "用神奇的節奏跳舞。使對手\n模仿自己的動作，從而將特\n性變成一樣",
+    },
+    afterYou: {
+        name: "您先請",
+        effect: "支援我方或對手的行動，使\n其緊接着此招式之後行動",
+    },
+    round: {
+        name: "輪唱",
+        effect: "用歌聲攻擊對手。大家一起\n輪唱便可以接連使出，威力\n也會提高",
+    },
+    echoedVoice: {
+        name: "回聲",
+        effect: "用回聲攻擊對手。如果每回\n合都有寶可夢接着使用該招\n式，威力就會提高",
+    },
+    chipAway: {
+        name: "逐步擊破",
+        effect: "看準機會穩步攻擊。無視對\n手的能力變化，直接給予傷\n害",
+    },
+    clearSmog: {
+        name: "清除之煙",
+        effect: "向對手投擲特殊的泥塊進行\n攻擊。使其能力變回原點",
+    },
+    storedPower: {
+        name: "輔助力量",
+        effect: "用蓄積起來的力量攻擊對手。\n自己的能力提高得越多，\n威力就越大",
+    },
+    quickGuard: {
+        name: "快速防守",
+        effect: "守護自己和同伴，以防對手\n的先制攻擊",
+    },
+    allySwitch: {
+        name: "交換場地",
+        effect: "用神奇的力量瞬間移動，互\n換自己和同伴所在的位置。\n連續使出則容易失敗",
+    },
+    scald: {
+        name: "熱水",
+        effect: "向對手噴射煮得翻滾的開水\n進行攻擊。有時會讓對手陷\n入灼傷狀態",
+    },
+    shellSmash: {
+        name: "破殼",
+        effect: "打破外殼，降低自己的防禦\n和特防，但大幅提高攻擊、\n特攻和速度",
+    },
+    healPulse: {
+        name: "治癒波動",
+        effect: "放出治癒波動，從而回復對\n手最大ＨＰ的一半",
+    },
+    hex: {
+        name: "禍不單行",
+        effect: "接二連三地進行攻擊。對處\n於異常狀態的對手給予較大\n的傷害",
+    },
+    skyDrop: {
+        name: "自由落體",
+        effect: "第１回合將對手帶到空中，\n第２回合將其摔下進行攻擊。\n被帶到空中的對手不能動\n彈",
+    },
+    shiftGear: {
+        name: "換檔",
+        effect: "轉動齒輪，不僅提高自己的\n攻擊，還會大幅提高速度",
+    },
+    circleThrow: {
+        name: "巴投",
+        effect: "扔飛對手，強制拉後備寶可\n夢上場。如果對手爲野生寶\n可夢，戰鬥將直接結束",
+    },
+    incinerate: {
+        name: "燒淨",
+        effect: "用火焰攻擊對手。對手攜帶\n樹果等時，會燒掉，使其不\n能使用",
+    },
+    quash: { 
+      name: "延後", effect: "壓制對手，從而將其行動順\n序放到最後" 
+    },
+    acrobatics: {
+        name: "雜技",
+        effect: "輕巧地攻擊對手。自己沒有\n攜帶道具時，會給予較大的\n傷害",
+    },
+    reflectType: {
+        name: "鏡面屬性",
+        effect: "反射對手的屬性，讓自己也\n變成一樣的屬性",
+    },
+    retaliate: {
+        name: "報仇",
+        effect: "爲倒下的同伴報仇。如果上\n一回合有同伴倒下，威力就\n會提高",
+    },
+    finalGambit: {
+        name: "搏命",
+        effect: "拼命攻擊對手。雖然自己陷\n入昏厥，但會給予對手和自\n己目前ＨＰ等量的傷害",
+    },
+    bestow: {
+        name: "傳遞禮物",
+        effect: "當對手未攜帶道具時，能夠\n將自己攜帶的道具交給對手",
+    },
+    inferno: {
+        name: "烈火深淵",
+        effect: "用烈焰包裹住對手進行攻擊。\n讓對手陷入灼傷狀態",
+    },
+    waterPledge: {
+        name: "水之誓約",
+        effect: "用水柱進行攻擊。如果和火\n組合，威力就會提高，天空\n中會掛上彩虹",
+    },
+    firePledge: {
+        name: "火之誓約",
+        effect: "用火柱進行攻擊。如果和草\n組合，威力就會提高，周圍\n會變成火海",
+    },
+    grassPledge: {
+        name: "草之誓約",
+        effect: "用草柱進行攻擊。如果和水\n組合，威力就會提高，周圍\n會變成溼地",
+    },
+    voltSwitch: {
+        name: "伏特替換",
+        effect: "在攻擊之後急速返回，和後\n備寶可夢進行替換",
+    },
+    struggleBug: {
+        name: "蟲之抵抗",
+        effect: "抵抗並攻擊對手。會降低對\n手的特攻",
+    },
+    bulldoze: {
+        name: "重踏",
+        effect: "用力踩踏地面並攻擊自己周\n圍所有的寶可夢。會降低對\n方的速度",
+    },
+    frostBreath: {
+        name: "冰息",
+        effect: "將冰冷的氣息吹向對手進行\n攻擊。必定會擊中要害",
+    },
+    dragonTail: {
+        name: "龍尾",
+        effect: "彈飛對手，強制拉後備寶可\n夢上場。如果對手爲野生寶\n可夢，戰鬥將直接結束",
+    },
+    workUp: { 
+      name: "自我激勵", effect: "激勵自己，從而提高攻擊和\n特攻" 
+    },
+    electroweb: {
+        name: "電網",
+        effect: "用電網捉住對手進行攻擊。\n會降低對手的速度",
+    },
+    wildCharge: {
+        name: "瘋狂伏特",
+        effect: "讓電流覆蓋全身，撞向對手\n進行攻擊。自己也會受到少\n許傷害",
+    },
+    drillRun: {
+        name: "直衝鑽",
+        effect: "像鋼鑽一樣，一邊旋轉身體\n一邊撞擊對手。容易擊中要\n害",
+    },
+    dualChop: {
+        name: "二連劈",
+        effect: "用身體堅硬的部分拍打對手\n進行攻擊。連續２次給予傷\n害",
+    },
+    heartStamp: {
+        name: "愛心印章",
+        effect: "以可愛的動作使對手疏忽，\n乘機給出強烈的一擊。有時\n會使對手畏縮",
+    },
+    hornLeech: {
+        name: "木角",
+        effect: "將角刺入，吸取對手的養分。\n可以回覆給予對手傷害的\n一半ＨＰ",
+    },
+    sacredSword: {
+        name: "聖劍",
+        effect: "用劍切斬對手進行攻擊。無\n視對手的能力變化，直接給\n予傷害",
+    },
+    razorShell: {
+        name: "貝殼刃",
+        effect: "用鋒利的貝殼切斬對手進行\n攻擊。有時會降低對手的防\n御",
+    },
+    heatCrash: {
+        name: "高溫重壓",
+        effect: "用燃燒的身體撞向對手進行\n攻擊。自己比對手越重，威\n力越大",
+    },
+    leafTornado: {
+        name: "青草攪拌器",
+        effect: "用鋒利的葉片包裹住對手進\n行攻擊。有時會降低對手的\n命中率",
+    },
+    steamroller: {
+        name: "瘋狂滾壓",
+        effect: "旋轉揉成團的身體壓扁對手。\n有時會使對手畏縮",
+    },
+    cottonGuard: {
+        name: "棉花防守",
+        effect: "用軟綿綿的絨毛包裹住自己\n的身體進行守護。巨幅提高\n自己的防禦",
+    },
+    nightDaze: {
+        name: "暗黑爆破",
+        effect: "放出黑暗的衝擊波攻擊對手。\n有時會降低對手的命中率",
+    },
+    psystrike: {
+        name: "精神擊破",
+        effect: "將神奇的念波實體化攻擊對\n手。給予物理傷害",
+    },
+    tailSlap: {
+        name: "掃尾拍打",
+        effect: "用堅硬的尾巴拍打對手進行\n攻擊。連續攻擊２～５次",
+    },
+    hurricane: {
+        name: "暴風",
+        effect: "用強烈的風席捲對手進行攻\n擊。有時會使對手混亂",
+    },
+    headCharge: {
+        name: "爆炸頭突擊",
+        effect: "用厲害的爆炸頭猛撞向對手\n進行攻擊。自己也會受到少\n許傷害",
+    },
+    gearGrind: {
+        name: "齒輪飛盤",
+        effect: "向對手投擲鋼鐵齒輪進行攻\n擊。連續２次給予傷害",
+    },
+    searingShot: {
+        name: "火焰彈",
+        effect: "用熊熊烈火攻擊自己周圍所\n有的寶可夢。有時會陷入灼\n傷狀態",
+    },
+    technoBlast: {
+        name: "高科技光炮",
+        effect: "向對手放出光彈。屬性會根\n據自己攜帶的卡帶不同而改\n變",
+    },
+    relicSong: {
+        name: "古老之歌",
+        effect: "讓對手聽古老之歌，打動對\n手的內心進行攻擊。有時會\n讓對手陷入睡眠狀態",
+    },
+    secretSword: {
+        name: "神祕之劍",
+        effect: "用長角切斬對手進行攻擊。\n角上擁有的神奇力量將給予\n物理傷害",
+    },
+    glaciate: {
+        name: "冰封世界",
+        effect: "將冰凍的冷氣吹向對手進行\n攻擊。會降低對手的速度",
+    },
+    boltStrike: {
+        name: "雷擊",
+        effect: "讓強大的電流覆蓋全身，猛\n撞向對手進行攻擊。有時會\n讓對手陷入麻痹狀態",
+    },
+    blueFlare: {
+        name: "青焰",
+        effect: "用美麗而激烈的青焰包裹住\n對手進行攻擊。有時會讓對\n手陷入灼傷狀態",
+    },
+    fieryDance: {
+        name: "火之舞",
+        effect: "讓火焰覆蓋全身，振翅攻擊\n對手。有時會提高自己的特\n攻",
+    },
+    freezeShock: {
+        name: "冰凍伏特",
+        effect: "用覆蓋着電流的冰塊，在第\n２回合撞向對手。有時會讓\n對手陷入麻痹狀態",
+    },
+    iceBurn: {
+        name: "極寒冷焰",
+        effect: "用能夠凍結一切的強烈冷氣，\n在第２回合包裹住對手。\n有時會讓對手陷入灼傷狀態",
+    },
+    snarl: {
+        name: "大聲咆哮",
+        effect: "沒完沒了地大聲斥責，從而\n降低對手的特攻",
+    },
+    icicleCrash: {
+        name: "冰柱墜擊",
+        effect: "用大冰柱激烈地撞向對手進\n行攻擊。有時會使對手畏縮",
+    },
+    vCreate: {
+        name: "Ｖ熱焰",
+        effect: "從前額產生灼熱的火焰，舍\n身撞擊對手。防禦、特防和\n速度會降低",
+    },
+    fusionFlare: {
+        name: "交錯火焰",
+        effect: "釋放出巨大的火焰。受到巨\n大的閃電影響時，招式威力\n會提高",
+    },
+    fusionBolt: {
+        name: "交錯閃電",
+        effect: "釋放出巨大的閃電。受到巨\n大的火焰影響時，招式威力\n會提高",
+    },
+    flyingPress: {
+        name: "飛身重壓",
+        effect: "從空中俯衝向對手。此招式\n同時帶有格鬥屬性和飛行屬\n性",
+    },
+    matBlock: {
+        name: "掀榻榻米",
+        effect: "將掀起來的榻榻米當作盾牌，\n防住自己和同伴免受招式\n傷害。變化招式無法防住",
+    },
+    belch: {
+        name: "打嗝",
+        effect: "朝着對手打嗝，並給予傷害。\n如果不喫樹果則無法使出",
+    },
+    rototiller: {
+        name: "耕地",
+        effect: "翻耕土地，使草木更容易成\n長。會提高草屬性寶可夢的\n攻擊和特攻",
+    },
+    stickyWeb: {
+        name: "黏黏網",
+        effect: "在對手周圍圍上黏黏的網，\n降低替換出場的對手的速度",
+    },
+    fellStinger: {
+        name: "致命針刺",
+        effect: "如果使用此招式打倒對手，\n攻擊會巨幅提高",
+    },
+    phantomForce: {
+        name: "潛靈奇襲",
+        effect: "第１回合消失在某處，第２\n回合攻擊對手。可以無視守\n護進行攻擊",
+    },
+    trickOrTreat: {
+        name: "萬聖夜",
+        effect: "邀請對手參加萬聖夜。使對\n手被追加幽靈屬性",
+    },
+    nobleRoar: {
+        name: "戰吼",
+        effect: "發出戰吼威嚇對手，從而降\n低對手的攻擊和特攻",
+    },
+    ionDeluge: {
+        name: "等離子浴",
+        effect: "將帶電粒子擴散開來，使一\n般屬性的招式變成電屬性",
+    },
+    parabolicCharge: {
+        name: "拋物面充電",
+        effect: "給周圍全體寶可夢造成傷害。\n可以回覆給予傷害的一半\nHP",
+    },
+    forestsCurse: {
+        name: "森林咒術",
+        effect: "向對手施加森林咒術。中了\n咒術的對手會被追加草屬性",
+    },
+    petalBlizzard: {
+        name: "落英繽紛",
+        effect: "猛烈地颳起飛雪般的落花，\n攻擊周圍所有的寶可夢，並\n給予傷害",
+    },
+    freezeDry: {
+        name: "冷凍乾燥",
+        effect: "急劇冷凍對手，有時會讓對\n手陷入冰凍狀態。對於水屬\n性寶可夢也是效果絕佳",
+    },
+    disarmingVoice: {
+        name: "魅惑之聲",
+        effect: "發出魅惑的叫聲，給予對手\n精神上的傷害。攻擊必定會\n命中",
+    },
+    partingShot: {
+        name: "拋下狠話",
+        effect: "拋下狠話威嚇對手，降低攻\n擊和特攻後，和後備寶可夢\n進行替換",
+    },
+    topsyTurvy: {
+        name: "顛倒",
+        effect: "顛倒對手身上的所有能力變\n化，變成和原來相反的狀態",
+    },
+    drainingKiss: {
+        name: "吸取之吻",
+        effect: "用一個吻吸取對手的ＨＰ。\n回覆給予對手傷害的一半以\n上的ＨＰ",
+    },
+    craftyShield: {
+        name: "戲法防守",
+        effect: "使用神奇的力量防住攻擊我\n方的變化招式。但無法防住\n傷害招式的攻擊",
+    },
+    flowerShield: {
+        name: "鮮花防守",
+        effect: "使用神奇的力量提高在場的\n所有草屬性寶可夢的防禦",
+    },
+    grassyTerrain: {
+        name: "青草場地",
+        effect: "在５回合內變成青草場地。\n地面上的寶可夢每回合都能\n回覆。草屬性的招式威力還\n會提高",
+    },
+    mistyTerrain: {
+        name: "薄霧場地",
+        effect: "在５回合內，地面上的寶可\n夢不會陷入異常狀態。龍屬\n性招式的傷害也會減半",
+    },
+    electrify: {
+        name: "輸電",
+        effect: "對手使出招式前，如果輸電，\n則該回合對手的招式變成\n電屬性",
+    },
+    playRough: {
+        name: "嬉鬧",
+        effect: "與對手嬉鬧並攻擊。有時會\n降低對手的攻擊",
+    },
+    fairyWind: { 
+      name: "妖精之風", effect: "颳起妖精之風，吹向對手進\n行攻擊" 
+    },
+    moonblast: {
+        name: "月亮之力",
+        effect: "借用月亮的力量攻擊對手。\n有時會降低對手的特攻",
+    },
+    boomburst: {
+        name: "爆音波",
+        effect: "通過震耳欲聾的爆炸聲產生\n的破壞力，攻擊自己周圍所\n有的寶可夢",
+    },
+    fairyLock: {
+        name: "妖精之鎖",
+        effect: "通過封鎖，下一回合所有的\n寶可夢都無法逃走",
+    },
+    kingsShield: {
+        name: "王者盾牌",
+        effect: "防住對手攻擊的同時，自己\n變爲防禦姿態。能夠降低所\n接觸到的對手的攻擊",
+    },
+    playNice: {
+        name: "和睦相處",
+        effect: "和對手和睦相處，使其失去\n戰鬥的氣力，從而降低對手\n的攻擊",
+    },
+    confide: {
+        name: "密語",
+        effect: "和對手進行密語，使其失去\n集中力，從而降低對手的特\n攻",
+    },
+    diamondStorm: {
+        name: "鑽石風暴",
+        effect: "掀起鑽石風暴給予傷害。有\n時會大幅提高自己的防禦",
+    },
+    steamEruption: {
+        name: "蒸汽爆炸",
+        effect: "將滾燙的蒸汽噴向對手。有\n時會讓對手灼傷",
+    },
+    hyperspaceHole: {
+        name: "異次元洞",
+        effect: "通過異次元洞，突然出現在\n對手的側面進行攻擊。還可\n以無視守住和看穿等招式",
+    },
+    waterShuriken: {
+        name: "飛水手裏劍",
+        effect: "用粘液製成的手裏劍，連續\n攻擊２～５次。必定能夠先\n制攻擊",
+    },
+    mysticalFire: {
+        name: "魔法火焰",
+        effect: "從口中噴出特別灼熱的火焰\n進行攻擊。降低對手的特攻",
+    },
+    spikyShield: {
+        name: "尖刺防守",
+        effect: "防住對手攻擊的同時，削減\n接觸到自己的對手的體力",
+    },
+    aromaticMist: {
+        name: "芳香薄霧",
+        effect: "通過神奇的芳香，提高我方\n寶可夢的特防",
+    },
+    eerieImpulse: {
+        name: "怪異電波",
+        effect: "從身體放射出怪異電波，讓\n對手沐浴其中，從而大幅降\n低其特攻",
+    },
+    venomDrench: {
+        name: "毒液陷阱",
+        effect: "將特殊的毒液潑向對手。對\n處於中毒狀態的對手，其攻\n擊、特攻和速度都會降低",
+    },
+    powder: {
+        name: "粉塵",
+        effect: "如果被撒到粉塵的對手使用\n火招式，則會爆炸並給予傷\n害",
+    },
+    geomancy: {
+        name: "大地掌控",
+        effect: "第１回合吸收能量，第２回\n合大幅提高特攻、特防和速\n度",
+    },
+    magneticFlux: {
+        name: "磁場操控",
+        effect: "通過操控磁場，會提高特性\n爲正電和負電的寶可夢的防\n御和特防",
+    },
+    happyHour: {
+        name: "歡樂時光",
+        effect: "如果使用歡樂時光，戰鬥後\n得到的錢會翻倍",
+    },
+    electricTerrain: {
+        name: "電氣場地",
+        effect: "在５回合內變成電氣場地。\n地面上的寶可夢將無法入眠。\n電屬性的招式威力還會提\n高",
+    },
+    dazzlingGleam: { name: "魔法閃耀", effect: "向對手發射強光，並給予傷\n害" },
+    celebrate: { name: "慶祝", effect: "寶可夢爲十分開心的你慶祝" },
+    holdHands: {
+        name: "牽手",
+        effect: "我方寶可夢之間牽手。能帶\n來非常幸福的心情",
+    },
+    babyDollEyes: {
+        name: "圓瞳",
+        effect: "用圓瞳凝視對手，從而降低\n其攻擊。必定能夠先制攻擊",
+    },
+    nuzzle: {
+        name: "蹭蹭臉頰",
+        effect: "將帶電的臉頰蹭蹭對手進行\n攻擊。讓對手陷入麻痹狀態",
+    },
+    holdBack: {
+        name: "手下留情",
+        effect: "在攻擊的時候手下留情，從\n而使對手的ＨＰ至少會留下\n１ＨＰ",
+    },
+    infestation: {
+        name: "糾纏不休",
+        effect: "在４～５回合內死纏爛打地\n進行攻擊。在此期間對手將\n無法逃走",
+    },
+    powerUpPunch: {
+        name: "增強拳",
+        effect: "通過反覆擊打對手，使自己\n的拳頭慢慢變硬。打中對手\n攻擊就會提高",
+    },
+    oblivionWing: {
+        name: "歸天之翼",
+        effect: "從鎖定的對手身上吸取ＨＰ。\n回覆給予對手傷害的一半\n以上的ＨＰ",
+    },
+    thousandArrows: {
+        name: "千箭齊發",
+        effect: "可以擊中浮在空中的寶可夢。\n空中的對手被擊落後，會\n掉到地面",
+    },
+    thousandWaves: {
+        name: "千波激盪",
+        effect: "從地面掀起波浪進行攻擊。\n被掀入波浪中的對手，將無\n法從戰鬥中逃走",
+    },
+    landsWrath: {
+        name: "大地神力",
+        effect: "聚集大地的力量，將此力量\n集中攻擊對手，並給予傷害",
+    },
+    lightOfRuin: {
+        name: "破滅之光",
+        effect: "借用永恆之花的力量，發射\n出強力光線。自己也會受到\n非常大的傷害",
+    },
+    originPulse: {
+        name: "根源波動",
+        effect: "用無數青白色且閃耀的光線\n攻擊對手",
+    },
+    precipiceBlades: {
+        name: "斷崖之劍",
+        effect: "將大地的力量變化爲利刃攻\n擊對手",
+    },
+    dragonAscent: {
+        name: "畫龍點睛",
+        effect: "從天空中急速下降攻擊對手。\n自己的防禦和特防會降低",
+    },
+    hyperspaceFury: {
+        name: "異次元猛攻",
+        effect: "用許多手臂，無視對手的守\n住或看穿等招式進行連續攻\n擊，自己的防禦會降低",
+    },
+    breakneckBlitzPhysical: {
+        name: "一般Ｚ究極無敵大沖撞",
+        effect: "通過Ｚ力量氣勢猛烈地全力\n撞上對手。威力會根據原來\n的招式而改變",
+    },
+    breakneckBlitzSpecial: {
+        name: "一般Ｚ究極無敵大沖撞",
+        effect: "通過Ｚ力量氣勢猛烈地全力\n撞上對手。威力會根據原來\n的招式而改變",
+    },
+    allOutPummelingPhysical: {
+        name: "格鬥Ｚ全力無雙激烈拳",
+        effect: "通過Ｚ力量製造出能量彈，\n全力撞向對手。威力會根據\n原來的招式而改變",
+    },
+    allOutPummelingSpecial: {
+        name: "格鬥Ｚ全力無雙激烈拳",
+        effect: "通過Ｚ力量製造出能量彈，\n全力撞向對手。威力會根據\n原來的招式而改變",
+    },
+    supersonicSkystrikePhysical: {
+        name: "飛行Ｚ極速俯衝轟烈撞",
+        effect: "通過Ｚ力量猛烈地飛向天空，\n朝對手全力落下。威力會\n根據原來的招式而改變",
+    },
+    supersonicSkystrikeSpecial: {
+        name: "飛行Ｚ極速俯衝轟烈撞",
+        effect: "通過Ｚ力量猛烈地飛向天空，\n朝對手全力落下。威力會\n根據原來的招式而改變",
+    },
+    acidDownpourPhysical: {
+        name: "毒Ｚ強酸劇毒滅絕雨",
+        effect: "通過Ｚ力量使毒沼湧起，全\n力讓對手沉下去。威力會根\n據原來的招式而改變",
+    },
+    acidDownpourSpecial: {
+        name: "毒Ｚ強酸劇毒滅絕雨",
+        effect: "通過Ｚ力量使毒沼湧起，全\n力讓對手沉下去。威力會根\n據原來的招式而改變",
+    },
+    tectonicRagePhysical: {
+        name: "地面Ｚ地隆嘯天大終結",
+        effect: "通過Ｚ力量潛入地裏最深處，\n全力撞上對手。威力會根\n據原來的招式而改變",
+    },
+    tectonicRageSpecial: {
+        name: "地面Ｚ地隆嘯天大終結",
+        effect: "通過Ｚ力量潛入地裏最深處，\n全力撞上對手。威力會根\n據原來的招式而改變",
+    },
+    continentalCrushPhysical: {
+        name: "岩石Ｚ毀天滅地巨巖墜",
+        effect: "通過Ｚ力量召喚大大的巖山，\n全力撞向對手。威力會根\n據原來的招式而改變",
+    },
+    continentalCrushSpecial: {
+        name: "岩石Ｚ毀天滅地巨巖墜",
+        effect: "通過Ｚ力量召喚大大的巖山，\n全力撞向對手。威力會根\n據原來的招式而改變",
+    },
+    savageSpinOutPhysical: {
+        name: "蟲Ｚ絕對捕食迴旋斬",
+        effect: "通過Ｚ力量將吐出的絲線全\n力束縛對手。威力會根據原\n來的招式而改變",
+    },
+    savageSpinOutSpecial: {
+        name: "蟲Ｚ絕對捕食迴旋斬",
+        effect: "通過Ｚ力量將吐出的絲線全\n力束縛對手。威力會根據原\n來的招式而改變",
+    },
+    neverEndingNightmarePhysical: {
+        name: "幽靈Ｚ無盡暗夜之誘惑",
+        effect: "通過Ｚ力量召喚強烈的怨念，\n全力降臨到對手身上。威\n力會根據原來的招式而改變",
+    },
+    neverEndingNightmareSpecial: {
+        name: "幽靈Ｚ無盡暗夜之誘惑",
+        effect: "通過Ｚ力量召喚強烈的怨念，\n全力降臨到對手身上。威\n力會根據原來的招式而改變",
+    },
+    corkscrewCrashPhysical: {
+        name: "鋼Ｚ超絕螺旋連擊",
+        effect: "通過Ｚ力量進行高速旋轉，\n全力撞上對手。威力會根據\n原來的招式而改變",
+    },
+    corkscrewCrashSpecial: {
+        name: "鋼Ｚ超絕螺旋連擊",
+        effect: "通過Ｚ力量進行高速旋轉，\n全力撞上對手。威力會根據\n原來的招式而改變",
+    },
+    infernoOverdrivePhysical: {
+        name: "火Ｚ超強極限爆焰彈",
+        effect: "通過Ｚ力量噴出熊熊烈火，\n全力撞向對手。威力會根據\n原來的招式而改變",
+    },
+    infernoOverdriveSpecial: {
+        name: "火Ｚ超強極限爆焰彈",
+        effect: "通過Ｚ力量噴出熊熊烈火，\n全力撞向對手。威力會根據\n原來的招式而改變",
+    },
+    hydroVortexPhysical: {
+        name: "水Ｚ超級水流大漩渦",
+        effect: "通過Ｚ力量製造大大的潮旋，\n全力吞沒對手。威力會根\n據原來的招式而改變",
+    },
+    hydroVortexSpecial: {
+        name: "水Ｚ超級水流大漩渦",
+        effect: "通過Ｚ力量製造大大的潮旋，\n全力吞沒對手。威力會根\n據原來的招式而改變",
+    },
+    bloomDoomPhysical: {
+        name: "草Ｚ絢爛繽紛花怒放",
+        effect: "通過Ｚ力量藉助花草的能量，\n全力攻擊對手。威力會根\n據原來的招式而改變",
+    },
+    bloomDoomSpecial: {
+        name: "草Ｚ絢爛繽紛花怒放",
+        effect: "通過Ｚ力量藉助花草的能量，\n全力攻擊對手。威力會根\n據原來的招式而改變",
+    },
+    gigavoltHavocPhysical: {
+        name: "電Ｚ終極伏特狂雷閃",
+        effect: "通過Ｚ力量將蓄積的強大電\n流全力撞向對手。威力會根\n據原來的招式而改變",
+    },
+    gigavoltHavocSpecial: {
+        name: "電Ｚ終極伏特狂雷閃",
+        effect: "通過Ｚ力量將蓄積的強大電\n流全力撞向對手。威力會根\n據原來的招式而改變",
+    },
+    shatteredPsychePhysical: {
+        name: "超能力Ｚ至高精神破壞波",
+        effect: "通過Ｚ力量操縱對手，全力\n使其感受到痛苦。威力會根\n據原來的招式而改變",
+    },
+    shatteredPsycheSpecial: {
+        name: "超能力Ｚ至高精神破壞波",
+        effect: "通過Ｚ力量操縱對手，全力\n使其感受到痛苦。威力會根\n據原來的招式而改變",
+    },
+    subzeroSlammerPhysical: {
+        name: "冰Ｚ激狂大地萬里冰",
+        effect: "通過Ｚ力量急劇降低氣溫，\n全力冰凍對手。威力會根據\n原來的招式而改變",
+    },
+    subzeroSlammerSpecial: {
+        name: "冰Ｚ激狂大地萬里冰",
+        effect: "通過Ｚ力量急劇降低氣溫，\n全力冰凍對手。威力會根據\n原來的招式而改變",
+    },
+    devastatingDrakePhysical: {
+        name: "龍Ｚ究極巨龍震天地",
+        effect: "通過Ｚ力量將氣場實體化，\n向對手全力發動襲擊。威力\n會根據原來的招式而改變",
+    },
+    devastatingDrakeSpecial: {
+        name: "龍Ｚ究極巨龍震天地",
+        effect: "通過Ｚ力量將氣場實體化，\n向對手全力發動襲擊。威力\n會根據原來的招式而改變",
+    },
+    blackHoleEclipsePhysical: {
+        name: "惡Ｚ黑洞吞噬萬物滅",
+        effect: "通過Ｚ力量收集惡能量，全\n力將對手吸入。威力會根據\n原來的招式而改變",
+    },
+    blackHoleEclipseSpecial: {
+        name: "惡Ｚ黑洞吞噬萬物滅",
+        effect: "通過Ｚ力量收集惡能量，全\n力將對手吸入。威力會根據\n原來的招式而改變",
+    },
+    twinkleTacklePhysical: {
+        name: "妖精Ｚ可愛星星飛天撞",
+        effect: "通過Ｚ力量製造魅惑空間，\n全力捉弄對手。威力會根據\n原來的招式而改變",
+    },
+    twinkleTackleSpecial: {
+        name: "妖精Ｚ可愛星星飛天撞",
+        effect: "通過Ｚ力量製造魅惑空間，\n全力捉弄對手。威力會根據\n原來的招式而改變",
+    },
+    catastropika: {
+        name: "皮卡丘Ｚ皮卡皮卡必殺擊",
+        effect: "通過Ｚ力量，皮卡丘全身覆\n蓋最強電力，全力猛撲對手",
+    },
+    shoreUp: {
+        name: "集沙",
+        effect: "回覆自己最大ＨＰ的一半。\n在沙暴中回覆得更多",
+    },
+    firstImpression: {
+        name: "迎頭一擊",
+        effect: "威力很高的招式，但只有在\n出場戰鬥時，立刻使出才能\n成功",
+    },
+    banefulBunker: {
+        name: "碉堡",
+        effect: "防住對手攻擊的同時，讓接\n觸到自己的對手中毒",
+    },
+    spiritShackle: {
+        name: "縫影",
+        effect: "攻擊的同時，縫住對手的影\n子，使其無法逃走",
+    },
+    darkestLariat: {
+        name: "ＤＤ金勾臂",
+        effect: "旋轉雙臂打向對手。無視對\n手的能力變化，直接給予傷\n害",
+    },
+    sparklingAria: {
+        name: "泡影的詠歎調",
+        effect: "隨着唱歌會放出很多氣球。\n受到此招式攻擊時，灼傷會\n被治癒",
+    },
+    iceHammer: {
+        name: "冰錘",
+        effect: "揮舞強力而沉重的拳頭，給\n予對手傷害。自己的速度會\n降低",
+    },
+    floralHealing: {
+        name: "花療",
+        effect: "回覆對手最大ＨＰ的一半。\n在青草場地時，效果會提高",
+    },
+    highHorsepower: { name: "十萬馬力", effect: "使出全身力量，猛攻對手" },
+    strengthSap: {
+        name: "吸取力量",
+        effect: "給自己回覆和對手攻擊力相\n同數值的ＨＰ，然後降低對\n手的攻擊",
+    },
+    solarBlade: {
+        name: "日光刃",
+        effect: "第１回合收集滿滿的日光，\n第２回合將此力量集中在劍\n上進行攻擊",
+    },
+    leafage: { name: "樹葉", effect: "將葉片打向對手，進行攻擊" },
+    spotlight: {
+        name: "聚光燈",
+        effect: "給寶可夢打上聚光燈，該回\n合只能瞄準該寶可夢",
+    },
+    toxicThread: {
+        name: "毒絲",
+        effect: "將混有毒的絲吐向對手。使\n其中毒，從而降低對手的速\n度",
+    },
+    laserFocus: { name: "磨礪", effect: "集中精神，下次攻擊必定會\n擊中要害" },
+    gearUp: {
+        name: "輔助齒輪",
+        effect: "啓動齒輪，提高特性爲正電\n和負電的寶可夢的攻擊和特\n攻",
+    },
+    throatChop: {
+        name: "深淵突刺",
+        effect: "受到此招式攻擊的對手，會\n因爲地獄般的痛苦，在２回\n合內，變得無法使出聲音類\n招式",
+    },
+    pollenPuff: {
+        name: "花粉團",
+        effect: "對敵人使用是會爆炸的糰子。\n對我方使用則是給予回覆\n的糰子",
+    },
+    anchorShot: {
+        name: "擲錨",
+        effect: "將錨纏住對手進行攻擊。使\n對手無法逃走",
+    },
+    psychicTerrain: {
+        name: "精神場地",
+        effect: "在５回合內，地面上的寶可\n夢不會受到先制招式的攻擊。\n超能力屬性的招式威力會\n提高",
+    },
+    lunge: {
+        name: "猛撲",
+        effect: "全力猛撲對手進行攻擊。從\n而降低對手的攻擊",
+    },
+    fireLash: {
+        name: "火焰鞭",
+        effect: "用燃燒的鞭子抽打對手。受\n到攻擊的對手防禦會降低",
+    },
+    powerTrip: {
+        name: "囂張",
+        effect: "耀武揚威地攻擊對手，自己\n的能力提高得越多，威力就\n越大",
+    },
+    burnUp: {
+        name: "燃盡",
+        effect: "將自己全身燃燒起火焰來，\n給予對手大大的傷害。自己\n的火屬性將會消失",
+    },
+    speedSwap: { name: "速度互換", effect: "將對手和自己的速度進行互\n換" },
+    smartStrike: {
+        name: "修長之角",
+        effect: "用尖尖的角刺入對手進行攻\n擊。攻擊必定會命中",
+    },
+    purify: {
+        name: "淨化",
+        effect: "治癒對手的異常狀態。治癒\n後可以回覆自己的ＨＰ",
+    },
+    revelationDance: {
+        name: "覺醒之舞",
+        effect: "全力跳舞進行攻擊。此招式\n的屬性將變得和自己的屬性\n相同",
+    },
+    coreEnforcer: {
+        name: "核心懲罰者",
+        effect: "如果給予過傷害的對手已經\n結束行動，其特性就會被消\n除",
+    },
+    tropKick: {
+        name: "熱帶踢",
+        effect: "向對手使出來自南國的火熱\n腳踢。從而降低對手的攻擊",
+    },
+    instruct: {
+        name: "號令",
+        effect: "向對手下達指示，讓其再次\n使出剛纔的招式",
+    },
+    beakBlast: {
+        name: "鳥嘴加農炮",
+        effect: "先加熱鳥嘴後再進行攻擊。\n鳥嘴在加熱時對手觸碰的話，\n就會使其灼傷",
+    },
+    clangingScales: {
+        name: "鱗片噪音",
+        effect: "摩擦全身鱗片，發出響亮的\n聲音進行攻擊。攻擊後自己\n的防禦會降低",
+    },
+    dragonHammer: {
+        name: "龍錘",
+        effect: "將身體當作錘子，向對手發\n動襲擊，給予傷害",
+    },
+    brutalSwing: {
+        name: "狂舞揮打",
+        effect: "用自己的身體狂舞揮打，給\n予對手傷害",
+    },
+    auroraVeil: {
+        name: "極光幕",
+        effect: "在５回合內減弱物理和特殊\n的傷害。只有下雪時才能使\n出",
+    },
+    sinisterArrowRaid: {
+        name: "狙射樹梟Ｚ遮天蔽日暗影箭",
+        effect: "通過Ｚ力量製造出無數箭的\n狙射樹梟將全力射穿對手進\n行攻擊",
+    },
+    maliciousMoonsault: {
+        name: "熾焰咆哮虎Ｚ極惡飛躍粉碎擊",
+        effect: "通過Ｚ力量得到強壯肉體的\n熾焰咆哮虎將全力撞向對手\n進行攻擊",
+    },
+    oceanicOperetta: {
+        name: "西獅海壬Ｚ海神莊嚴交響樂",
+        effect: "通過Ｚ力量召喚大量水的西\n獅海壬將全力攻擊對手",
+    },
+    guardianOfAlola: {
+        name: "卡璞Ｚ巨人衛士・阿羅拉",
+        effect: "通過Ｚ力量得到阿羅拉之力\n的土地神寶可夢將全力進行\n攻擊。對手的剩餘HP會減\n少很多",
+    },
+    soulStealing7StarStrike: {
+        name: "瑪夏多Ｚ七星奪魂腿",
+        effect: "得到Ｚ力量的瑪夏多將全力\n使出拳頭和腳踢的連續招式\n叩打對手",
+    },
+    stokedSparksurfer: {
+        name: "阿羅雷Ｚ駕雷馭電戲衝浪",
+        effect: "得到Ｚ力量的阿羅拉地區的\n雷丘將全力進行攻擊。從而\n讓對手陷入麻痹狀態",
+    },
+    pulverizingPancake: {
+        name: "卡比獸Ｚ認真起來大爆擊",
+        effect: "通過Ｚ力量使得認真起來的\n卡比獸躍動巨大身軀，全力\n向對手發動襲擊",
+    },
+    extremeEvoboost: {
+        name: "伊布Ｚ九彩昇華齊聚頂",
+        effect: "得到Ｚ力量的伊布將藉助進\n化後夥伴們的力量，大幅提\n高能力",
+    },
+    genesisSupernova: {
+        name: "夢幻Ｚ起源超新星大爆炸",
+        effect: "得到Ｚ力量的夢幻將全力攻\n擊對手。腳下會變成精神場\n地",
+    },
+    shellTrap: {
+        name: "陷阱甲殼",
+        effect: "設下甲殼陷阱。如果對手使\n出物理招式，陷阱就會爆炸\n並給予對手傷害",
+    },
+    fleurCannon: {
+        name: "花朵加農炮",
+        effect: "放出強力光束後，自己的特\n攻會大幅降低",
+    },
+    psychicFangs: {
+        name: "精神之牙",
+        effect: "利用精神力量咬住對手進行\n攻擊。還可以破壞光牆和反\n射壁等",
+    },
+    stompingTantrum: {
+        name: "跺腳",
+        effect: "化悔恨爲力量進行攻擊。如\n果上一回合招式沒有打中，\n威力就會翻倍",
+    },
+    shadowBone: {
+        name: "暗影之骨",
+        effect: "用附有靈魂的骨頭毆打對手\n進行攻擊。有時會降低對手\n的防禦",
+    },
+    accelerock: {
+        name: "衝巖",
+        effect: "迅速撞向對手進行攻擊。必\n定能夠先制攻擊",
+    },
+    liquidation: {
+        name: "水流裂破",
+        effect: "用水之力量撞向對手進行攻\n擊。有時會降低對手的防禦",
+    },
+    prismaticLaser: {
+        name: "棱鏡鐳射",
+        effect: "用棱鏡的力量發射強烈光線。\n下一回合自己將無法動彈",
+    },
+    spectralThief: {
+        name: "暗影偷盜",
+        effect: "潛入對手的影子進行攻擊。\n會奪取對手的能力提升",
+    },
+    sunsteelStrike: {
+        name: "流星閃衝",
+        effect: "以流星般的氣勢猛撞對手。\n可以無視對手的特性進行攻\n擊",
+    },
+    moongeistBeam: {
+        name: "暗影之光",
+        effect: "放出奇怪的光線攻擊對手。\n可以無視對手的特性進行攻\n擊",
+    },
+    tearfulLook: {
+        name: "淚眼汪汪",
+        effect: "變得淚眼汪汪，讓對手喪失\n鬥志。從而降低對手的攻擊\n和特攻",
+    },
+    zingZap: {
+        name: "麻麻刺刺",
+        effect: "撞向對手，併發出強電，使\n其感到麻麻刺刺的。有時會\n使對手畏縮",
+    },
+    naturesMadness: {
+        name: "自然之怒",
+        effect: "向對手釋放自然之怒。對手\n的ＨＰ會減半",
+    },
+    multiAttack: {
+        name: "多屬性攻擊",
+        effect: "一邊覆蓋高能量，一邊撞向\n對手進行攻擊。根據存儲碟\n不同，屬性會改變",
+    },
+    tenMillionVoltThunderbolt: {
+        name: "智皮卡Ｚ千萬伏特",
+        effect: "戴着帽子的皮卡丘將通過Ｚ\n力量增強的電擊全力釋放給\n對手。容易擊中要害",
+    },
+    mindBlown: {
+        name: "驚爆大頭",
+        effect: "讓自己的頭爆炸，來攻擊周\n圍的一切。自己也會受到傷\n害",
+    },
+    plasmaFists: {
+        name: "等離子閃電拳",
+        effect: "用覆蓋着電流的拳頭進行攻\n擊。使一般屬性的招式變成\n電屬性",
+    },
+    photonGeyser: {
+        name: "光子噴湧",
+        effect: "用光柱來進行攻擊。比較自\n己的攻擊和特攻，用數值相\n對較高的一項給予對方傷害",
+    },
+    lightThatBurnsTheSky: {
+        name: "究極奈克洛Ｚ焚天滅世熾光爆",
+        effect: "奈克洛茲瑪會無視對手的特\n性效果，在攻擊和特攻之間，\n用數值相對較高的一項給\n予對方傷害",
+    },
+    searingSunrazeSmash: {
+        name: "索爾迦雷歐Ｚ日光迴旋下蒼穹",
+        effect: "得到Ｚ力量的索爾迦雷歐將\n全力進行攻擊。可以無視對\n手的特性效果",
+    },
+    menacingMoonrazeMaelstrom: {
+        name: "露奈雅拉Ｚ月華飛濺落靈霄",
+        effect: "得到Ｚ力量的露奈雅拉將全\n力進行攻擊。可以無視對手\n的特性效果",
+    },
+    letsSnuggleForever: {
+        name: "謎擬丘Ｚ親密無間大亂揍",
+        effect: "得到Ｚ力量的謎擬Ｑ將全力\n進行亂揍攻擊",
+    },
+    splinteredStormshards: {
+        name: "鬃巖狼人Ｚ狼嘯石牙颶風暴",
+        effect: "得到Ｚ力量的鬃巖狼人將全\n力進行攻擊。而且會消除場\n地狀態",
+    },
+    clangorousSoulblaze: {
+        name: "杖尾鱗甲龍Ｚ熾魂熱舞烈音爆",
+        effect: "得到Ｚ力量的杖尾鱗甲龍將\n全力攻擊對手。並且自己的\n能力會提高",
+    },
+    zippyZap: {
+        name: "電電加速",
+        effect: "The user attacks the target with bursts of electricity at high speed. This move always goes first and raises the user's evasiveness.",
+    },
+    splishySplash: {
+        name: "滔滔衝浪",
+        effect: "往巨浪中注入電能後衝撞對\n手進行攻擊。有時會讓對手\n陷入麻痹狀態",
+    },
+    floatyFall: {
+        name: "飄飄墜落",
+        effect: "輕飄飄地浮起來後，再猛地\n俯衝下去進行攻擊。有時會\n使對手畏縮",
+    },
+    pikaPapow: {
+        name: "閃閃雷光",
+        effect: "皮卡丘越喜歡訓練家，電擊\n的威力就越強。攻擊必定會\n命中",
+    },
+    bouncyBubble: {
+        name: "活活氣泡",
+        effect: "投擲水球進行攻擊。吸水後\n能回覆等同於造成的傷害一\n半的HP",
+    },
+    buzzyBuzz: {
+        name: "麻麻電擊",
+        effect: "放出電擊攻擊對手。讓對手\n陷入麻痹狀態",
+    },
+    sizzlySlide: {
+        name: "熊熊火爆",
+        effect: "用燃起大火的身體猛烈地衝\n撞對手。讓對手陷入灼傷狀\n態",
+    },
+    glitzyGlow: {
+        name: "嘩嘩氣場",
+        effect: "利用念力強攻，粉碎對方信\n心。製造一道能減弱對手特\n殊攻擊的神奇牆壁",
+    },
+    baddyBad: {
+        name: "壞壞領域",
+        effect: "惡行惡相地進行攻擊。製造\n一道能減弱對手物理攻擊的\n神奇牆壁",
+    },
+    sappySeed: {
+        name: "茁茁炸彈",
+        effect: "長出巨大的藤蔓，播撒種子\n進行攻擊。種子每回合都會\n吸取對手的HP",
+    },
+    freezyFrost: {
+        name: "冰冰霜凍",
+        effect: "利用冰冷的黑霧結晶進行攻\n擊。使全體寶可夢的能力變\n回原點",
+    },
+    sparklySwirl: {
+        name: "亮亮風暴",
+        effect: "利用芬芳刺鼻的龍捲風吞噬\n對方。能治癒我方寶可夢的\n異常狀態",
+    },
+    veeveeVolley: {
+        name: "砰砰擊破",
+        effect: "伊布越喜歡訓練家，衝撞的\n威力就越強。攻擊必定會命\n中",
+    },
+    doubleIronBash: {
+        name: "鋼拳雙擊",
+        effect: "以胸口的螺帽爲中心旋轉，\n並連續２次揮動手臂打擊對\n手。有時會使對手畏縮",
+    },
+    maxGuard: {
+        name: "極巨防壁",
+        effect: "完全抵擋對手的攻擊。連續\n使出則容易失敗",
+    },
+    dynamaxCannon: {
+        name: "極巨炮",
+        effect: "將凝縮在體內的能量從核心\n放出進行攻擊",
+    },
+    snipeShot: {
+        name: "狙擊",
+        effect: "能無視具有吸引對手招式效\n果的特性或招式的影響。可\n以向選定的對手進行攻擊",
+    },
+    jawLock: {
+        name: "緊咬不放",
+        effect: "使雙方直到一方昏厥爲止無\n法替換寶可夢。其中一方退\n場則可以解除效果",
+    },
+    stuffCheeks: { name: "大快朵頤", effect: "喫掉攜帶的樹果，大幅提高\n防禦" },
+    noRetreat: {
+        name: "背水一戰",
+        effect: "提高自己的所有能力，但無\n法替換或逃走",
+    },
+    tarShot: {
+        name: "瀝青射擊",
+        effect: "潑灑黏糊糊的瀝青，降低對\n手的速度。火屬性會變成對\n手的弱點",
+    },
+    magicPowder: {
+        name: "魔法粉",
+        effect: "向對手噴灑魔法粉，使對手\n變爲超能力屬性",
+    },
+    dragonDarts: {
+        name: "龍箭",
+        effect: "讓多龍梅西亞進行２次攻擊。\n如果對手有２只寶可夢，\n則對它們各進行１次攻擊",
+    },
+    teatime: {
+        name: "茶會",
+        effect: "舉辦一場茶會，場上的所有\n寶可夢都會喫掉自己攜帶的\n樹果",
+    },
+    octolock: {
+        name: "蛸固",
+        effect: "讓對手無法逃走。對手被固\n定後，每回合都會降低防禦\n和特防",
+    },
+    boltBeak: {
+        name: "電喙",
+        effect: "用帶電的喙啄刺對手。如果\n比對手先出手攻擊，招式的\n威力會變成２倍",
+    },
+    fishiousRend: {
+        name: "鰓咬",
+        effect: "用堅硬的腮咬住對手。如果\n比對手先出手攻擊，招式的\n威力會變成２倍",
+    },
+    courtChange: { name: "換場", effect: "用神奇的力量交換雙方的場\n地效果" },
+    maxFlare: {
+        name: "極巨火爆",
+        effect: "極巨化寶可夢使出的火屬性\n攻擊。可在５回合內讓日照\n變得強烈",
+    },
+    maxFlutterby: {
+        name: "極巨蟲蠱",
+        effect: "極巨化寶可夢使出的蟲屬性\n攻擊。會降低對手的特攻",
+    },
+    maxLightning: {
+        name: "極巨閃電",
+        effect: "極巨化寶可夢使出的電屬性\n攻擊。可在５回合內將腳下\n變成電氣場地",
+    },
+    maxStrike: {
+        name: "極巨攻擊",
+        effect: "極巨化寶可夢使出的一般屬\n性攻擊。會降低對手的速度",
+    },
+    maxKnuckle: {
+        name: "極巨拳鬥",
+        effect: "極巨化寶可夢使出的格鬥屬\n性攻擊。會提高我方的攻擊",
+    },
+    maxPhantasm: {
+        name: "極巨幽魂",
+        effect: "極巨化寶可夢使出的幽靈屬\n性攻擊。會降低對手的防禦",
+    },
+    maxHailstorm: {
+        name: "極巨寒冰",
+        effect: "極巨化寶可夢使出的冰屬性\n攻擊。在５回合內會下雪",
+    },
+    maxOoze: {
+        name: "極巨酸毒",
+        effect: "極巨化寶可夢使出的毒屬性\n攻擊。會提高我方的特攻",
+    },
+    maxGeyser: {
+        name: "極巨水流",
+        effect: "極巨化寶可夢使出的水屬性\n攻擊。可在５回合內降下大\n雨",
+    },
+    maxAirstream: {
+        name: "極巨飛衝",
+        effect: "極巨化寶可夢使出的飛行屬\n性攻擊。會提高我方的速度",
+    },
+    maxStarfall: {
+        name: "極巨妖精",
+        effect: "極巨化寶可夢使出的妖精屬\n性攻擊。可在５回合內將腳\n下變成薄霧場地",
+    },
+    maxWyrmwind: {
+        name: "極巨龍騎",
+        effect: "極巨化寶可夢使出的龍屬性\n攻擊。會降低對手的攻擊",
+    },
+    maxMindstorm: {
+        name: "極巨超能",
+        effect: "極巨化寶可夢使出的超能力\n屬性攻擊。可在５回合內將\n腳下變成精神場地",
+    },
+    maxRockfall: {
+        name: "極巨岩石",
+        effect: "極巨化寶可夢使出的岩石屬\n性攻擊。可在５回合內捲起\n沙暴",
+    },
+    maxQuake: {
+        name: "極巨大地",
+        effect: "極巨化寶可夢使出的地面屬\n性攻擊。會提高我方的特防",
+    },
+    maxDarkness: {
+        name: "極巨惡霸",
+        effect: "極巨化寶可夢使出的惡屬性\n攻擊。會降低對手的特防",
+    },
+    maxOvergrowth: {
+        name: "極巨草原",
+        effect: "極巨化寶可夢使出的草屬性\n攻擊。可在５回合內將腳下\n變成青草場地",
+    },
+    maxSteelspike: {
+        name: "極巨鋼鐵",
+        effect: "極巨化寶可夢使出的鋼屬性\n攻擊。會提高我方的防禦",
+    },
+    clangorousSoul: {
+        name: "魂舞烈音爆",
+        effect: "削減少許自己的ＨＰ，使所\n有能力都提高",
+    },
+    bodyPress: {
+        name: "撲擊",
+        effect: "用身體撞向對手進行攻擊。\n防禦越高，給予的傷害就越\n高",
+    },
+    decorate: { name: "裝飾", effect: "通過裝飾，大幅提高對方的\n攻擊和特攻" },
+    drumBeating: {
+        name: "鼓擊",
+        effect: "用鼓點來控制鼓的根部進行\n攻擊，從而降低對手的速度",
+    },
+    snapTrap: {
+        name: "捕獸夾",
+        effect: "使用捕獸夾，在４～５回合\n內，夾住對手進行攻擊",
+    },
+    pyroBall: {
+        name: "火焰球",
+        effect: "點燃小石子，形成火球攻擊\n對手。有時會使對手陷入灼\n傷狀態",
+    },
+    behemothBlade: {
+        name: "巨獸斬",
+        effect: "以全身力氣舉起強大的劍，\n猛烈地劈向對手進行攻擊",
+    },
+    behemothBash: {
+        name: "巨獸彈",
+        effect: "將全身變化爲堅固的盾，猛\n烈地撞向對手進行攻擊",
+    },
+    auraWheel: {
+        name: "氣場輪",
+        effect: "用儲存在頰囊裏的能量進行\n攻擊，並提高自己的速度。\n其屬性會隨着莫魯貝可的樣\n子而改變",
+    },
+    breakingSwipe: {
+        name: "廣域破壞",
+        effect: "用堅韌的尾巴猛掃對手進行\n攻擊，從而降低對手的攻擊",
+    },
+    branchPoke: {
+        name: "木枝突刺",
+        effect: "使用尖銳的樹枝刺向對手進\n行攻擊",
+    },
+    overdrive: {
+        name: "破音",
+        effect: "奏響吉他和貝斯，釋放出發\n出巨響的劇烈震動攻擊對手",
+    },
+    appleAcid: {
+        name: "蘋果酸",
+        effect: "使用從酸蘋果中提取出來的\n酸性液體進行攻擊。降低對\n手的特防",
+    },
+    gravApple: {
+        name: "萬有引力",
+        effect: "從高處落下蘋果，給予對手\n傷害。可降低對手的防禦",
+    },
+    spiritBreak: {
+        name: "靈魂衝擊",
+        effect: "用足以讓對手一蹶不振的氣\n勢進行攻擊。會降低對手的\n特攻",
+    },
+    strangeSteam: {
+        name: "神奇蒸汽",
+        effect: "噴出煙霧攻擊對手。有時會\n使對手混亂",
+    },
+    lifeDew: {
+        name: "生命水滴",
+        effect: "噴灑出神奇的水，回覆自己\n和場上同伴的ＨＰ",
+    },
+    obstruct: {
+        name: "攔堵",
+        effect: "完全抵擋對手的攻擊。連續\n使出則容易失敗。一旦觸碰，\n防禦就會大幅降低",
+    },
+    falseSurrender: {
+        name: "假跪真撞",
+        effect: "裝作低頭認錯的樣子，用凌\n亂的頭髮進行突刺。攻擊必\n定會命中",
+    },
+    meteorAssault: {
+        name: "流星突擊",
+        effect: "大力揮舞粗壯的莖進行攻擊。\n但同時自己也會被晃暈，\n下一回合自己將無法動彈",
+    },
+    eternabeam: {
+        name: "無極光束",
+        effect: "無極汰那變回原來的樣子後，\n發動的最強攻擊。下一回\n合自己將無法動彈",
+    },
+    steelBeam: {
+        name: "鐵蹄光線",
+        effect: "將從全身聚集的鋼鐵化爲光\n束，激烈地發射出去。自己\n也會受到傷害",
+    },
+    expandingForce: {
+        name: "廣域戰力",
+        effect: "利用精神力量攻擊對手。在\n精神場地上威力會有所提高，\n能對所有對手造成傷害",
+    },
+    steelRoller: {
+        name: "鐵滾輪",
+        effect: "在破壞場地的同時攻擊對手。\n如果腳下沒有任何場地狀\n態存在，使出此招式時便會\n失敗",
+    },
+    scaleShot: {
+        name: "鱗射",
+        effect: "發射鱗片進行攻擊。連續攻\n擊２～５次。速度會提高但\n防禦會降低",
+    },
+    meteorBeam: {
+        name: "流星光束",
+        effect: "第１回合聚集宇宙之力提高\n特攻，第２回合攻擊對手",
+    },
+    shellSideArm: {
+        name: "臂貝武器",
+        effect: "從物理攻擊和特殊攻擊中選\n擇可造成較多傷害的方式進\n行攻擊。有時會讓對手陷入\n中毒狀態",
+    },
+    mistyExplosion: {
+        name: "薄霧炸裂",
+        effect: "對自己周圍的所有寶可夢進\n行攻擊，但使出後，自己會\n陷入昏厥。在薄霧場地上，\n招式威力會提高",
+    },
+    grassyGlide: {
+        name: "青草滑梯",
+        effect: "彷彿在地面上滑行般地攻擊\n對手。在青草場地上，必定\n能夠先制攻擊",
+    },
+    risingVoltage: {
+        name: "電力上升",
+        effect: "用從地面升騰而起的電擊進\n行攻擊。當對手處於電氣場\n地上時，招式威力會變成２\n倍",
+    },
+    terrainPulse: {
+        name: "大地波動",
+        effect: "藉助場地的力量進行攻擊。\n視使出招式時場地狀態不同，\n招式的屬性和威力會有所\n變化",
+    },
+    skitterSmack: {
+        name: "爬擊",
+        effect: "從對手背後爬近後進行攻擊。\n會降低對手的特攻",
+    },
+    burningJealousy: {
+        name: "妒火",
+        effect: "用嫉妒的能量攻擊對手。會\n讓在該回合內能力有所提高\n的寶可夢陷入灼傷狀態",
+    },
+    lashOut: {
+        name: "泄憤",
+        effect: "攻擊對手以發泄對其感到的\n惱怒情緒。如果在該回合內\n自身能力遭到降低，招式的\n威力會變成２倍",
+    },
+    poltergeist: {
+        name: "靈騷",
+        effect: "操縱對手的持有物進行攻擊。\n當對手沒有攜帶道具時，\n使出此招式時便會失敗",
+    },
+    corrosiveGas: {
+        name: "腐蝕氣體",
+        effect: "用具有強酸性的氣體包裹住\n自己周圍所有的寶可夢，並\n融化其所攜帶的道具",
+    },
+    coaching: {
+        name: "指導",
+        effect: "通過進行正確合理的指導，\n提高我方全員的攻擊和防禦",
+    },
+    flipTurn: {
+        name: "快速折返",
+        effect: "在攻擊之後急速返回，和後\n備寶可夢進行替換",
+    },
+    tripleAxel: {
+        name: "三旋擊",
+        effect: "連續３次踢對手進行攻擊。\n每踢中一次，威力就會提高",
+    },
+    dualWingbeat: {
+        name: "雙翼",
+        effect: "將翅膀撞向對手進行攻擊。\n連續２次給予傷害",
+    },
+    scorchingSands: {
+        name: "熱沙大地",
+        effect: "將滾燙的沙子砸向對手進行\n攻擊。有時會讓對手陷入灼\n傷狀態",
+    },
+    jungleHealing: {
+        name: "叢林治療",
+        effect: "與叢林融爲一體，回覆自己\n和場上同伴的ＨＰ和狀態",
+    },
+    wickedBlow: {
+        name: "闇冥強擊",
+        effect: "將惡之流派修煉至大成的猛\n烈一擊。必定會擊中要害",
+    },
+    surgingStrikes: {
+        name: "水流連打",
+        effect: "將水之流派修煉至大成的仿\n若行雲流水般的３次連擊。\n必定會擊中要害",
+    },
+    thunderCage: {
+        name: "雷電囚籠",
+        effect: "將對手困在電流四濺的囚籠\n中，在４～５回合內進行攻\n擊",
+    },
+    dragonEnergy: {
+        name: "巨龍威能",
+        effect: "把生命力轉換爲力量攻擊對\n手。自己的ＨＰ越少，招式\n的威力越小",
+    },
+    freezingGlare: {
+        name: "冰冷視線",
+        effect: "從雙眼發射精神力量進行攻\n擊。有時會讓對手陷入冰凍\n狀態",
+    },
+    fieryWrath: {
+        name: "怒火中燒",
+        effect: "將憤怒轉化爲火焰般的氣場\n進行攻擊。有時會使對手畏\n縮",
+    },
+    thunderousKick: {
+        name: "雷鳴蹴擊",
+        effect: "以雷電般的動作戲耍對手的\n同時使出腳踢。可降低對手\n的防禦",
+    },
+    glacialLance: {
+        name: "雪矛",
+        effect: "向對手投擲掀起暴風雪的冰\n矛進行攻擊",
+    },
+    astralBarrage: { name: "星碎", effect: "用大量的小靈體向對手發起\n攻擊" },
+    eerieSpell: {
+        name: "詭異咒語",
+        effect: "用強大的精神力量攻擊。讓\n對手最後使用的招式減少３\nＰＰ",
+    },
+    direClaw: {
+        name: "克命爪",
+        effect: "以破滅之爪進行攻擊。有時\n還會讓對手陷入中毒、麻痹\n、睡眠之中的一種狀態",
+    },
+    psyshieldBash: {
+        name: "屏障猛攻",
+        effect: "讓意念的能量覆蓋全身，撞\n向對手進行攻擊。會提高自\n己的防禦",
+    },
+    powerShift: { name: "力量轉換", effect: "將自己的攻擊與防禦互相交\n換" },
+    stoneAxe: {
+        name: "巖斧",
+        effect: "用岩石之斧進行攻擊。散落\n的岩石碎片會飄浮在對手周\n圍",
+    },
+    springtideStorm: {
+        name: "陽春風暴",
+        effect: "用交織着愛與恨的烈風席捲\n對手進行攻擊。有時會降低\n對手的攻擊",
+    },
+    mysticalPower: {
+        name: "神祕之力",
+        effect: "放出不可思議的力量攻擊。\n會提高自己的特攻",
+    },
+    ragingFury: {
+        name: "大憤慨",
+        effect: "在２～３回合內，一邊放出\n火焰，一邊瘋狂亂打。大鬧\n一番後自己會陷入混亂",
+    },
+    waveCrash: {
+        name: "波動衝",
+        effect: "讓水覆蓋全身後撞向對手。\n自己也會受到不少傷害",
+    },
+    chloroblast: {
+        name: "葉綠爆震",
+        effect: "將自己的葉綠素凝聚起來後\n放出去進行攻擊。自己也會\n受到傷害",
+    },
+    mountainGale: {
+        name: "冰山風",
+        effect: "將冰山般巨大的冰塊砸向對\n手進行攻擊。有時會使對手\n畏縮",
+    },
+    victoryDance: {
+        name: "勝利之舞",
+        effect: "激烈地跳起喚來勝利的舞蹈，\n提高自己的攻擊、防禦和\n速度",
+    },
+    headlongRush: {
+        name: "突飛猛撲",
+        effect: "向對手使出灌注了全心全力\n的撞擊。自己的防禦和特防\n會降低",
+    },
+    barbBarrage: {
+        name: "毒千針",
+        effect: "用無數的毒針進行攻擊。有\n時還會讓對手陷入中毒狀態。\n攻擊處於中毒狀態的對手\n時，威力會變成２倍",
+    },
+    esperWing: {
+        name: "氣場之翼",
+        effect: "用經過氣場強化的翅膀撕裂\n對手。容易擊中要害。會提\n高自己的速度",
+    },
+    bitterMalice: {
+        name: "冤冤相報",
+        effect: "用令人毛骨悚然的怨念進行\n攻擊。會降低對手的攻擊",
+    },
+    shelter: {
+        name: "閉關",
+        effect: "將皮膚變得堅硬如鐵盾，從\n而大幅提高自己的防禦",
+    },
+    tripleArrows: {
+        name: "三連箭",
+        effect: "使出一記腿技後同時發射３\n箭。有時會降低對手的防禦\n或使對手畏縮。容易擊中要\n害",
+    },
+    infernalParade: {
+        name: "羣魔亂舞",
+        effect: "用無數的火球進行攻擊。有\n時會讓對手陷入灼傷狀態。\n攻擊處於異常狀態的對手時，\n威力會變成２倍",
+    },
+    ceaselessEdge: {
+        name: "祕劍・千重濤",
+        effect: "用貝殼之劍進行攻擊。散落\n的貝殼碎片會散落在對手腳\n下成爲撒菱",
+    },
+    bleakwindStorm: {
+        name: "枯葉風暴",
+        effect: "用足以讓身心都止不住顫抖\n的冰冷狂風進行攻擊。有時\n會降低對手的速度",
+    },
+    wildboltStorm: {
+        name: "鳴雷風暴",
+        effect: "呼喚雷雲引起風暴，用雷與\n風進行激烈的攻擊。有時會\n讓對手陷入麻痹狀態",
+    },
+    sandsearStorm: {
+        name: "熱沙風暴",
+        effect: "用灼熱的沙子和強烈的風席\n卷對手進行攻擊。有時會讓\n對手陷入灼傷狀態",
+    },
+    lunarBlessing: {
+        name: "新月祈禱",
+        effect: "向新月獻上祈禱，回覆自己\n和場上同伴的ＨＰ和狀態",
+    },
+    takeHeart: {
+        name: "勇氣填充",
+        effect: "鼓起衝勁，治癒自己的異常\n狀態，同時提高自己的特攻\n和特防",
+    },
+    gMaxWildfire: {
+        name: "超極巨深淵滅焰",
+        effect: "超極巨化的噴火龍使出的火\n屬性攻擊。可在４回合內給\n予對手傷害",
+    },
+    gMaxBefuddle: {
+        name: "超極巨蝶影蠱惑",
+        effect: "超極巨化的巴大蝶使出的蟲\n屬性攻擊。會讓對手陷入中\n毒、麻痹或睡眠狀態",
+    },
+    gMaxVoltCrash: {
+        name: "超極鉅萬雷轟頂",
+        effect: "超極巨化的皮卡丘使出的電\n屬性攻擊。會讓對手陷入麻\n痹狀態",
+    },
+    gMaxGoldRush: {
+        name: "超極巨特大金幣",
+        effect: "超極巨化的喵喵使出的一般\n屬性攻擊。會讓對手陷入混\n亂狀態，並可獲得金錢",
+    },
+    gMaxChiStrike: {
+        name: "超極巨會心一擊",
+        effect: "超極巨化的怪力使出的格鬥\n屬性攻擊。會變得容易擊中\n要害",
+    },
+    gMaxTerror: {
+        name: "超極巨幻影幽魂",
+        effect: "超極巨化的耿鬼使出的幽靈\n屬性攻擊。會踩住對手的影\n子，讓其無法被替換",
+    },
+    gMaxResonance: {
+        name: "超極巨極光旋律",
+        effect: "超極巨化的拉普拉斯使出的\n冰屬性攻擊。可在５回合內\n減弱受到的傷害",
+    },
+    gMaxCuddle: {
+        name: "超極巨熱情擁抱",
+        effect: "超極巨化的伊布使出的一般\n屬性攻擊。會讓對手陷入着\n迷狀態",
+    },
+    gMaxReplenish: {
+        name: "超極巨資源再生",
+        effect: "超極巨化的卡比獸使出的一\n般屬性攻擊。會讓喫掉的樹\n果再生",
+    },
+    gMaxMalodor: {
+        name: "超極巨臭氣沖天",
+        effect: "超極巨化的灰塵山使出的毒\n屬性攻擊。會讓對手陷入中\n毒狀態",
+    },
+    gMaxStonesurge: {
+        name: "超極巨巖陣以待",
+        effect: "超極巨化的暴噬龜使出的水\n屬性攻擊。會發射無數銳利\n的岩石",
+    },
+    gMaxWindRage: {
+        name: "超極巨旋風襲捲",
+        effect: "超極巨化的鋼鎧鴉使出的飛\n行屬性攻擊。可消除反射壁\n和光牆",
+    },
+    gMaxStunShock: {
+        name: "超極巨異毒電場",
+        effect: "超極巨化的顫弦蠑螈使出的\n電屬性攻擊。會讓對手陷入\n中毒或麻痹狀態",
+    },
+    gMaxFinale: {
+        name: "超極巨幸福圓滿",
+        effect: "超極巨化的霜奶仙使出的妖\n精屬性攻擊。可回覆我方的\nＨＰ",
+    },
+    gMaxDepletion: {
+        name: "超極巨劣化衰變",
+        effect: "超極巨化的鋁鋼龍使出的龍\n屬性攻擊。可減少對手最後\n使用的招式的ＰＰ",
+    },
+    gMaxGravitas: {
+        name: "超極巨天道七星",
+        effect: "超極巨化的以歐路普使出的\n超能力屬性攻擊。在５回合\n內重力會產生變化",
+    },
+    gMaxVolcalith: {
+        name: "超極巨炎石噴發",
+        effect: "超極巨化的巨炭山使出的巖\n石屬性攻擊。可在４回合內\n給予對手傷害",
+    },
+    gMaxSandblast: {
+        name: "超極巨沙塵漫天",
+        effect: "超極巨化的沙螺蟒使出的地\n面屬性攻擊。在４～５回合\n內會狂刮沙暴",
+    },
+    gMaxSnooze: {
+        name: "超極巨睡魔降臨",
+        effect: "超極巨化的長毛巨魔使出的\n惡屬性攻擊。會通過打大哈\n欠讓對手產生睡意",
+    },
+    gMaxTartness: {
+        name: "超極巨酸不溜丟",
+        effect: "超極巨化的蘋裹龍使出的草\n屬性攻擊。會降低對手的閃\n避率",
+    },
+    gMaxSweetness: {
+        name: "超極巨瓊漿玉液",
+        effect: "超極巨化的豐蜜龍使出的草\n屬性攻擊。會治癒我方的異\n常狀態",
+    },
+    gMaxSmite: {
+        name: "超極巨天譴雷誅",
+        effect: "超極巨化的布莉姆溫使出的\n妖精屬性攻擊。會讓對手陷\n入混亂狀態",
+    },
+    gMaxSteelsurge: {
+        name: "超極巨鋼鐵陣法",
+        effect: "超極巨化的大王銅象使出的\n鋼屬性攻擊。會發射無數銳\n利的刺",
+    },
+    gMaxMeltdown: {
+        name: "超極巨液金熔擊",
+        effect: "超極巨化的美錄梅塔使出的\n鋼屬性攻擊。會讓對手無法\n連續使出相同的招式",
+    },
+    gMaxFoamBurst: {
+        name: "超極巨激漩泡渦",
+        effect: "超極巨化的巨鉗蟹使出的水\n屬性攻擊。會大幅降低對手\n的速度",
+    },
+    gMaxCentiferno: {
+        name: "超極巨百火焚野",
+        effect: "超極巨化的焚焰蚣使出的火\n屬性攻擊。可在４～５回合\n內將對手困在火焰中",
+    },
+    gMaxVineLash: {
+        name: "超極巨灰飛鞭滅",
+        effect: "超極巨化的妙蛙花使出的草\n屬性攻擊。可在４回合內給\n予對手傷害",
+    },
+    gMaxCannonade: {
+        name: "超極巨水炮轟滅",
+        effect: "超極巨化的水箭龜使出的水\n屬性攻擊。可在４回合內給\n予對手傷害",
+    },
+    gMaxDrumSolo: {
+        name: "超極巨狂擂亂打",
+        effect: "超極巨化的轟擂金剛猩使出\n的草屬性攻擊。不會受到對\n手特性的干擾",
+    },
+    gMaxFireball: {
+        name: "超極巨破陣火球",
+        effect: "超極巨化的閃焰王牌使出的\n火屬性攻擊。不會受到對手\n特性的干擾",
+    },
+    gMaxHydrosnipe: {
+        name: "超極巨狙擊神射",
+        effect: "超極巨化的千面避役使出的\n水屬性攻擊。不會受到對手\n特性的干擾",
+    },
+    gMaxOneBlow: {
+        name: "超極巨奪命一擊",
+        effect: "超極巨化的武道熊師使出的\n惡屬性攻擊。是可以無視極\n巨防壁的一擊",
+    },
+    gMaxRapidFlow: {
+        name: "超極巨流水連擊",
+        effect: "超極巨化的武道熊師使出的\n水屬性攻擊。是可以無視極\n巨防壁的連擊",
+    },
+    teraBlast: {
+        name: "太晶爆發",
+        effect: "太晶化時，會放出太晶屬性\n的能量攻擊。比較自己的攻\n擊和特攻，用數值相對較高\n的一項給予對方傷害。（其\n他屬性）／用攻擊和特攻數\n值較高的一項給予傷害。對\n正處於太晶化的對手效果絕\n佳。自己的攻擊和特攻會降\n低。（星晶",
+    },
+    silkTrap: {
+        name: "線阱",
+        effect: "用絲設置陷阱。防住對方攻\n擊的同時，能夠降低所接觸\n到的對手的速度",
+    },
+    axeKick: {
+        name: "下壓踢",
+        effect: "將踢起的腳跟往下劈向對手\n進行攻擊。有時會使對手混\n亂。如果劈偏則自己會受到\n傷害",
+    },
+    lastRespects: {
+        name: "掃墓",
+        effect: "爲了化解夥伴的悔恨而進行\n攻擊。被打倒的我方寶可夢\n越多，招式的威力越高",
+    },
+    luminaCrash: {
+        name: "琉光衝激",
+        effect: "放出連精神都能影響到的奇\n妙怪光進行攻擊。會大幅降\n低對方的特防",
+    },
+    orderUp: {
+        name: "上菜",
+        effect: "以瀟灑的身手進行攻擊。若\n口中有米立龍，會按其樣子\n提高能力",
+    },
+    jetPunch: {
+        name: "噴射拳",
+        effect: "將激流覆蓋於拳頭，以肉眼\n無法辨識的速度打出拳擊。\n必定能夠先制攻擊",
+    },
+    spicyExtract: {
+        name: "辣椒精華",
+        effect: "放出極爲辛辣的精華。對手\n的攻擊會大幅提高，防禦會\n大幅降低",
+    },
+    spinOut: {
+        name: "疾速轉輪",
+        effect: "通過往腿上增加負荷，以激\n烈的旋轉給予對手傷害。自\n己的速度會大幅降低",
+    },
+    populationBomb: {
+        name: "鼠數兒",
+        effect: "夥伴們會紛紛趕來集合，以\n羣體行動給予對手攻擊。連\n續命中１～１０次",
+    },
+    iceSpinner: {
+        name: "冰旋",
+        effect: "腳上覆蓋薄冰，旋轉着撞擊\n對手。通過旋轉的動作破壞\n場地",
+    },
+    glaiveRush: {
+        name: "巨劍突擊",
+        effect: "有勇無謀的捨身突擊。使出\n招式後，對手的攻擊必定會\n命中，且傷害會變成２倍",
+    },
+    revivalBlessing: {
+        name: "復生祈禱",
+        effect: "通過以慈愛之心祈禱，讓陷\n入昏厥的後備寶可夢以回覆\n一半ＨＰ的狀態復活",
+    },
+    saltCure: {
+        name: "鹽醃",
+        effect: "使對手陷入鹽醃狀態，每回\n合給予對手傷害。對手爲鋼\n或水屬性時會更痛苦",
+    },
+    tripleDive: {
+        name: "三連鑽",
+        effect: "以默契的跳躍濺起水花擊向\n對手。連續３次給予傷害",
+    },
+    mortalSpin: {
+        name: "晶光轉轉",
+        effect: "通過旋轉來攻擊對手。可以\n擺脫綁緊、緊束、寄生種子\n等招式。還能讓對手陷入中\n毒狀態",
+    },
+    doodle: {
+        name: "描繪",
+        effect: "把握並映射出對手的本質，\n讓自己和同伴寶可夢的特性\n變得和對手相同",
+    },
+    filletAway: {
+        name: "甩肉",
+        effect: "削減自己的ＨＰ，大幅提高\n攻擊和特攻以及速度",
+    },
+    kowtowCleave: {
+        name: "僕刀",
+        effect: "下跪讓對手大意後發起襲擊\n劈向對手。攻擊必定會命中",
+    },
+    flowerTrick: {
+        name: "千變萬花",
+        effect: "將做了手腳的花束扔向對手\n進行攻擊。必定會命中，且\n會擊中要害",
+    },
+    torchSong: {
+        name: "閃焰高歌",
+        effect: "如唱歌一樣噴出熊熊燃燒的\n火焰燒焦對手。會提高自己\n的特攻",
+    },
+    aquaStep: {
+        name: "流水旋舞",
+        effect: "以盈盈欲滴的輕快步伐戲耍\n對手並給予其傷害。會提高\n自己的速度",
+    },
+    ragingBull: {
+        name: "怒牛",
+        effect: "狂怒暴牛的猛烈衝撞。招式\n的屬性隨形態改變，光牆和\n反射壁等招式也能破壞",
+    },
+    makeItRain: {
+        name: "淘金潮",
+        effect: "扔出大量硬幣攻擊。自己的\n特攻會降低，戰鬥後還可以\n拿到錢",
+    },
+    psyblade: {
+        name: "精神劍",
+        effect: "用無形的利刃劈開對手。處\n於電氣場地時，招式威力會\n變成１．５倍",
+    },
+    hydroSteam: {
+        name: "水蒸氣",
+        effect: "將煮得翻滾的開水猛烈地噴\n向對手。日照強烈時，招式\n威力不但不會降低，還會變\n成１．５倍",
+    },
+    ruination: {
+        name: "大災難",
+        effect: "引發毀滅性的災厄，使對手\n的ＨＰ減半",
+    },
+    collisionCourse: {
+        name: "全開猛撞",
+        effect: "邊變形邊兇暴地落下，並引\n發起古老的大爆炸。若針對\n到弱點，威力會進一步",
+    },
+    electroDrift: {
+        name: "閃電猛衝",
+        effect: "邊變形邊高速奔走，並以未\n知的電擊貫穿對手。若針對\n到弱點，威力會進一步",
+    },
+    shedTail: {
+        name: "斷尾",
+        effect: "削減自己的ＨＰ，製造分身\n後會返回，並和後備寶可夢\n進行替換",
+    },
+    chillyReception: {
+        name: "冷笑話",
+        effect: "留下冷場的冷笑話後，和後\n備寶可夢進行替換。在５回\n合內會下雪",
+    },
+    tidyUp: {
+        name: "大掃除",
+        effect: "將撒菱、隱形巖、黏黏網、\n毒菱、替身全部掃除掉。自\n己的攻擊和速度會提高",
+    },
+    snowscape: {
+        name: "雪景",
+        effect: "在５回合內會下雪。冰屬性\n的防禦會提高",
+    },
+    pounce: { name: "蟲撲", effect: "飛撲向對手攻擊。會降低對\n手的速度" },
+    trailblaze: {
+        name: "起草",
+        effect: "跳出草叢進行攻擊。通過輕\n快的步伐會提高自己的速度",
+    },
+    chillingWater: {
+        name: "潑冷水",
+        effect: "潑灑冰冷得足以讓對手失去\n活力的水進行攻擊。會降低\n對手的攻擊",
+    },
+    hyperDrill: {
+        name: "強力鑽",
+        effect: "急速旋轉尖銳的身體部位貫\n穿對手。可以無視守住和看\n穿等招式",
+    },
+    twinBeam: {
+        name: "雙光束",
+        effect: "從兩眼發射出神奇的光線攻\n擊。連續２次給予傷害",
+    },
+    rageFist: {
+        name: "憤怒之拳",
+        effect: "將憤怒化爲力量攻擊。受到\n攻擊的次數越多，招式的威\n力越高",
+    },
+    armorCannon: {
+        name: "鎧農炮",
+        effect: "熊熊燃燒自己的鎧甲，將其\n做成炮彈射出攻擊。自己的\n防禦和特防會降低",
+    },
+    bitterBlade: {
+        name: "悔念劍",
+        effect: "將對世間的留戀聚集於劍尖，\n並斬擊對手。可以回覆給\n予對手傷害的一半ＨＰ",
+    },
+    doubleShock: {
+        name: "電光雙擊",
+        effect: "將全身所有的電力放出，給\n予對手大大的傷害。自己的\n電屬性將會消失",
+    },
+    gigatonHammer: {
+        name: "巨力錘",
+        effect: "連同身體轉起巨大的錘子進\n行攻擊。這個招式無法連續\n使出２次",
+    },
+    comeuppance: {
+        name: "復仇",
+        effect: "使出招式前，將最後受到的\n招式的傷害大力返還給對手",
+    },
+    aquaCutter: {
+        name: "水波刀",
+        effect: "如刀刃般噴射出加壓的水切\n開對手。容易擊中要害",
+    },
+    blazingTorque: {
+        name: "灼熱暴衝",
+        effect: "攻擊目標造成傷害，\n有30%的幾率使目標陷入\n灼傷狀態。",
+    },
+    wickedTorque: {
+        name: "黑暗暴衝",
+        effect: "攻擊目標造成傷害，\n有30%的幾率使目標陷入\n睡眠狀態。",
+    },
+    noxiousTorque: {
+        name: "劇毒暴衝",
+        effect: "攻擊目標造成傷害，\n有30%的幾率使目標陷入\n中毒狀態。",
+    },
+    combatTorque: {
+        name: "格鬥暴衝",
+        effect: "攻擊目標造成傷害，\n有30%的幾率使目標陷入\n麻痹狀態。此招式可以命中\n幽靈屬性的寶可夢。",
+    },
+    magicalTorque: {
+        name: "魔法暴衝",
+        effect: "攻擊目標造成傷害，\n有30%的幾率使目標陷入\n混亂狀態。",
+    },
+    bloodMoon: {
+        name: "血月",
+        effect: "從赤紅如血的滿月發射出全\n部的氣勢。這個招式無法連\n續使出２次",
+    },
+    matchaGotcha: {
+        name: "刷刷茶炮",
+        effect: "發射經攪拌的茶的大炮，可\n以回覆給予對手傷害的一半\nＨＰ，有時會讓對手陷入灼\n傷狀態",
+    },
+    syrupBomb: {
+        name: "糖漿炸彈",
+        effect: "使粘稠的麥芽糖漿爆炸，讓\n對手陷入滿身糖狀態，在３\n回合內持續降低其速度",
+    },
+    ivyCudgel: {
+        name: "棘藤棒",
+        effect: "用纏有藤蔓的棍棒毆打。屬\n性會隨所戴的面具而改變。\n容易擊中要害",
+    },
+    electroShot: {
+        name: "電光束",
+        effect: "第１回合收集電力提高特攻，\n第２回合將高壓的電力發\n射出去。下雨天氣時能立刻\n發射",
+    },
+    teraStarstorm: {
+        name: "晶光星羣",
+        effect: "照射出結晶的力量來驅逐敵\n人。太樂巴戈斯在星晶形態\n下使出時，能對所有對手造\n成傷害",
+    },
+    fickleBeam: {
+        name: "隨機光",
+        effect: "發射光線進行攻擊。有時其\n他的頭也會合力發射鐳射，\n讓招式威力變成２倍",
+    },
+    burningBulwark: {
+        name: "火焰守護",
+        effect: "用超高溫的體毛防住對手攻\n擊的同時，讓接觸到自己的\n對手灼傷",
+    },
+    thunderclap: {
+        name: "迅雷",
+        effect: "可以比對手先使出電擊進行\n攻擊。對手使出的招式如果\n不是攻擊招式則會失敗",
+    },
+    mightyCleave: {
+        name: "強刃攻擊",
+        effect: "用積蓄在頭部的光來斬切對\n手。可以無視守護進行攻擊",
+    },
+    tachyonCutter: {
+        name: "迅子利刃",
+        effect: "接連發射出粒子的利刃，連\n續２次給予傷害。攻擊必定\n會命中",
+    },
+    hardPress: {
+        name: "硬壓",
+        effect: "用手臂或鉗子壓迫對手。對\n手剩餘的ＨＰ越多，威力越\n大",
+    },
+    dragonCheer: {
+        name: "龍聲鼓舞",
+        effect: "以龍之鼓舞提高士氣，讓我\n方的招式變得容易擊中要害。\n對龍屬性的鼓舞效果會更\n強",
+    },
+    alluringVoice: {
+        name: "魅誘之聲",
+        effect: "用天使般的歌聲攻擊對手。\n會讓此回合內能力有提高的\n寶可夢陷入混亂狀態",
+    },
+    temperFlare: {
+        name: "豁出去",
+        effect: "以自暴自棄的氣勢進行攻擊。\n如果上一回合招式沒有命\n中，威力就會翻倍",
+    },
+    supercellSlam: {
+        name: "閃電強襲",
+        effect: "讓身體帶電後壓向對手。如\n果沒有命中則自己會受到傷\n害",
+    },
+    psychicNoise: {
+        name: "精神噪音",
+        effect: "用令對手不舒服的音波進行\n攻擊。讓對手在２回合內無\n法通過招式、特性或攜帶的\n道具回覆ＨＰ",
+    },
+    upperHand: {
+        name: "快手還擊",
+        effect: "察覺到對手的動作後用掌根\n攻擊，讓對手畏縮。如果對\n手使出的招式不是先制攻擊，\n則會失敗",
+    },
+    malignantChain: {
+        name: "邪毒鎖鏈",
+        effect: "用由毒形成的鎖鏈纏住對手\n注入毒素加以侵蝕。有時會\n讓對手陷入劇毒狀態",
+    },
 } as const;

@@ -1,42 +1,44 @@
 import { SimpleTranslationEntries } from "#app/plugins/i18n";
 
 export const tutorial: SimpleTranslationEntries = {
-    "intro": `Welcome to PokéRogue! This is a battle-focused Pokémon fangame with roguelite elements.
-    $This game is not monetized and we claim no ownership of Pokémon nor of the copyrighted assets used.
-    $The game is a work in progress, but fully playable.\nFor bug reports, please use the Discord community.
-    $If the game runs slowly, please ensure 'Hardware Acceleration' is turned on in your browser settings.`,
+    "intro": `歡迎來到PokéRogue！這是一款以戰鬥爲核心的融合了roguelite元素的寶可夢同人遊戲。    
+    $本遊戲未進行商業化，我們沒有\nPokémon或Pokémon使用的版    
+    $權資產的所有權。    
+    $遊戲仍在開發中，但已可完整遊玩。如需報\n告錯誤，請使用 Discord 社區。    
+    $如果遊戲運行緩慢，請確保在瀏覽器設置中\n打開了“硬件加速”。`, 
+
+    "accessMenu": `在等待輸入時，按 M 或 Escape 鍵可訪\n問菜單。菜單包含設置和各種功能。`, 
+
+    "menu": `在此菜單中，您可以訪問設置。    
+    $在設置中，您可以更改遊戲速度、窗口樣式\n和其他選項。    
+    $這裏還有各種其他功能，請務必全部查看！`, 
+
+    "starterSelect": `在此頁面中，您可以選擇您的初始寶可夢。\n這些是您最初的隊伍成員。    
+    $每個初始寶可夢都有一個費用值。您的隊伍\n最多可以擁有6名成員，只要總費用不超過10。    
+    $您還可以根據您捕獲或孵化的變種選擇性別\n、特性和形態。    
+    $一個物種個體值是您捕獲或孵化的所有寶可\n夢中最好的，所以儘量獲得更多同種寶可夢！`, 
+
+    "pokerus": `每天隨機3個可選的初始寶可夢會有紫色邊\n框。    
+    $如果您看到您擁有的初始寶可夢帶有紫色邊\n框，請嘗試將其添加到您的隊伍中。請務必    
+    $查看其概況！`, 
+
+    "statChange": `只要您的寶可夢沒有被召回，屬性變化就會\n在戰鬥中持續存在。    
+    $在訓練家戰鬥之前和進入新的寶可夢羣落之\n前，您的寶可夢會被召回。    
+    $您還可以通過按住C或Shift鍵來查看\n場上寶可夢的能力變化。`, 
+
+    "selectItem": `每次戰鬥後，您都可以選擇 3 個隨機物品。\n您只能選擇其中一個。    
+    $這些物品包括消耗品、寶可夢攜帶物品和永\n久被動道具。    
+    $大多數非消耗品的效果會以各種方式疊加。    
+    $某些物品只有在可以使用時纔會出現，例如\n進化物品。    
+    $您還可以使用轉移選項在寶可夢之間轉移攜\n帶物品。    
+    $一旦您獲得了攜帶物品，轉移選項就會出現\n在右下角。    
+    $您可以用金錢購買消耗品，並且隨着您遊戲\n的深入，將會有更多種類的消耗品可供選擇。    
+    $請務必在選擇隨機物品之前購買這些消耗品\n因爲一旦您選擇，遊戲就會進入下一場戰鬥。`, 
     
-    "accessMenu": `To access the menu, press M or Escape while awaiting input.\nThe menu contains settings and various features.`,
-    
-    "menu": `From this menu you can access the settings.
-    $From the settings you can change game speed, window style, and other options.
-    $There are also various other features here, so be sure to check them all!`,
-
-    "starterSelect": `From this screen, you can select your starters.\nThese are your initial party members.
-    $Each starter has a value. Your party can have up to\n6 members as long as the total does not exceed 10.
-    $You can also select gender, ability, and form depending on\nthe variants you've caught or hatched.
-    $The IVs for a species are also the best of every one you've\ncaught or hatched, so try to get lots of the same species!`,
-
-    "pokerus": `A daily random 3 selectable starters have a purple border.
-    $If you see a starter you own with one of these,\ntry adding it to your party. Be sure to check its summary!`,
-
-    "statChange": `Stat changes persist across battles as long as your Pokémon aren't recalled.
-    $Your Pokémon are recalled before a trainer battle and before entering a new biome.
-    $You can also view the stat changes for the Pokémon on the field by holding C or Shift.`,
-
-    "selectItem": `After every battle, you are given a choice of 3 random items.\nYou may only pick one.
-    $These range from consumables, to Pokémon held items, to passive permanent items.
-    $Most non-consumable item effects will stack in various ways.
-    $Some items will only show up if they can be used, such as evolution items.
-    $You can also transfer held items between Pokémon using the transfer option.
-    $The transfer option will appear in the bottom right once you have obtained a held item.
-    $You may purchase consumable items with money, and a larger variety will be available the further you get.
-    $Be sure to buy these before you pick your random item, as it will progress to the next battle once you do.`,
-
-    "eggGacha": `From this screen, you can redeem your vouchers for\nPokémon eggs.
-    $Eggs have to be hatched and get closer to hatching after\nevery battle. Rarer eggs take longer to hatch.
-    $Hatched Pokémon also won't be added to your party, they will\nbe added to your starters.
-    $Pokémon hatched from eggs generally have better IVs than\nwild Pokémon.
-    $Some Pokémon can only even be obtained from eggs.
-    $There are 3 different machines to pull from with different\nbonuses, so pick the one that suits you best!`,
+    "eggGacha": `在此頁面中，您可以使用您的兌換券兌換寶\n可夢蛋。    
+    $蛋需要孵化，並且在每場戰鬥後都會減少孵\n化週期。稀有蛋需要更長時間才能孵化。    
+    $孵化的寶可夢不會被添加到您的隊伍中，它\n們將被添加到您的初始寶可夢中。    
+    $從蛋中孵化的寶可夢通常比野生寶可夢具有\n更好的個體值。    
+    $有些寶可夢只能從蛋中獲得。    
+    $有 3 種不同的扭蛋機可供選擇，每種扭蛋機\n都有不同的獎勵，請選擇最適合您的！`
 } as const;
